@@ -1,8 +1,11 @@
 package model;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,6 +14,7 @@ import java.util.Observable;
 import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.MyMaze3dGenerator;
 import io.MyCompressorOutputStream;
+import io.MyDecompressorInputStream;
 
 public class MyModel extends Observable implements Model {
 	
@@ -75,7 +79,25 @@ public class MyModel extends Observable implements Model {
 
 	@Override
 	public void loadMaze(String fileName, String name) {
-		// TODO Auto-generated method stub
+		if (!mazes.containsKey(name)) {
+			message = "Maze " + name + " does not exist\n";
+			setChanged();
+			notifyObservers("display_message");
+			return;
+		}
+		try {
+			InputStream in = new MyDecompressorInputStream(new FileInputStream(new File(fileName)));
+			byte b[] = new byte[in.read()];
+			in.read(b);
+			mazes.put(name, new Maze3d(b));
+			in.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 
 	}
 
