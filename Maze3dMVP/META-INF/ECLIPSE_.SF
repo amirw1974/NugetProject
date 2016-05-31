@@ -1,0 +1,3397 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: aO39gLIVIQ2Ovw3Xen6SB9IILnD3t
+ iGfAvwgg1aTt9I=
+SHA-256-Digest-Manifest: 6XS4a0spy7jSvN3nVO9t/jkKR5v2K49VUufT4iX8Nmk=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: org/eclipse/swt/widgets/ProgressBar.class
+SHA-256-Digest: OfLJhcErWNbw+aql3jtSdyO20OmYP9LZtOLVNcoVNk4=
+
+Name: org/eclipse/swt/internal/win32/LOGFONTA.class
+SHA-256-Digest: PcGC6SchrKs6rat6IB3sZBWa3Rr8+g54iCqvIJEd0AQ=
+
+Name: org/eclipse/swt/custom/ScrolledCompositeLayout.class
+SHA-256-Digest: RCyvsiqCyZS7JGU3lBCagNLUuQ9xfd8GIxkWtehzhZ4=
+
+Name: org/eclipse/swt/browser/PromptService2$3.class
+SHA-256-Digest: m2hHStdoJLOyESQpo1jD6YG3Mpvcj/ujWhQqm1s9g2Y=
+
+Name: org/eclipse/swt/internal/ole/win32/IEnumSTATSTG.class
+SHA-256-Digest: awA6pFleN64OREvgtjN0GVfvHTMba6uWTd487+Ie4Wk=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_input_controller
+ .class
+SHA-256-Digest: +HiIi5naBoRjODS5Oaidgq9r7cB4X+GQisYEQjOViLU=
+
+Name: org/eclipse/swt/internal/win32/TF_DISPLAYATTRIBUTE.class
+SHA-256-Digest: 6U7/hOGwIrKteKao1RK5JXVKbs3MAehDp1cBW1w646Q=
+
+Name: org/eclipse/swt/internal/win32/COMPOSITIONFORM.class
+SHA-256-Digest: aug/RrFMTNu0Jspt0/wp0TZ4NOLBb6pe4gZZNrmyfcU=
+
+Name: org/eclipse/swt/internal/webkit/IWebViewPrivate.class
+SHA-256-Digest: 7odjY3gnWPB/XqgiIyWYRYZD/D0XKc8gg+01G1FLMaA=
+
+Name: org/eclipse/swt/internal/win32/MENUBARINFO.class
+SHA-256-Digest: Bsc52inAm+3QXkIDCYw+abd3bAnlgFYaVHOaUfM1Ytg=
+
+Name: org/eclipse/swt/dnd/DragSource$4.class
+SHA-256-Digest: qIcU8eVHpyom4O43lCn034frvHzEBZ0jG5qCpHgWNQk=
+
+Name: org/eclipse/swt/internal/theme/ToolItemDrawData.class
+SHA-256-Digest: MTg3qRqJNYluuyZevXV7ij6YP20inVYodPHLgbMUxQ4=
+
+Name: org/eclipse/swt/browser/Download$1.class
+SHA-256-Digest: s4fJCKCC/3hrEIEBvarh4bOA867ZCHYDIf2jCFc3rJw=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleDocument.class
+SHA-256-Digest: aakI4ntbEAEY5FiioWmopXl5bs2Besn+VZnh689m9gY=
+
+Name: org/eclipse/swt/browser/PromptDialog$2.class
+SHA-256-Digest: DdawMPJb6Y0yPql3seeAx+s43iSlejvaVCbcMh0YECE=
+
+Name: org/eclipse/swt/internal/ole/win32/IDispatch.class
+SHA-256-Digest: LIydryLFGqMwIH9rn2wSIXF/J77KkcgkUJZQwE0jH1g=
+
+Name: org/eclipse/swt/browser/WebKit$1.class
+SHA-256-Digest: ZN8A6SBtpAIsp2zKWww5TTgHUkCVYFhN6JF5c+Wpec0=
+
+Name: org/eclipse/swt/internal/ImageList.class
+SHA-256-Digest: XYbp8Fqbx9BAmANpbFYVyt1H1hqNpMwFEHQAKFqfEis=
+
+Name: org/eclipse/swt/internal/win32/OPENFILENAME.class
+SHA-256-Digest: IzjW8NqkA5nTUtGGPlK5bBjypfpd6VwzvPNnPVEoQfc=
+
+Name: org/eclipse/swt/browser/DownloadFactory_1_8$2.class
+SHA-256-Digest: PixUizcS4oD1pD5CH4k2eUaEbtfAcpkhkamgr+TqPIw=
+
+Name: org/eclipse/swt/internal/win32/LOGFONT.class
+SHA-256-Digest: ynDrpFAoXrjCkUajfdkppVlS3wBQZt19Ni+VHORwpbM=
+
+Name: org/eclipse/swt/events/ModifyListener.class
+SHA-256-Digest: myKVCHsVPeJC8xQkVeBryAdlb5FfniDlq/BtPgCrgRQ=
+
+Name: org/eclipse/swt/dnd/Clipboard.class
+SHA-256-Digest: P5ojkxRHyJF0T+kVEdLW+vwp8Kankh+WdY5AS0X8vRw=
+
+Name: org/eclipse/swt/browser/PromptDialog$2$1.class
+SHA-256-Digest: EBiFuS5/QY1gCdZIspK4EUHOV+YehWB6quTrq+ar6dM=
+
+Name: org/eclipse/swt/dnd/DNDEvent.class
+SHA-256-Digest: n6COKGRwytwfwfKofQfCUYCD/0C7QIVz1ZHpR809MYQ=
+
+Name: org/eclipse/swt/accessibility/AccessibleActionListener.class
+SHA-256-Digest: ssBzwdngEoVHbJtlQcruVMk1QIfTskAVzRJ96n8+HNU=
+
+Name: org/eclipse/swt/widgets/Slider.class
+SHA-256-Digest: a/FuRb7yrpyBG62UONHVFW9kNyGwnvTPS0dl+wY6d1c=
+
+Name: org/eclipse/swt/dnd/DragSourceListener.class
+SHA-256-Digest: EimxincpuFB97X5ym5/uiy0oCimEMXTFMwqTyuHRF78=
+
+Name: org/eclipse/swt/widgets/CoolItem.class
+SHA-256-Digest: CQh4BZZVuxQgmIKbnbS95SlCLYncuhAWp0Zidi2MnWs=
+
+Name: org/eclipse/swt/browser/Mozilla$23.class
+SHA-256-Digest: W6oqFNCSAzi0XLzgJxOo7vVMaS1e/40XkzBt2swCm64=
+
+Name: org/eclipse/swt/internal/ole/win32/OLEINPLACEFRAMEINFO.class
+SHA-256-Digest: 6CJy922cuw+6bIhJnFw2BJhFpufva7I7kO8LAlDj8TQ=
+
+Name: org/eclipse/swt/internal/mozilla/nsIHttpChannel.class
+SHA-256-Digest: o+QVWilpCZirwdEzlloeGRg8A/3BoKPF99QTnUesku0=
+
+Name: org/eclipse/swt/internal/image/PngHuffmanTable.class
+SHA-256-Digest: 526B7ottRxzX0cY2H5n7Vap6joTsTfngJJQ9opmGXkY=
+
+Name: org/eclipse/swt/internal/win32/NMLVFINDITEM.class
+SHA-256-Digest: +AY9DE/ENWZ0xlf7rW0xBT97cQRZZOHN02QH+ghRM/o=
+
+Name: org/eclipse/swt/accessibility/Relation$1.class
+SHA-256-Digest: 4JlcCBX5qco1FLRFuCxQBL0L0HQYorkltEHkdPyyxLs=
+
+Name: org/eclipse/swt/graphics/Point.class
+SHA-256-Digest: gsUeyaUhVHV/7u+YLFpgt7pXI/UgYlqCvYk/sLBUsBc=
+
+Name: org/eclipse/swt/internal/win32/SCROLLINFO.class
+SHA-256-Digest: klXiF3xDdDL0IcTHMiu9kBAUOQCsaEcziwV8oAY0QSs=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMWindow.class
+SHA-256-Digest: /2LyavvlUlWub3+5FRjo5iSDAGz9wZ8lmUKz2Uvs05E=
+
+Name: org/eclipse/swt/internal/webkit/IWebError.class
+SHA-256-Digest: Np6mTpZ6syD1dnTBFi01coUPRaQsi1XiFbrO8bEVk88=
+
+Name: org/eclipse/swt/internal/image/LEDataInputStream.class
+SHA-256-Digest: Iyf3jLWNAL+JGrqWr1cw5T3XJOPm3QrgD3cpRkb5YJo=
+
+Name: org/eclipse/swt/custom/CCombo$4.class
+SHA-256-Digest: F1Andp1IpgafwyMeEKQmJ0svka+x1Z2YAPNxtDqX1Hc=
+
+Name: org/eclipse/swt/graphics/ImageLoader.class
+SHA-256-Digest: OXpM6qjealGf3katkksC0eeweVoAK5C6tH6rvA5GXyE=
+
+Name: org/eclipse/swt/events/MouseEvent.class
+SHA-256-Digest: ZtrrSChsnfoxql+haoAykbjoJ4hkyRLT1tcAVRFH+EY=
+
+Name: org/eclipse/swt/internal/mozilla/nsISeekableStream.class
+SHA-256-Digest: wbyMZnLxql+1ZBpxlxdtCCwwOs2KkTJoXsBfwMW20ZM=
+
+Name: org/eclipse/swt/internal/ole/win32/DVTARGETDEVICE.class
+SHA-256-Digest: d1nY71qizvu2hCr/lbm/sbZHCy8NUutAPRfgG9bgB6U=
+
+Name: org/eclipse/swt/events/MenuDetectEvent.class
+SHA-256-Digest: bjpRckzGSRHelrghRm9xcjV26Uo26wvJYuSdry/M3j0=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebProgress.class
+SHA-256-Digest: fgrP54jTuIorEJ33JRZXWtsF5PZ0rr6HlUkKG1I2O9s=
+
+Name: org/eclipse/swt/internal/ole/win32/IPersistStorage.class
+SHA-256-Digest: TZeZTY/5AQXUMGuE8qFXiwrz+bZw8Nz/wzA/tOAkrtY=
+
+Name: org/eclipse/swt/custom/StyledText$8.class
+SHA-256-Digest: I5+Ni9SKmIl+bbjGas6A0FUGCcijNdzMCSAQwFw3S6I=
+
+Name: org/eclipse/swt/internal/webkit/IWebFramePrivate.class
+SHA-256-Digest: bz/6Co/AxYDTGouLyVuL1iLpcoZhEbBKriKKwRdsp0Q=
+
+Name: org/eclipse/swt/internal/image/JPEGHuffmanTable.class
+SHA-256-Digest: YiLPsUxKMBoIfOGuSZheN+t/48gx1FrepRJzTSbuTG0=
+
+Name: org/eclipse/swt/browser/PromptFactory.class
+SHA-256-Digest: wtkXBPRE43AuXIFtXToaOB0aJaleKSVY66ivkHfxVuU=
+
+Name: org/eclipse/swt/internal/win32/EMREXTCREATEFONTINDIRECTW.class
+SHA-256-Digest: tc9lob2mxnWsSk8UZpC4Rs3jEe53yUJTX+C47tUi2lA=
+
+Name: org/eclipse/swt/internal/win32/TVITEMEX.class
+SHA-256-Digest: m/Sodz+NZjrjogsrZoXw4Rl3ZPWlvHMO0oo9gg8Tep0=
+
+Name: org/eclipse/swt/opengl/GLData.class
+SHA-256-Digest: NbW7ShRBF8HnKNrzVtJsploxsDU6syjc6wSVxKab3Q0=
+
+Name: org/eclipse/swt/internal/ole/win32/DISPPARAMS.class
+SHA-256-Digest: vJoNX5biGuxVGzixF3jVEwOMIuQUNJLppWMR6Ae+Q7g=
+
+Name: org/eclipse/swt/internal/image/LZWCodec.class
+SHA-256-Digest: IPEBVABVmOkPPNVKYygHY4I/5moOf9qCMgPlkK1BJTs=
+
+Name: org/eclipse/swt/internal/mozilla/nsIFocusManager.class
+SHA-256-Digest: bsLl9Iv7Bdmu84anydrgKkfV2TfJU2DzIemzYMKhMEU=
+
+Name: org/eclipse/swt/internal/webkit/IWebDownload.class
+SHA-256-Digest: t0m3SxXgpAXXcGbPAAfKcuqB6FMPA1Bcoog68WsfYJM=
+
+Name: org/eclipse/swt/accessibility/AccessibleTableAdapter.class
+SHA-256-Digest: 9nnTGtqwzsxTsORqzHsvcKThTc2UH3dazUvu1jiC8sk=
+
+Name: org/eclipse/swt/internal/webkit/IWebPreferences.class
+SHA-256-Digest: JKaMOV1LQd0bGbwJmVqCHIqegmU6oJc/Htx0xl0wpGo=
+
+Name: org/eclipse/swt/internal/SerializableCompatibility.class
+SHA-256-Digest: vAoi936zL1sVa52erNbI4sba1aT2l2adVL+PYl4RDN0=
+
+Name: org/eclipse/swt/custom/StyledTextRenderer$LineInfo.class
+SHA-256-Digest: 2AKHGgaEpXhjxcAY57fZY7hj//jsB3IFADRT8X1TtAY=
+
+Name: org/eclipse/swt/browser/IE$7.class
+SHA-256-Digest: B7iCbf22CNHRVT39O4auN1Ut85eC6sdgJStxkHnZEKw=
+
+Name: org/eclipse/swt/internal/win32/BITMAPINFOHEADER.class
+SHA-256-Digest: 4YxlVokqJQ4S8oijH3ytPiTHILQxU2CKjoTvuYz/oOk=
+
+Name: org/eclipse/swt/custom/ControlEditor$1.class
+SHA-256-Digest: r6Hr1x88tn8uZHWxgOoeJ4Zfj39X63GC0twZLLfmnNM=
+
+Name: org/eclipse/swt/widgets/TabItem.class
+SHA-256-Digest: IDA7UF79vojFRrqseaH9gDH5cbOKt4ghFb+FDzrxcZ8=
+
+Name: org/eclipse/swt/custom/PopupList.class
+SHA-256-Digest: zr3zuDd5x/N8jjpa49x0Xnq2okVbDaTbMLX0jBcxfV8=
+
+Name: org/eclipse/swt/ole/win32/OLE.class
+SHA-256-Digest: N8ouC4C6Oj4t9YIrguWMXhEzbegVBO5Y0FG6oN7XRws=
+
+Name: org/eclipse/swt/internal/ole/win32/IMoniker.class
+SHA-256-Digest: CU0YonxSNPll6GaNK9u4wUKn15W9b3HCJ9+6tuQBJ1k=
+
+Name: org/eclipse/swt/custom/TableEditor.class
+SHA-256-Digest: if3kFkaLwLTQJcR0lNgzsDdfQzdYozkBo5aDwi1qcVI=
+
+Name: org/eclipse/swt/internal/win32/BLENDFUNCTION.class
+SHA-256-Digest: K/IkgneHsnuAMD5aF3DqwpK7R96HA3t8CioDzHkg3Os=
+
+Name: org/eclipse/swt/internal/win32/CERT_NAME_BLOB.class
+SHA-256-Digest: Oc3Bb/czJOcfkZkkva4CFq2j7Eu9+TzRHdCqqT6diC4=
+
+Name: org/eclipse/swt/internal/webkit/IWebPolicyDecisionListener.class
+SHA-256-Digest: +GtfGV8Rc/hJ/rPmqaiE4erN/WS2Zg7NzClJU9frQ+o=
+
+Name: org/eclipse/swt/internal/image/PngHuffmanTable$CodeLengthInfo.cl
+ ass
+SHA-256-Digest: c6IMKz0uBD3FQiBUMs9KdTFNtmORXcMJ5vX8P3x1JrQ=
+
+Name: org/eclipse/swt/browser/Mozilla.class
+SHA-256-Digest: uaQr2MXVoFnnjD4NlomQFQi6/JdeccwCZkaFfodzot4=
+
+Name: org/eclipse/swt/awt/SWT_AWT$3.class
+SHA-256-Digest: Mu+jM8GL0Ui46hKG0AumQBDMGJIqZYRFyPbdNvxGpRE=
+
+Name: org/eclipse/swt/widgets/Display.class
+SHA-256-Digest: cirCWv1zH19qDNbgKEhBiu2VTJR6PIQovq1Qd55MWxw=
+
+Name: org/eclipse/swt/widgets/DateTime.class
+SHA-256-Digest: 5yBJFS5uXJ9m93uYJh1t9VnEqYYdqmxSBYpWXMf1rx8=
+
+Name: org/eclipse/swt/dnd/Clipboard$1.class
+SHA-256-Digest: mKULZ91KS9k7sgjToG1+Epn5qpNSDWV7vfi9BJI7rmY=
+
+Name: org/eclipse/swt/internal/ole/win32/CONTROLINFO.class
+SHA-256-Digest: /HtvZ7WmKgh5R1K2FpmXhcC8zAKp6lJHVcNAIOPe3Ss=
+
+Name: org/eclipse/swt/internal/image/TIFFModifiedHuffmanCodec.class
+SHA-256-Digest: LRkRK2NxgydBf1R6wFgZAjPnvmJ1VYV5JWE5960T9f0=
+
+Name: org/eclipse/swt/custom/CTabFolder$4.class
+SHA-256-Digest: GZPUHD27ZxfIH3yS6Knr1L8l2FET8YX3Vdwuqpa5oEo=
+
+Name: org/eclipse/swt/custom/TableTreeEditor$1$1.class
+SHA-256-Digest: WUw1N4r29MK0ruNkfRCDGoe9cU75zYbaq9w2Cu5S18M=
+
+Name: org/eclipse/swt/events/ExpandAdapter.class
+SHA-256-Digest: EvVzPY2JK3oz4qWJdVtTUplDUd4BzF21M0GKd0baIqw=
+
+Name: org/eclipse/swt/internal/win32/TOUCHINPUT.class
+SHA-256-Digest: ZX07Lr+EzDe7HADkG62x1N/gneK9ZVuw/cNLTjhlohw=
+
+Name: org/eclipse/swt/browser/IE$2.class
+SHA-256-Digest: QjaR1QuhgzBZsxLOQIUn9WTGFwxjirkdWehdmzemPmw=
+
+Name: org/eclipse/swt/internal/gdip/GdiplusStartupInput.class
+SHA-256-Digest: 9LBREeA8PFhxaN7onCvUk39S8xmn4zZxbg1TEiOIpqs=
+
+Name: org/eclipse/swt/internal/mozilla/nsILocalFile.class
+SHA-256-Digest: H3VSoUVzGCNXpmX6vhXO6IdnM24nLciMzDlVGaZjbio=
+
+Name: org/eclipse/swt/internal/win32/CRYPT_OBJID_BLOB.class
+SHA-256-Digest: 5EsIWQWd6JHyXwwAwOcinpVjTMWi9y13qa8w2ujKQX0=
+
+Name: org/eclipse/swt/events/DisposeListener.class
+SHA-256-Digest: dyCkrbluQ1ZDQCWH6zHYciGKq4gNZ0NON93IN6RXnpQ=
+
+Name: org/eclipse/swt/dnd/ByteArrayTransfer.class
+SHA-256-Digest: fpbJTxaQ5z1vK5F7kV9mu8b3zkXCfpVwDAbZc8uE50c=
+
+Name: org/eclipse/swt/events/MouseListener.class
+SHA-256-Digest: V4SdgdoatMlXzlhpyJ7C00huFQjGrNqVndRv1Nly8FM=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebBrowserChrome.class
+SHA-256-Digest: IzoUn2/fEeGBUgUUibcOtT4b1PWrblRR91rAu+2PZc0=
+
+Name: org/eclipse/swt/custom/TableTreeEditor$2.class
+SHA-256-Digest: ftNAw0bHOGfjWJtZMs+U2dT3F4o3wax79iRKhudv6kk=
+
+Name: org/eclipse/swt/browser/Mozilla$15.class
+SHA-256-Digest: aqYWtJpausabZ+ayNqWs6YUQhPd5RKp/iRWZHpTonv8=
+
+Name: org/eclipse/swt/accessibility/AccessibleTextExtendedAdapter.clas
+ s
+SHA-256-Digest: QkY4sLt9OsZ/BVpmMThvX3R3GD8Ooo6NQFBgEvsVVIs=
+
+Name: org/eclipse/swt/browser/IE$7$1.class
+SHA-256-Digest: xTU7k6xP9myJk2aNK0uy9nlTGjixDUPA09o6uaZwBac=
+
+Name: org/eclipse/swt/internal/ole/win32/IDragSourceHelper2.class
+SHA-256-Digest: yBFyqfpZpV2lhFUPx7Zw0AH85oO9cuc6h/YRKuwplyI=
+
+Name: org/eclipse/swt/internal/win32/CHOOSECOLOR.class
+SHA-256-Digest: ztXT+OqPGPBQ/weM50s84Dqet6+h4uy/URTpDoH8zBM=
+
+Name: org/eclipse/swt/browser/WebKit.class
+SHA-256-Digest: q0DUxWybKJHibzndPx/LwbEDzeWRiMQmst5dRWzTD0U=
+
+Name: org/eclipse/swt/internal/image/LEDataOutputStream.class
+SHA-256-Digest: 5XPLKPDrCR+Fr3hEtEFJroUjIPt5mcnQHGEmEZ3uu+U=
+
+Name: org/eclipse/swt/custom/StyledText$RTFWriter.class
+SHA-256-Digest: Mhn8LJG62ccPATABUlW7rtaAl/+UFiWZu7fefOGI6NA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIJSContextStack.class
+SHA-256-Digest: zzhQQ/+xSbCx3X1WK9EjaPd7HZ4tdBcofza+lEAFS9k=
+
+Name: org/eclipse/swt/internal/win32/TCHITTESTINFO.class
+SHA-256-Digest: 3SrrTlLxltWYYGjyxrvSFRk0l+bshQ0UHVq8xG6kM94=
+
+Name: org/eclipse/swt/widgets/Canvas.class
+SHA-256-Digest: l0PDw9tcstlAEiTpaszaZor8BiGmJZ/R+iFx+8dpfWw=
+
+Name: org/eclipse/swt/ole/win32/OleEventSink$1.class
+SHA-256-Digest: phM8OEvXOhemVQKQRC1aN58Pf+epWu7kBJ2tGjTRgXY=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_component_info.c
+ lass
+SHA-256-Digest: HkkIbFBXUiDem+Ue1o3/BMfSH3dGEU0vXIcxVyG43MM=
+
+Name: org/eclipse/swt/internal/win32/BITMAP.class
+SHA-256-Digest: GT9jwY/z2Zj4y4WYT7gUeleXxPrIP4KOfpk9/qyA6VY=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialogFactory$2.class
+SHA-256-Digest: GTk+cuFJHeUZbo4LgfU0/ZHG7s5qwhuHxIF3j4Ae0JE=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$JQUANT_TBL.class
+SHA-256-Digest: k0PVlzRDuoUl0LvK/PwAxGY2uCGLw6qzaqwKC/dTGJk=
+
+Name: org/eclipse/swt/internal/win32/TVSORTCB.class
+SHA-256-Digest: 7iQu21iwzCKeg6E9Q224sB+6tFwKY0pqEoRnZLB1C0Q=
+
+Name: org/eclipse/swt/custom/TableTreeItem.class
+SHA-256-Digest: 9cySlag0wwXLsGt2MzZwW5wDFcqZ29srni7yd4cLkD8=
+
+Name: org/eclipse/swt/internal/image/JPEGFrameHeader.class
+SHA-256-Digest: RiNHDl8SV0x22m1bmdanif6T5X0Y6J1iA/3EEPoj7fU=
+
+Name: org/eclipse/swt/accessibility/Accessible$5.class
+SHA-256-Digest: riW+TYS3LSSmRCIBYYZH5e2hUNEWiwKe+yO4r0gLOkk=
+
+Name: org/eclipse/swt/internal/win32/SHRGINFO.class
+SHA-256-Digest: Sf9ye3KxeYV1FxNBeCaV3+5wghSGYfkaSkn0IzPFGcQ=
+
+Name: org/eclipse/swt/widgets/Touch.class
+SHA-256-Digest: D9j4AH48vq0IM8TlSCAFwOGnj5IK9o+pqrV+hi8vu4g=
+
+Name: org/eclipse/swt/internal/webkit/IWebCookieManager.class
+SHA-256-Digest: GHUJalQPk6oxawfKaQFmPbN9blypH/uSrHygVWgby+E=
+
+Name: org/eclipse/swt/graphics/Rectangle.class
+SHA-256-Digest: pK2Oqd/0ooG5U5bWt67tBLclTG/sTbVtmWWf736KS6w=
+
+Name: org/eclipse/swt/internal/win32/SCROLLBARINFO.class
+SHA-256-Digest: nhWCg+yTpTieM2GWSlNAknJe7FvsJvLu5vqG4xMxwT8=
+
+Name: org/eclipse/swt/internal/opengl/win32/WGL.class
+SHA-256-Digest: HQ8VdeDao0MGmbFtasebzU/AZrzcYYu5+s2PsMhb70I=
+
+Name: org/eclipse/swt/internal/mozilla/nsICookie.class
+SHA-256-Digest: 1+KLLGKnao4rYpbzBFbfScr1j32Syy7xuvyPPilLqzQ=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebNavigation.class
+SHA-256-Digest: We25WiVqjcr082/DuUkWyzJ544p5sVEkfZ40KoqdNrs=
+
+Name: org/eclipse/swt/browser/SimpleEnumerator$1.class
+SHA-256-Digest: 8bq7YeAl8/sCmvVWf5hCieSleH6F0nmPZtzJGPBdAFk=
+
+Name: org/eclipse/swt/browser/CloseWindowListener.class
+SHA-256-Digest: gv0gN/Co31r+/GxuZnAEdFTDanS1KcXwwjfVjAX3wkM=
+
+Name: org/eclipse/swt/accessibility/AccessibleTextEvent.class
+SHA-256-Digest: NfTM67qzjTlYO5Ge8epsDCzZNyauWAvu+KcmrjVy1L0=
+
+Name: org/eclipse/swt/browser/Mozilla$8.class
+SHA-256-Digest: RPjntnzAdL5cohIyMiL4OuwtJCacatKXUOfO3Sf+9hs=
+
+Name: org/eclipse/swt/accessibility/Accessible$6.class
+SHA-256-Digest: LWfELd+OtFUDkpiWOk1EAuBwPCTq90O6Rz1Ve4xoV2k=
+
+Name: org/eclipse/swt/widgets/ToolBar.class
+SHA-256-Digest: /SjJYuGoQI2cTkNTkSSE0cLcN8lpbkNHsrcpjwc9cbI=
+
+Name: org/eclipse/swt/internal/win32/NMHDR.class
+SHA-256-Digest: AxkK0vgCExrlssI+e7bag3S0hOpt6SSV6RznZsuyQyg=
+
+Name: org/eclipse/swt/internal/win32/LVHITTESTINFO.class
+SHA-256-Digest: bABRSS3dBd5pQ5xNrDYps3VsKyqxz4pwkkC7d9Osu6E=
+
+Name: org/eclipse/swt/browser/IE$7$2.class
+SHA-256-Digest: 2PEIlZWOadCn3vUFUogTTqOSV+KOQVcuM5QSC0E6pl8=
+
+Name: org/eclipse/swt/program/Program.class
+SHA-256-Digest: Y3ot25alcMTOZapus7zeCXXca3tdFpxPshEpYyjWaBQ=
+
+Name: org/eclipse/swt/widgets/Spinner.class
+SHA-256-Digest: gjKY5yMgX9csVxitqIkuDxGJ8B/mS5kVh0IwJ9eddh4=
+
+Name: org/eclipse/swt/events/MenuListener.class
+SHA-256-Digest: jqDflD+NWYNQxiA+/9v2796sif7cBU4oDsRHitSTDik=
+
+Name: org/eclipse/swt/custom/TableCursor$2.class
+SHA-256-Digest: OU5nJjWUApVtDeW8+Hf2gfTRt/mUcA9ZYgovt8qtrCo=
+
+Name: org/eclipse/swt/events/TreeListener.class
+SHA-256-Digest: 5rIi4cbc+V9vHHFGQew16ucFfFR6jh6EHnRmXlYDawk=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_ANALYSIS.class
+SHA-256-Digest: qUhqqGicJnn1wfP6Yw0L+qlA948dOllEUUDsMD+jbJ0=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$bitread_perm_state.cl
+ ass
+SHA-256-Digest: btLuhJpk2hkQrCvbgw1lsjqw+HlnW4gJ1oIX5QPhLYg=
+
+Name: org/eclipse/swt/internal/win32/MEASUREITEMSTRUCT.class
+SHA-256-Digest: 4XbIBFRr0+pnOCh7HY6pmr8WN3WAsev9wJdQ1FWXldI=
+
+Name: org/eclipse/swt/browser/Browser.class
+SHA-256-Digest: y622HDPJLiSzb8NzJ1r348OA4KzTLK22f0xXwzZYfiI=
+
+Name: org/eclipse/swt/events/TouchEvent.class
+SHA-256-Digest: SRnpSoZoH6zFGhxC5w4dfTpvMqEDTIc1FvzelydEihQ=
+
+Name: org/eclipse/swt/custom/LineStyleListener.class
+SHA-256-Digest: 6pZI+jhxza3MB7CA4mKv3cYTiPcsv+haqh0Bl9Am4/g=
+
+Name: org/eclipse/swt/browser/PromptFactory$2.class
+SHA-256-Digest: muJX4KkRAb6WmS6Cqk/hJOQ8qlzsIURaKTp2LrqsbJA=
+
+Name: org/eclipse/swt/accessibility/Accessible$16.class
+SHA-256-Digest: yDKMMuU5aCKswTg010Axqcf0M+cqVWhInepsvYxH7UU=
+
+Name: org/eclipse/swt/custom/AnimatedProgress$3.class
+SHA-256-Digest: CF+U1VGWZUekP8PXn42rk2mhgse96aBbQxeIylCJHWE=
+
+Name: org/eclipse/swt/internal/win32/HDLAYOUT.class
+SHA-256-Digest: ixUaopTKsDO+sbqDMtcuLfhVRaiGOATWii881FanYII=
+
+Name: org/eclipse/swt/internal/image/PngDeflater$Match.class
+SHA-256-Digest: fLS3g3E/qY6TTAX91B/7X+Gu5MGSr84/Q4tdsvK/y9o=
+
+Name: org/eclipse/swt/widgets/Caret.class
+SHA-256-Digest: y48D6HaSNeRQwbNvefLqT6U8JTuW62yjQoT6CmyLDX4=
+
+Name: org/eclipse/swt/browser/WebDownloadDelegate.class
+SHA-256-Digest: mQO/wJPk2EXP7T6Fo8vVbJzwG2fl0i7c7Q+84NDDjdM=
+
+Name: org/eclipse/swt/browser/Mozilla$19.class
+SHA-256-Digest: n20l9EsKLF/3WPk+1KGcxBBi8zJCpfZcnSJGhvmXKJ0=
+
+Name: org/eclipse/swt/browser/SimpleEnumerator$2.class
+SHA-256-Digest: Vo2DqDI/irc9hxxhH/iOe9tLdVOfZR8THFF/5LoJhSk=
+
+Name: org/eclipse/swt/browser/WebUIDelegate$1.class
+SHA-256-Digest: TjPsFRLJit5nfYNfMUyHj4BY62hwVPN3j7pGFGQHO3A=
+
+Name: org/eclipse/swt/custom/TableCursor$6.class
+SHA-256-Digest: pr8BIANdIGqNmWcUTKpaJz/PTvbQITpSF8ndfaoNy+w=
+
+Name: org/eclipse/swt/internal/image/JPEGSegment.class
+SHA-256-Digest: LCXf0YrsDuEritcSEaEfcE1ySU6KalgW/39B3ET6xWI=
+
+Name: fragment.properties
+SHA-256-Digest: UUnPg8DV1294sGKrSss7iLBuPXDdfKT7AdEDsEHK8KU=
+
+Name: org/eclipse/swt/events/KeyListener.class
+SHA-256-Digest: yJeC5d/Q5Gg9AH+rX7zyr6YMn9jV71TK0rgbIQcPnYg=
+
+Name: org/eclipse/swt/internal/image/TIFFRandomFileAccess.class
+SHA-256-Digest: 0r+de7rCpvWbgV8FpKyTdDCfyjX9GlDPQJ7/gBP/9KA=
+
+Name: org/eclipse/swt/browser/IE$3.class
+SHA-256-Digest: HQCOGobuma/57Wfbxn1wJm15y3x6eJI9UvlD8mPJuz0=
+
+Name: org/eclipse/swt/internal/webkit/IWebURLAuthenticationChallengeSe
+ nder.class
+SHA-256-Digest: /dLW5sjYztZQvJum56riEtxZU/Il67Bq/OrYWfkmYd8=
+
+Name: org/eclipse/swt/internal/win32/OSVERSIONINFOEXA.class
+SHA-256-Digest: jaoThiXTr3ZnM63g+ufVOWlwcaXKpY9YOfrtMmp0QX0=
+
+Name: org/eclipse/swt/events/ModifyEvent.class
+SHA-256-Digest: t2mKwhkP2tkOafXTiEv0UvMZSh3WyhmRVxzT+e5t9UI=
+
+Name: org/eclipse/swt/custom/TreeCursor$6.class
+SHA-256-Digest: uGyfun2GW9hggk9t+tSPdelgIhn2E2GaHr4r2E/VCvs=
+
+Name: org/eclipse/swt/internal/ole/win32/OLECMDTEXT.class
+SHA-256-Digest: tLi6zOwWG7nkBNgU/oYDyY6GPX1oiU/OHHpPEMLCAw8=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMEvent.class
+SHA-256-Digest: nxUDsDJ0vSL0FV7YRFE3vQrQdT4OK+QafVojIXbZNIk=
+
+Name: org/eclipse/swt/custom/StyledText$12.class
+SHA-256-Digest: LIzIOk3CovXaKDFJ4TneaMs0LLkwde30j9LgGQaWT2w=
+
+Name: org/eclipse/swt/widgets/Group.class
+SHA-256-Digest: AOxdWzIXIkCkEPijq3CrIWwm3UvifELIzHXKxC17M8g=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$huff_entropy_decoder.
+ class
+SHA-256-Digest: gkYmRzsRfSOqJk7Vguwf+XsaYJH7Qq+FT/MMM0oflpI=
+
+Name: org/eclipse/swt/awt/SWT_AWT$4$1.class
+SHA-256-Digest: a97j4HHm8VgijQLb06II2zE9OSoFNdJZ/SX6sNa3wGg=
+
+Name: org/eclipse/swt/browser/PromptAuth2.class
+SHA-256-Digest: 8dSB1e/yToqGj55fO8oecu4DT8c9JsJEkGIWgLSCmFg=
+
+Name: org/eclipse/swt/internal/SWTEventObject.class
+SHA-256-Digest: G5JmOV8rKVoAo0WP/Fp2aNP1PqFS3ZzlJZh3g52oosQ=
+
+Name: org/eclipse/swt/internal/mozilla/nsIRequest.class
+SHA-256-Digest: Fz6xxLp5BsyNNIrWScKNXR93gy5CMTuzPS89vLL/h0c=
+
+Name: org/eclipse/swt/layout/RowLayout.class
+SHA-256-Digest: QRHBiBOBWR8wR9CJ9JKvu4BfTR0jnNkISapaYdlQa9k=
+
+Name: org/eclipse/swt/internal/ole/win32/IProvideClassInfo.class
+SHA-256-Digest: 3PL+i2ESnddaojqGcSK5pSuMWyvznXH+mbjjh1AUCB8=
+
+Name: org/eclipse/swt/events/ExpandListener.class
+SHA-256-Digest: cQwj9WFOZJjM1lQ67rmMV9p8dZxHYjfihs5GYQuXbyo=
+
+Name: org/eclipse/swt/internal/webkit/IWebErrorPrivate.class
+SHA-256-Digest: WNCRo1dukZiP+77zoctoA4ZySdGn078JN8hAm8VG4JI=
+
+Name: org/eclipse/swt/browser/WindowEvent.class
+SHA-256-Digest: Cwf6hmtKw4khTdeWwDL1oSei4UDITPLNLAh0l7BaQ+A=
+
+Name: org/eclipse/swt/custom/StyledText$Printing.class
+SHA-256-Digest: xWMzW75VnsvdxIOUmYESdDGusOeXPoX5R2Y7SS0/Dqk=
+
+Name: org/eclipse/swt/widgets/Link$2.class
+SHA-256-Digest: XFp4gBz1h9ITdA2RWtahPbTP3wRYdap5jDPIvL/nOTs=
+
+Name: org/eclipse/swt/browser/TitleEvent.class
+SHA-256-Digest: V+fWaZmOwT8Ifp4P71ZreDRBNkjgFL1XhQsHW705ACM=
+
+Name: org/eclipse/swt/widgets/Display$1.class
+SHA-256-Digest: WRx8Lip0KIs1cxpxN+kL6XKmTeT9TFNbw/SD60nwFNw=
+
+Name: org/eclipse/swt/custom/BidiSegmentEvent.class
+SHA-256-Digest: GErFTUjHU1Z8y0XGpe1C3Ak8GSxsfr3Jzlshde04mP8=
+
+Name: org/eclipse/swt/internal/win32/FLICK_POINT.class
+SHA-256-Digest: U71ikcUStg4PmdWETEqjztvqX2TKl6NnbjeyzaKWAKE=
+
+Name: org/eclipse/swt/custom/LineBackgroundListener.class
+SHA-256-Digest: hvRFL+BOaOIGpQmsZa79xTSNK07pnvhQWkp+RdXwikc=
+
+Name: org/eclipse/swt/internal/C.class
+SHA-256-Digest: +P4lYjHvNU+Y257nTU+i5OIZrFmhuK/12JzVqHGiiJ0=
+
+Name: org/eclipse/swt/browser/WebSite$5.class
+SHA-256-Digest: IVIuOLQHgWfMqw0NZB+yMO3qEfzMuc4ll/fUueHvbs0=
+
+Name: org/eclipse/swt/ole/win32/OleListener.class
+SHA-256-Digest: FiVUAIV1rWMV7oWFc0jpcag2FQFNq+RRjHGLWu0Wi4I=
+
+Name: org/eclipse/swt/internal/ole/win32/IDropTargetHelper.class
+SHA-256-Digest: G/wYuBZLJhzC60EF9WPMe4qcDHAu/RhJiHRa65UatTA=
+
+Name: org/eclipse/swt/internal/webkit/WebKit_win32.class
+SHA-256-Digest: yfzjC4oDM8/wtiKZvL9QvIkAECXNyrzcKx/LVuCOuAY=
+
+Name: org/eclipse/swt/browser/LocationListener.class
+SHA-256-Digest: XTseAQ7cTGbBaZJRPmS/cf5OM3X6+ZXoEpQy5aenTnY=
+
+Name: org/eclipse/swt/custom/TreeCursor$1.class
+SHA-256-Digest: OAIjBjMSDGuBsa1VzP2m5+8Ep8knG4bxP/h+hv7rVJ4=
+
+Name: org/eclipse/swt/events/PaintEvent.class
+SHA-256-Digest: Y+7p5JJp+6im6fyJ8JMgCZ23KNkttvIi6pvMGJZ+GOA=
+
+Name: org/eclipse/swt/browser/PromptFactory$1.class
+SHA-256-Digest: Nv8nV0JpEXtYjbkBWTPFK7JN5No5cg627Wj04B8Lm5U=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDataType.class
+SHA-256-Digest: Fnr1w2XOMQMGn2rLvOPzbbU04UpFH6dFx52x/U/FDkE=
+
+Name: org/eclipse/swt/widgets/Tree.class
+SHA-256-Digest: eiyeMS2/i5lyHS3rWopQKnfajfeUkBGuMswvEp9u7pY=
+
+Name: org/eclipse/swt/accessibility/AccessibleValueEvent.class
+SHA-256-Digest: CEb/9RGhS1jkpvQpufV6xkk85Fa+mEESizMzSrPwYc4=
+
+Name: org/eclipse/swt/custom/CLabel$2.class
+SHA-256-Digest: 7kVelXjZzMYDwN1vA3jqD5T/P7aBGbErEidk7dH7YVA=
+
+Name: org/eclipse/swt/events/PaintListener.class
+SHA-256-Digest: e4hF1+mkhpnT/WegTnZ/E+KKRFIn57BqCxhVT8+CzmE=
+
+Name: org/eclipse/swt/internal/mozilla/nsICertificateDialogs.class
+SHA-256-Digest: cDfczhhjErXD32z7I30sSz+m5yGLil/Khs6xh0w9sjI=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialogFactory$1.class
+SHA-256-Digest: T4LuHnbJuTGx7a1AYdGSXPhHvlgnipuBwIqGI9BA9Tk=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleInPlaceObject.class
+SHA-256-Digest: 0q8IeKAr2PkSE6CHxAKiv+qPTYsmfsURc0bg/+gbmAY=
+
+Name: org/eclipse/swt/custom/StyledTextDropTargetEffect.class
+SHA-256-Digest: +mCwuV4T74vmEAkwDmfyeCNhRJITjzcyCaBUPqgfcz0=
+
+Name: org/eclipse/swt/accessibility/AccessibleActionAdapter.class
+SHA-256-Digest: MVt9YMcxrQsw/FZ4lSEQ48L7uXfg7Sd8aaPDoZHjP7o=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMDocument.class
+SHA-256-Digest: UzInNqGdKfRUwAiaPyg7I9PZDIR98iGUF0TMrzQLOPA=
+
+Name: org/eclipse/swt/browser/WindowCreator2$4.class
+SHA-256-Digest: ok2vVqFsuxdcebUVwYiP+MSkBRNwIBQJ5TCs1VReCsM=
+
+Name: org/eclipse/swt/ole/win32/OlePropertyDescription.class
+SHA-256-Digest: LzqurtJrOGL2n56GUJTMWt8DbHWfMVAMAqiVtIPILPI=
+
+Name: org/eclipse/swt/internal/win32/TVHITTESTINFO.class
+SHA-256-Digest: 1kby9i99kaZcjQgHRpgAGaDW0YUMZuF8fNEzeCAFsHw=
+
+Name: org/eclipse/swt/internal/mozilla/nsIX509Cert.class
+SHA-256-Digest: hz+oHepir7A0hcEjXmBwNdS/sw8IS9DV4TT0B8R3Ll8=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite$6.class
+SHA-256-Digest: 9lUt6rCr2ly0oSNu6ED8jk+0f06Hl/jhsTFv2kqcRzI=
+
+Name: org/eclipse/swt/events/TouchListener.class
+SHA-256-Digest: 0kOiJuEK3SKoYT8mbDyYGuPONvLhIQz/okDVis2YthA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIFile.class
+SHA-256-Digest: BjMAPtQoY8wVQmLRq8rKDX4YKK3gqXMtdqedhvl5Ahw=
+
+Name: org/eclipse/swt/custom/CTabFolderEvent.class
+SHA-256-Digest: 5oXy8aVjyaRONyirvx7IlqtUUJE+qQuG7EdxB+9DlaM=
+
+Name: org/eclipse/swt/internal/win32/SAFEARRAY.class
+SHA-256-Digest: FDqNuap0atWaAvLGMNURMkDIt28M6w6cANjcWQXmdyo=
+
+Name: org/eclipse/swt/browser/Mozilla$4.class
+SHA-256-Digest: 4D2wpITiIDYuQTzMf01OQBhFRvDyqNEfMFmF0MwI7Sw=
+
+Name: org/eclipse/swt/dnd/TextTransfer.class
+SHA-256-Digest: M+Q6ugezqb/2+djXgCwyboDN0+q/Hj8+Lq00riV3778=
+
+Name: org/eclipse/swt/internal/theme/TabFolderDrawData.class
+SHA-256-Digest: FLpGE7MKDIuaeKNYtTqBxebJnP+PPVQhXsO0p6RNHOI=
+
+Name: org/eclipse/swt/custom/CaretListener.class
+SHA-256-Digest: YCVvmIfi8WlOnBSJEsE/k1QBOM2xcWleyiwdUY/hbyU=
+
+Name: org/eclipse/swt/custom/VerifyKeyListener.class
+SHA-256-Digest: 2Hod0tO+y8hcaJHKDFte2XxFu2D+RALtI5dh5KFgVeA=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleLink.class
+SHA-256-Digest: QBQIE0+Xkqu9i5YLnxXMpYDv63e0L20WARdor3EGyCU=
+
+Name: org/eclipse/swt/internal/image/PngInputStream.class
+SHA-256-Digest: 8+VlubFFVO5NWpmZGTu81oM2HiB3kzwZtDRU+Z4Aq10=
+
+Name: org/eclipse/swt/custom/TreeCursor$7.class
+SHA-256-Digest: SYdCJNGBerv7nRyyxa3f/d4ih8xHHxsqU8Btcp9a0dA=
+
+Name: org/eclipse/swt/custom/TreeEditor$3$1.class
+SHA-256-Digest: oZ3TSZPWVlotQ5yid1Ug9Z6CIyVx+JopGQ3p/9teTCM=
+
+Name: org/eclipse/swt/widgets/List.class
+SHA-256-Digest: qqvKIkAwBYnQXmMcDdrEX2vjMMTKxs4LpTMrl5Z5TWk=
+
+Name: org/eclipse/swt/custom/StyledText$11.class
+SHA-256-Digest: KHAMaNpo9Mob3IzB3ed5Pk995D4UPrjQc1YRkqRqJnw=
+
+Name: org/eclipse/swt/dnd/DropTargetEffect.class
+SHA-256-Digest: qKXRmPtCxmfhljZg4KJLJv7NZo18X3y8cB9Ou9Vmv8A=
+
+Name: org/eclipse/swt/awt/SWT_AWT$4.class
+SHA-256-Digest: cnk1eX6LLG9rXPlON4/DO2eoDL6vd2DXAKRI/gwRcOQ=
+
+Name: org/eclipse/swt/internal/win32/CREATESTRUCT.class
+SHA-256-Digest: 7eSOyFCNSUKvlmneZIawmbVHTDIW6zO4x4kwFisCHcU=
+
+Name: org/eclipse/swt/internal/image/PngEncoder.class
+SHA-256-Digest: sxwI54ZDucERhm0ORImPRRY9gUXxTJnNkpdh9UQ6s0w=
+
+Name: org/eclipse/swt/custom/StyledTextPrintOptions.class
+SHA-256-Digest: S7BykIwemgkSi2WE1JfmBesraD95dh/5rffg4C2P/QQ=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$JHUFF_TBL.class
+SHA-256-Digest: tUWJE6SaLy9gFDdZ4A6mrsPt7rvfxSMgEl2Ve2u4g3c=
+
+Name: org/eclipse/swt/dnd/ImageTransfer.class
+SHA-256-Digest: nH4wFRn8TUvVLqFXMXSc8SN3zBbkTMJ1JjAjwZCwd9o=
+
+Name: org/eclipse/swt/internal/mozilla/XPCOM.class
+SHA-256-Digest: an7OcovRJgSkvKZFinUZyygsxNBeT8G+7qAyG1/bzlo=
+
+Name: org/eclipse/swt/accessibility/AccessibleControlEvent.class
+SHA-256-Digest: Ev5SRlhGvFzSWuKiP+rzhx398g+5Wpcyp8ZjU3ypPAk=
+
+Name: org/eclipse/swt/widgets/CoolBar.class
+SHA-256-Digest: LxR/NI6Q9RW15eqZKYrjrdyyjugX7ZNARiJCz2rdBWM=
+
+Name: org/eclipse/swt/custom/TreeEditor$3.class
+SHA-256-Digest: Pgo6Bz7azDi0kR6j8xz7MpDgK1otlEe7Ii2cGAlDnhs=
+
+Name: org/eclipse/swt/widgets/ColorDialog.class
+SHA-256-Digest: /lHUwyqA24S4ynTC+HWEBGmgAlhsl4ZPbWz7m9D7YdQ=
+
+Name: org/eclipse/swt/internal/win32/DWM_BLURBEHIND.class
+SHA-256-Digest: u59uA5FeK8qOrGMg+aUouHMD00UeAsGBZlXLmTc6iEc=
+
+Name: org/eclipse/swt/widgets/TabFolder.class
+SHA-256-Digest: aFsDoGkQiggn4CN0T0SDWW813VOYmJ+4SoHKBXFHx+0=
+
+Name: org/eclipse/swt/widgets/Link$1.class
+SHA-256-Digest: 6LjoUCO2hCgH+zl2k/w9IFfAdx74QmI0JISVCpSpk3g=
+
+Name: org/eclipse/swt/internal/win32/NMREBARCHILDSIZE.class
+SHA-256-Digest: GBdas8EIXtnK+j1x1e+xZ1OwOpLKP+4uGFpE1jXWfUM=
+
+Name: org/eclipse/swt/awt/SWT_AWT.class
+SHA-256-Digest: cN/CyWo965BoLVWWFToHdhE0I8phbkr1l1r4ryu80vc=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_d_post_controlle
+ r.class
+SHA-256-Digest: u+lXj3FFNxppaF03emzAs2eJi6Uy4vmcpw5p/HGi/jE=
+
+Name: org/eclipse/swt/internal/win32/OS.class
+SHA-256-Digest: lgnOwmZW76ZyX0P6kTmDdD9al/b060SQpMH6L9bN/FM=
+
+Name: org/eclipse/swt/browser/WindowCreator2$5.class
+SHA-256-Digest: 02rktxW4KzE2dFgCN7SPXcaQRTwxu3b+BZGJU/GBM1Q=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite$1.class
+SHA-256-Digest: Hf8jw2NDStWdhdiADu2au3SAHAoZlcfVQyNJB8iVwjU=
+
+Name: org/eclipse/swt/internal/image/LZWNode.class
+SHA-256-Digest: N1B1hyC9gW4hDAI/jq6YglknI2c9c72eGkrqhNtuvq8=
+
+Name: org/eclipse/swt/custom/CLabel$3.class
+SHA-256-Digest: SlYH/SVQERwE2u9pC4fu9gWyShFdQeAUk5TeJN58vGc=
+
+Name: org/eclipse/swt/custom/BidiSegmentListener.class
+SHA-256-Digest: qEvUCLtoelZhfg+w25d+E8bl1ZxGadzlkTFA5LoazJE=
+
+Name: org/eclipse/swt/dnd/DropTargetEvent.class
+SHA-256-Digest: MyPbziqC+q+GqR3Ok6wwt3zUHo3WyxWy8mEEPRnsJ4c=
+
+Name: org/eclipse/swt/browser/WebSite$4.class
+SHA-256-Digest: 0QsNsSEeA65Cskgc/5jBe9KkBkKVuX6kaAYwdXYMrm8=
+
+Name: org/eclipse/swt/widgets/ExpandBar.class
+SHA-256-Digest: uVtJlTNZN6s+26zfAmmFBm5xR62btuhD/s0sIRBJBAU=
+
+Name: org/eclipse/swt/custom/AnimatedProgress$4.class
+SHA-256-Digest: m5dGmX3nYeAaEu0RLLJ6f4Ilp/KHjX01m37uK/0eLBI=
+
+Name: org/eclipse/swt/browser/Mozilla$3.class
+SHA-256-Digest: +23dUM1grI6+8egtbTn55t95dyHatz3UF9ltn20uG24=
+
+Name: org/eclipse/swt/accessibility/Accessible$1.class
+SHA-256-Digest: iKHUGEeNVXwzpMuUAd+PPgdrirVyH6ENOEimvKbzwl0=
+
+Name: org/eclipse/swt/dnd/DragSourceAdapter.class
+SHA-256-Digest: wOmx/+j13jdm1PdN7nTC+XExjQqF85QHnGpMfCS6krg=
+
+Name: org/eclipse/swt/custom/PopupList$4.class
+SHA-256-Digest: l4WkMk34vfYNUOdv8gs/jpEDCEURiPb13LklfXtpq68=
+
+Name: org/eclipse/swt/internal/theme/ExpanderDrawData.class
+SHA-256-Digest: A6Ym9vj7yHnJbOu2SYXQ7EIQpUwj5c5/lh/+py5jGUg=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMEventTarget.class
+SHA-256-Digest: AmCUElkz1x2ErCOXpd7nOgBcDG63rxkNIScFveMWehA=
+
+Name: org/eclipse/swt/layout/FormAttachment.class
+SHA-256-Digest: xo4DgAsXXu0agB90zNrXK/AYOp0NlJ7IBLXq/Ez0l+k=
+
+Name: org/eclipse/swt/internal/webkit/IWebDocumentRepresentation.class
+SHA-256-Digest: P9M0Cd3CGOIdPn8Xk4P0FbjA0TtjjAiZ7Nb/hSN75yk=
+
+Name: org/eclipse/swt/internal/mozilla/nsIPrincipal.class
+SHA-256-Digest: iNMwNeszTOu7mK1UKQGkrTOK8YaiDi0wUAOg1reKh0c=
+
+Name: org/eclipse/swt/custom/TableCursor$7.class
+SHA-256-Digest: KmK0QgrRSun0iW/4ycz+q3JVjGmeeBqTvKew81xqinA=
+
+Name: org/eclipse/swt/browser/PromptDialog$1.class
+SHA-256-Digest: Y66jhKRQqtgqo9HKH7FG2zzRH2Ij3BNPPcsU4mLSC5Q=
+
+Name: org/eclipse/swt/custom/StyledText$16.class
+SHA-256-Digest: gmCLQIQdr8HdbQ/MfPmnA5nKXyRYDZQICY5ocDicP2M=
+
+Name: org/eclipse/swt/internal/ole/win32/GUID.class
+SHA-256-Digest: peI26kiVwRQdx8Oy+MuBnKUwgmQ/S0KXl6PCGwYwvUE=
+
+Name: org/eclipse/swt/custom/TreeCursor$2.class
+SHA-256-Digest: Bqz00rtwDUCK6aKMWmjyU2TZ/GZEHpIeIglPVO1W3VY=
+
+Name: org/eclipse/swt/browser/DownloadFactory$1.class
+SHA-256-Digest: d56FIvzgOan1iGTzwJgBx8+f1RHqR0qO3DqlwbkT90w=
+
+Name: org/eclipse/swt/widgets/Monitor.class
+SHA-256-Digest: bHVaDlyXVc4RImt4YCGwP6abSSxbVOxCS+7vMRFZk7g=
+
+Name: org/eclipse/swt/browser/WebUIDelegate$6.class
+SHA-256-Digest: FXCircVhAoHXBWGkTUndUVBcaxEEmLCkEDf3HkhWG04=
+
+Name: org/eclipse/swt/accessibility/Accessible$11.class
+SHA-256-Digest: Jv2T3PxMUx2ZIUqhBPPxu8bjPussPySzXsumJczBRSQ=
+
+Name: org/eclipse/swt/internal/BidiUtil.class
+SHA-256-Digest: aVz3Nlo25Zf/C6t2bhkPYo8PmDvQJZjsMSJdDa4m524=
+
+Name: org/eclipse/swt/internal/swt.xpt
+SHA-256-Digest: /vw8CIBLiRDGJH+pIWOZAXw5GBMvS/QQ34Qm32ogOAY=
+
+Name: org/eclipse/swt/custom/BusyIndicator.class
+SHA-256-Digest: Xjao4YUt+8QRv6KsyVzlE/zdczhF7VyTTKunQahd6Pg=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite$2.class
+SHA-256-Digest: Xed+7v0Z9/CzaLRHPxBpP8jqbWoX8HkWEM3Zm6rB5fg=
+
+Name: org/eclipse/swt/accessibility/AccessibleControlAdapter.class
+SHA-256-Digest: IWIYdyuD7XHYxfMS+Dk28h7kC5NQCme9WgiK4+emIdI=
+
+Name: org/eclipse/swt/browser/AppFileLocProvider$1.class
+SHA-256-Digest: E1ZmmmviMfVsp38qJJ4fTeSjRp/ip0HdXDzXq/ro4LM=
+
+Name: org/eclipse/swt/events/FocusListener.class
+SHA-256-Digest: lSfvyMqEvYEjazgu4LZzEXCyqyNBGy/+aUT2jNAwYDY=
+
+Name: org/eclipse/swt/custom/PopupList$3.class
+SHA-256-Digest: GDNJRT8rG4UExnT39iTzctE4dwg+XtikbPfvnkv2eRU=
+
+Name: org/eclipse/swt/browser/WebFrameLoadDelegate$3.class
+SHA-256-Digest: mQK4P5vmzBKb93nYPbyGahyWMTiM8AooD13Ed6oPAzU=
+
+Name: org/eclipse/swt/widgets/RunnableLock.class
+SHA-256-Digest: 6QphtkVvbOtYIXMLKmEqobHkXm64BgamScJk9UWt7WQ=
+
+Name: org/eclipse/swt/internal/image/PngTrnsChunk.class
+SHA-256-Digest: D4qoald7MR8xNR/uydAVQAH67sauqOJRj9LuzoSk078=
+
+Name: org/eclipse/swt/internal/win32/CERT_PUBLIC_KEY_INFO.class
+SHA-256-Digest: m36y+z3piM/SF584D6y0e+FfLE8K0/fNGr5a7j4VXN8=
+
+Name: org/eclipse/swt/accessibility/AccessibleAttributeListener.class
+SHA-256-Digest: q3iZSBf6TJiC8CB0GWmrEexZ2O+FvyA978UBoeu5aOk=
+
+Name: org/eclipse/swt/events/ShellAdapter.class
+SHA-256-Digest: cgc4RXMM8Ea00lQUkePfOBulYawBMlJE50cGGo5i0Eo=
+
+Name: org/eclipse/swt/internal/mozilla/nsIInterfaceInfo.class
+SHA-256-Digest: UcDUnd+Dvol9YQyaWNV96lg2vejWWNgyuMVE8Iup4bg=
+
+Name: org/eclipse/swt/accessibility/AccessibleEditableTextAdapter.clas
+ s
+SHA-256-Digest: /OwylUZYuyWVJSsIuHWINYbljTVWPbLCmEB6PHr+jJQ=
+
+Name: org/eclipse/swt/internal/ole/win32/IConnectionPoint.class
+SHA-256-Digest: gm55TW6U0L67EaQZogs4onRpqWKVu8WL2EGpMG5Oj0k=
+
+Name: org/eclipse/swt/custom/CCombo$8.class
+SHA-256-Digest: dxPppq/U3fJGWHPdxrIIhOSHIql92z3Hm1s7/mkAPkM=
+
+Name: org/eclipse/swt/internal/win32/SHFILEINFOW.class
+SHA-256-Digest: d3IrisSZnUMgOXVRFlJ3F5a2F6Ufn+vKTSoieYqcva0=
+
+Name: org/eclipse/swt/browser/PromptService2$2.class
+SHA-256-Digest: cVhwuQ9LpqbyjSRIc0kkej99lxAnBGoUZHOnaRtseCY=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_CONTROL.class
+SHA-256-Digest: xJ6mVU2H0WZNZuH66AgFA/8ait6uqVGjT6F97Xhcvqg=
+
+Name: org/eclipse/swt/custom/CBanner$1.class
+SHA-256-Digest: AVGPh1lNSjGJ1JHTtyRB5deRSitZhsASMRkhdQ7ZhIw=
+
+Name: org/eclipse/swt/internal/webkit/IWebURLProtectionSpace.class
+SHA-256-Digest: pIAXq+2IQEJRT4dsIO2zjwC5k0nBwoCdHmhEeuFXNLs=
+
+Name: org/eclipse/swt/internal/win32/TRIVERTEX.class
+SHA-256-Digest: lwIzTrH3/x+KjlyyaG9A8MU+obZJuSZKwxCMKtBwB30=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite$3.class
+SHA-256-Digest: zaDW5diyp+LHXhuCCtzUqZv/x2743bnCtzw7QAt1DXw=
+
+Name: org/eclipse/swt/internal/ole/win32/STGMEDIUM.class
+SHA-256-Digest: B/HH75OMP4iUqsL5ElvYjgqUv8dqE8nPmvPJNOoeXJQ=
+
+Name: org/eclipse/swt/accessibility/Accessible$12.class
+SHA-256-Digest: Y/AM+dQ/tgMrLZ9LW/PArRiN8wceZLk+rzez99oCI34=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_LOGATTR.class
+SHA-256-Digest: 5TqgrBF0okf89Oqjers8cTfo/h73GCRFadDxj2i3zf0=
+
+Name: org/eclipse/swt/internal/mozilla/nsIPromptService.class
+SHA-256-Digest: kClDOAnkMQgkNKErosxZ+Zv+mADVLOxfjQcrK6oqK88=
+
+Name: org/eclipse/swt/internal/mozilla/nsIPrefBranch.class
+SHA-256-Digest: 7EsPhOnJATioormTRqnWenaXVOYsK/EN7cVQQ77mJso=
+
+Name: org/eclipse/swt/internal/win32/WINDOWPOS.class
+SHA-256-Digest: lSSxJjUye+ASigpJW5rYFxOv76HRwP0RAByzRcVDkCI=
+
+Name: org/eclipse/swt/internal/win32/TF_DA_COLOR.class
+SHA-256-Digest: +6BsGQAdaTUotzlnKPO7yAksoE20ymk2SPvROd3xPDA=
+
+Name: org/eclipse/swt/browser/WebUIDelegate$5.class
+SHA-256-Digest: 9xc12j3mm4cgpBLgooYxaJqTFU0wKEy7f9o68M5NYck=
+
+Name: org/eclipse/swt/browser/AppFileLocProvider$2.class
+SHA-256-Digest: xUhupmmo2i1x1z9M8COx0s+jJQaqYKanQzwyZis04so=
+
+Name: org/eclipse/swt/internal/win32/NMTVCUSTOMDRAW.class
+SHA-256-Digest: HnUKs0orjMGN7+zIq4RHkoSJLx0aqH210mq6lroDNjw=
+
+Name: org/eclipse/swt/internal/ole/win32/IEnumVARIANT.class
+SHA-256-Digest: aLJuls9KLYoFg5g+ffha4qEmGXPmSxi7gncp0iTl/wQ=
+
+Name: org/eclipse/swt/internal/win32/RECT.class
+SHA-256-Digest: DZ+7RcfRoK5JT0YoIUv6uwocfVq+lWzyMkJkmj+67OY=
+
+Name: org/eclipse/swt/accessibility/AccessibleEditableTextListener.cla
+ ss
+SHA-256-Digest: Zr1T75wmpTyH++H0/duMtfi08PkHsRPZk0Axiu5f+9I=
+
+Name: org/eclipse/swt/awt/SWT_AWT$2$2.class
+SHA-256-Digest: lQ5umlTCns3h693O2h6KnDVWNoAmUclyDvVVPI/AM6U=
+
+Name: org/eclipse/swt/custom/TableCursor$3.class
+SHA-256-Digest: Us/XgGpnOPY+yhx2zLpl518C/cLagYy4qj/Vo4vFDXY=
+
+Name: org/eclipse/swt/internal/win32/NONCLIENTMETRICSW.class
+SHA-256-Digest: RiykEQTkNoqe3bTqvvg20JEsKqfkoMYGruJEbShZHFM=
+
+Name: org/eclipse/swt/custom/PopupList$2.class
+SHA-256-Digest: vaPrgYW7wMVvQMD7x4iGmeMPkiierrzamRPZ803xUnA=
+
+Name: org/eclipse/swt/internal/win32/PROCESS_INFORMATION.class
+SHA-256-Digest: l78IobKErwK4tgiznmUzSh2Y/G9FTnmyjZFa/Wnsg1I=
+
+Name: org/eclipse/swt/internal/win32/WNDCLASS.class
+SHA-256-Digest: xm1UoWbTiaNkEIDBXifcFDdNukKUSpq78FO3UFKAp80=
+
+Name: org/eclipse/swt/internal/win32/DEVMODEA.class
+SHA-256-Digest: IWDIbBEY52n969V9SU484WaqW9HlkdS/f+0VYcWozxU=
+
+Name: org/eclipse/swt/internal/win32/LITEM.class
+SHA-256-Digest: /dBXqiQcod/BEEwYis2f1zDFQi9qd7bu/9BtW+5wBos=
+
+Name: org/eclipse/swt/internal/win32/NMRGINFO.class
+SHA-256-Digest: NnweS2kHZ3lzELM6uc0g2eNaih8WqjtiUtkdPrZiRK4=
+
+Name: org/eclipse/swt/browser/IE$6.class
+SHA-256-Digest: vNMsDOFmWozkKbi2dBOe6VKZ9TCh7n9DThYO6ImY/Lo=
+
+Name: org/eclipse/swt/internal/mozilla/nsISimpleEnumerator.class
+SHA-256-Digest: m+GUl3pJGJubCig9KWzoz6vgrgfMP+OCPfJAsh6N/9w=
+
+Name: org/eclipse/swt/events/MenuEvent.class
+SHA-256-Digest: pNfCQErWCe8xFN+7yK19XGT+4uzqtlw0EMGZUJE2JNk=
+
+Name: org/eclipse/swt/ole/win32/OleControlSite$2.class
+SHA-256-Digest: CQue81dHDyT8w3DFyCcFsZFLohyBLj6MIhuOBDbyy6A=
+
+Name: org/eclipse/swt/events/MouseMoveListener.class
+SHA-256-Digest: J5C/h5bopigfd1KgG82zWsHfVBDgI2vBguiQX7iTvHk=
+
+Name: org/eclipse/swt/accessibility/Accessible$13.class
+SHA-256-Digest: H5OhISnJnUGXpqHosCAu2fJwColUF3b3OOVN497sk2Q=
+
+Name: org/eclipse/swt/internal/win32/HELPINFO.class
+SHA-256-Digest: +qGFgtnfkp8Qjvb8NcspYirB9z3i6EcNsDUHqm3y+yU=
+
+Name: org/eclipse/swt/internal/win32/TVITEM.class
+SHA-256-Digest: H8aaDcqNmGgG7Y2DGnEcmC5R+7ilYe3kbFd+FrMW+OE=
+
+Name: org/eclipse/swt/internal/theme/ScrollBarDrawData.class
+SHA-256-Digest: JipZsNIBSZA5tnyllPa4aYrE6LIWXFZmOzn4iqtSqrY=
+
+Name: org/eclipse/swt/internal/win32/NMLVODSTATECHANGE.class
+SHA-256-Digest: NwXw9+0R78/X6NzOT5DwCMT9Q3jY9IP91jjJWcMuPPc=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_marker_reader.cl
+ ass
+SHA-256-Digest: NyYSiLj8Tfc5oVyaNYSnk6z3aNqD+njHJGCHSK9OvL4=
+
+Name: org/eclipse/swt/layout/FormData.class
+SHA-256-Digest: i8g3GR/qCsLexJvMIvNTUFS1jh2GYj/8Q0FFoSQvk+I=
+
+Name: org/eclipse/swt/graphics/ImageFileNameProvider.class
+SHA-256-Digest: csJBXy5DdwyIcMl/57mPRDSvc9HCndSvP6sDhqcGIBU=
+
+Name: org/eclipse/swt/custom/StyledTextRenderer.class
+SHA-256-Digest: +KNkI7Ab6sz+AbgSrBQPNe28Y8uzt7+Jg4fjqCmhld4=
+
+Name: org/eclipse/swt/browser/InputStream$1.class
+SHA-256-Digest: QnAjU7TT8epUHKt+ioUr1XGUxxjG69eigpVVBao7goo=
+
+Name: org/eclipse/swt/awt/SWT_AWT$2.class
+SHA-256-Digest: ovZrgVN2aI2fcFWzCrawTvGbdFJn5Iupy6vtqSYJf4Y=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog_1_9.class
+SHA-256-Digest: o0Pvmx8qtYIfx07AnelEN7eQLkufTiGdfV7GEEpnYv4=
+
+Name: org/eclipse/swt/internal/ole/win32/IStorage.class
+SHA-256-Digest: C4dw8l7ubv97yhhXMag/HVzIl2R5w1T14o4+RhgeQlg=
+
+Name: org/eclipse/swt/internal/win32/NMLISTVIEW.class
+SHA-256-Digest: 6lL3m4VXh7uRPXXUA8nLlfoSSUfwW/RcdLK7rH+PyQ0=
+
+Name: org/eclipse/swt/internal/win32/POINT.class
+SHA-256-Digest: R8OeJ5G17kFHaQ7Ji1SIEUXQZ5KXmVsKfgNywKw+JOc=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$phuff_entropy_decoder
+ .class
+SHA-256-Digest: sbMoihprbU36IkutJ5lTgXcbfvb8m6iCno6eFT1yXUA=
+
+Name: org/eclipse/swt/widgets/Widget.class
+SHA-256-Digest: o+o0cmxL9X2ViLnF56362fLV633WLhqK3A1AwXvd/YE=
+
+Name: swt-xulrunner-win32-4530.dll
+SHA-256-Digest: cl4eed8WfOVU6YTgyLk+FLg/xUBcGm5rN2eYCKOsuic=
+
+Name: org/eclipse/swt/custom/CTabFolder$3.class
+SHA-256-Digest: R3UTjeXg3IHaZVgEdsprvwqyvs5TbMbDSMDGbI09Zf4=
+
+Name: org/eclipse/swt/internal/win32/MENUITEMINFO.class
+SHA-256-Digest: dtho1m9No9b8JKVoETWqv6FOdfC2Srb/jRy6xvKNBHY=
+
+Name: org/eclipse/swt/internal/ole/win32/IEnum.class
+SHA-256-Digest: yUx07gFqsv45H5q1JFkyVehxRECo+vRhBqB/1Gj9OA0=
+
+Name: org/eclipse/swt/internal/webkit/IWebURLAuthenticationChallenge.c
+ lass
+SHA-256-Digest: ENKY56P4aL00BxJqAYjzsV/gXF4zYU+WxfFvkcN8K6s=
+
+Name: org/eclipse/swt/internal/gdip/ColorPalette.class
+SHA-256-Digest: o9RqsPgoIXznYjDj6I7yn6bNUKmn4MPgIW2+H7349MY=
+
+Name: org/eclipse/swt/browser/OpenWindowListener.class
+SHA-256-Digest: Cg/nRWGIFWgekbqeLPwAJ4iDqlTGKwLlcW+PKsVHD1c=
+
+Name: org/eclipse/swt/internal/ole/win32/IStream.class
+SHA-256-Digest: Y5KuCUg+QGSZxcw6cqluTcDFj1/WJs8tiSxxSKLbCko=
+
+Name: org/eclipse/swt/internal/mozilla/IIDStore.class
+SHA-256-Digest: qt7dXY0ZDoerbUh4Lcs+XmEscvwMHf3f9EABLka62jU=
+
+Name: org/eclipse/swt/browser/IE$1.class
+SHA-256-Digest: psUaCWvF+8bedXngDjDhe8fPxVKP41waF8dKT0zDRgY=
+
+Name: org/eclipse/swt/internal/win32/CRYPT_ALGORITHM_IDENTIFIER.class
+SHA-256-Digest: ZRJ4gmdxT3Aea+LRavMhChE8+AAeqIgCd4Q3xecjhqo=
+
+Name: org/eclipse/swt/internal/mozilla/nsIInterfaceRequestor.class
+SHA-256-Digest: eiYFPfEqMOw1yPxsE4q7w8DF0vCxSgcNYvI13RENLj8=
+
+Name: org/eclipse/swt/browser/Download_1_8$3.class
+SHA-256-Digest: LuT+9e/Np++34Rie0v+bo34WHLgMfkCbjoETcYf4CNI=
+
+Name: org/eclipse/swt/internal/win32/LVCOLUMN.class
+SHA-256-Digest: MObtRPYCBAwzCERNuvFvli7QuxdstCp9FqkVa1QoC74=
+
+Name: org/eclipse/swt/dnd/TableDropTargetEffect.class
+SHA-256-Digest: b1ggtuj907g4ABoQDxHxiolLHKUJuidzFzubAXPXfNQ=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_FONTPROPERTIES.class
+SHA-256-Digest: Xx5tZ5523tNQfabXsNLjzVDUYUjFT9xaI/93c0zVCWA=
+
+Name: org/eclipse/swt/accessibility/Accessible$2.class
+SHA-256-Digest: eM1cSiueMFO5mtA/Fdj2/Xa5oRY3tLGZCKKp4S7efcs=
+
+Name: org/eclipse/swt/custom/TreeCursor$8.class
+SHA-256-Digest: YeErN2PbybFq04OmKAN6FDbdHdiwhzx6Pa8AgSXnyi4=
+
+Name: org/eclipse/swt/browser/Mozilla$24.class
+SHA-256-Digest: gsqI5z1KCH052qBWkhQ8ki6jyXDCpSmcTSkZfRdOG9E=
+
+Name: org/eclipse/swt/internal/win32/DTTOPTS.class
+SHA-256-Digest: F+PqqQig4UnU0RJmr7jUY1gXd2h1ezJJzNBH5ob5SRM=
+
+Name: org/eclipse/swt/internal/win32/OSVERSIONINFOEX.class
+SHA-256-Digest: 2ekkkVkDOYaJzQXHuZbO3xn5L2V4bwHYx+Z0wJEsZuU=
+
+Name: org/eclipse/swt/internal/mozilla/nsIAppShell.class
+SHA-256-Digest: zHfC95no/bUyQTjJuv2NZANwnicx+cx0yL6ilw1zJX4=
+
+Name: org/eclipse/swt/internal/image/JPEGEndOfImage.class
+SHA-256-Digest: OJf4eg50QqT/7Fi7Yz7UoVzjzMKYFjehK6X6hxBBOCo=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$d_derived_tbl.class
+SHA-256-Digest: O6JCodEsvG1G5Oi8jIsupwq3Zmr0RMJMBOvj8MMA/x4=
+
+Name: org/eclipse/swt/internal/win32/CANDIDATEFORM.class
+SHA-256-Digest: 2Gp0F7QBXs5TnCs4mrtG3R7CPA+ZmTaX6kqdzAXT9l4=
+
+Name: org/eclipse/swt/browser/External$4.class
+SHA-256-Digest: qs05eGU2EGloS3szMY9yVpYWh2UxJsjb4QePhMiwrC0=
+
+Name: org/eclipse/swt/widgets/TreeItem.class
+SHA-256-Digest: 4UFJrLDN8qvVBf9joEN5QQvrHIkFhBujzkyIOmgOkN8=
+
+Name: org/eclipse/swt/accessibility/Accessible$9.class
+SHA-256-Digest: 9Ntcp6B6ADIixNsAsCegvKmP3ug1BYeJ1XOCZPZmU4k=
+
+Name: org/eclipse/swt/internal/win32/REBARBANDINFO.class
+SHA-256-Digest: OSo01Jp0/TBAE974KsJMf7JpLWYx1BB9mod0T9T1p5c=
+
+Name: org/eclipse/swt/browser/Mozilla$5$1.class
+SHA-256-Digest: E7t5tPBUty/emyvoHoarSHWiErFobYAJMYtDTHVlEY0=
+
+Name: org/eclipse/swt/browser/PromptDialog$3.class
+SHA-256-Digest: Ryv0ZXcc8jiEYUZCimMRjbZVHO10kVdQ+Yfm6RSwPPs=
+
+Name: org/eclipse/swt/internal/mozilla/nsIVariant.class
+SHA-256-Digest: dsd4EMUmRY0R9i8KdVQvET9TGlf+EYLvher3LThH53U=
+
+Name: org/eclipse/swt/graphics/RGBA.class
+SHA-256-Digest: fJO8xDk39rU2jm920JhVgvrzP1KV4lgl7YSq38iFBWU=
+
+Name: org/eclipse/swt/internal/image/PngChunk.class
+SHA-256-Digest: vrI/zHWMdqU4X7rdsuPk0sRUghkfvvW4N2b2BAaGkQ4=
+
+Name: org/eclipse/swt/dnd/TableDragSourceEffect.class
+SHA-256-Digest: bD/264XD/QjYP3LDEiY/4uDByR9YZS+1PTVFN6aBPGQ=
+
+Name: org/eclipse/swt/browser/BrowserFunction.class
+SHA-256-Digest: blztbDCV+p0Sroi4z1162sFVUiINYuYIdQ6WHR+Ka1o=
+
+Name: org/eclipse/swt/custom/TreeEditor$2.class
+SHA-256-Digest: A2foXWgY6VGNptiXGgPoYX/hFBvF0Px/G0uu/Z4LqWA=
+
+Name: org/eclipse/swt/custom/ScrolledComposite$5.class
+SHA-256-Digest: lCQ0eg9lztqVdmSaxTqbiSBRRGUNw+gXfEHJc4lJKmc=
+
+Name: org/eclipse/swt/internal/win32/NOTIFYICONDATAW.class
+SHA-256-Digest: KVRmIcxQXF3WqgTWPVcIwRkvvlpmBIaEO4rDb1RW5Q0=
+
+Name: org/eclipse/swt/widgets/Table.class
+SHA-256-Digest: +S/E4GtZ8C6t2Ux+TjiUax8ZKoIXemML4/qJoBbMrOQ=
+
+Name: org/eclipse/swt/graphics/DeviceData.class
+SHA-256-Digest: rn2Wf4k3rOOzWUfB3Aj4ofUDUsidUO4LA0foUy8EqDs=
+
+Name: org/eclipse/swt/browser/IE.class
+SHA-256-Digest: sQiBE3Bg3Vt2iC41pkbjXgBHf2hDZ/ADjGgINGFdKTE=
+
+Name: org/eclipse/swt/browser/PromptDialog$6.class
+SHA-256-Digest: RpuS+bAxso6qWFD55EhuYc7Yx/vFLlUmY+ibvDETS20=
+
+Name: org/eclipse/swt/widgets/Decorations.class
+SHA-256-Digest: MAtuM4ymmm/QDpYWmkC7anjPgMQ8k6Aew1bQtM9VHBc=
+
+Name: org/eclipse/swt/internal/ole/win32/VARDESC.class
+SHA-256-Digest: scz63h5TbFVvgt9J/3yRDp8xOL8hkR5tI1dBycg1X2o=
+
+Name: org/eclipse/swt/graphics/GCData.class
+SHA-256-Digest: ehDVDbRJB9I3PtPBse+rr5RTzpUd+u+ungrMieCi7k4=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMUIEvent.class
+SHA-256-Digest: 9H4n8QgEHtXr0Ug4kGT3dgnD1Lm48RflJlr/qyAyj6c=
+
+Name: org/eclipse/swt/browser/VisibilityWindowAdapter.class
+SHA-256-Digest: FEiRazZSXsqWhiMaL+zJFySlejtuzTY46clSzi7OPgQ=
+
+Name: org/eclipse/swt/accessibility/Accessible$7.class
+SHA-256-Digest: 1w4tyIebwDHLwO1W7yO71cFjbH3IjpS+6NVQ+5w9NC8=
+
+Name: org/eclipse/swt/browser/Mozilla$22.class
+SHA-256-Digest: fC7x+nfNKe0l6zou9NyYFRYIM3TkxCgz4z1oPMgLMlY=
+
+Name: org/eclipse/swt/widgets/TaskBar.class
+SHA-256-Digest: qy0WnidrJw/EBd3f31EWWb827MW+N4ssLs9Z/6x0leY=
+
+Name: org/eclipse/swt/widgets/FontDialog.class
+SHA-256-Digest: PGZahPXN/2MfsRgkx9W4CQzXrT2Kkzd2Xf+lSJ7TdfY=
+
+Name: org/eclipse/swt/browser/IE$7$3.class
+SHA-256-Digest: kKVrmgwaMMKGls5vruQqXED8bMtCLIio8ht9hYFKpY4=
+
+Name: org/eclipse/swt/internal/opengl/win32/LAYERPLANEDESCRIPTOR.class
+SHA-256-Digest: IEfHMm7YCffVO61gPUrG2hvZfHWZKsnVQkHN55T8Wyg=
+
+Name: org/eclipse/swt/accessibility/AccessibleTableCellEvent.class
+SHA-256-Digest: kzdjrgcmuLkcD34yXSVBet4osnNrLPJ1Lq5UBTruU4A=
+
+Name: org/eclipse/swt/accessibility/Accessible$4.class
+SHA-256-Digest: Hz22FomiEKh37bE2ETOZxY9OsmzOrSpUj3rh9jBV7FY=
+
+Name: org/eclipse/swt/custom/StyledTextEvent.class
+SHA-256-Digest: aloqqR5xgPDraF54R38OmZuPfFJncHqrLDHcHe5UUB0=
+
+Name: org/eclipse/swt/internal/webkit/IWebOpenPanelResultListener.clas
+ s
+SHA-256-Digest: YC7l29wMaA16WSmdsqfUbomhI7HQRAdVFmpnZUnesKQ=
+
+Name: org/eclipse/swt/dnd/TreeDropTargetEffect.class
+SHA-256-Digest: 1Wc5ev2XtlL9Gco6wB0ZZxN6u7XXdHx7eL2rUqDG7aA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIInputStream.class
+SHA-256-Digest: 71chmVXYbUWH/3kr7mJztlkfpyOztkiYY6QhihPl3gk=
+
+Name: org/eclipse/swt/internal/theme/ButtonDrawData.class
+SHA-256-Digest: xSldBfuQXppZXscijKdoXwoOinzS4qYdboBKyTo/39w=
+
+Name: org/eclipse/swt/internal/ole/win32/CAUUID.class
+SHA-256-Digest: KbEuA4eSU49Mu+fZ91MCKPJ0E1HiDiqKsDS4Ipp2qNo=
+
+Name: org/eclipse/swt/internal/SWTEventListener.class
+SHA-256-Digest: sY3IhT0Y1g0wdf9z2iAZoSBgGMh8PfEepYvSaLTd39c=
+
+Name: org/eclipse/swt/internal/win32/SIZE.class
+SHA-256-Digest: MMpgd/m7OBRrnKCIMgcU2vUoYehGb3s7MIGhuoVJZbQ=
+
+Name: org/eclipse/swt/graphics/Image.class
+SHA-256-Digest: aJ/5CaODZEHuezj0Eigs+7i+G2lawnDDjKn+QNT0ipo=
+
+Name: org/eclipse/swt/custom/TableCursor$1.class
+SHA-256-Digest: SgfpJ/0yKKIMXomR9CBe57TvLwQEGoR1uf3ok/HOBnY=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleCommandTarget.class
+SHA-256-Digest: lBL0ABclmUN9sM4UiGn0yTjq3cVCo4B2YAK2T2B9DV8=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog_10.class
+SHA-256-Digest: /9GYp0q4WjpkA0AD0X2m734e/nV+runsTcVR7/QNkH8=
+
+Name: org/eclipse/swt/layout/GridData.class
+SHA-256-Digest: QvSlK3lCrIeez+S+f9IFQGeoLNwhOvwfZKmexv9u2l0=
+
+Name: org/eclipse/swt/custom/ViewForm$1.class
+SHA-256-Digest: 2IAqeo2g7ajUwkPIgnXEZIo2scdIeadDs3XdrIswlmY=
+
+Name: org/eclipse/swt/internal/mozilla/nsIServiceManager.class
+SHA-256-Digest: +s7w+x6OBPeY47nt+2YRDv5XeaTqNx2y7i1ZQEnhfv8=
+
+Name: org/eclipse/swt/internal/image/PNGFileFormat.class
+SHA-256-Digest: /pJZumZ3VL1Z9LN9jCgNHfXqAFMGX7PQ/vs1Yk47WQ8=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog.class
+SHA-256-Digest: VFtV1Y5t231HDV647Lv+xpw4Eg3qKlCSZRiWM5RCY+0=
+
+Name: org/eclipse/swt/graphics/ImageData.class
+SHA-256-Digest: WsYcPAd2SiCE80I4Ya33tbwk37hYGNzzA3OOyHc73RA=
+
+Name: org/eclipse/swt/custom/CBanner.class
+SHA-256-Digest: zaXjuOrccAbo/ABJAVTLO8ZLDOiQGMJIzqMipFUwWQE=
+
+Name: org/eclipse/swt/browser/WebSite.class
+SHA-256-Digest: OOYDckslRRpvrXygG4t48RnXMz1dPrX6mymdxN8BxJA=
+
+Name: org/eclipse/swt/internal/ole/win32/IDispatchEx.class
+SHA-256-Digest: uxfpS2jKbRUyVUzuXlpg4oWBSuO9ibxUxtdGhnmJaFg=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleWindow.class
+SHA-256-Digest: wo05So1wpGleoJWpCn/oW13+LmO3FUIAGCY4MPXrJNQ=
+
+Name: org/eclipse/swt/internal/win32/TEXTMETRICA.class
+SHA-256-Digest: VBTGHpJIYVyEajxU6+/olKjSYWXFGZKeNMjvrMhDpmE=
+
+Name: org/eclipse/swt/browser/Download_1_8$5.class
+SHA-256-Digest: 5wSklQEjNapzQIgX3eE0LsX749Kf1lZ9f5BIOq14jTw=
+
+Name: org/eclipse/swt/custom/CTabFolder$1.class
+SHA-256-Digest: MDO/fclr4Y7Lbqh0uGfWE8XFqK2XjqtJB/TTb8Us/Rs=
+
+Name: org/eclipse/swt/custom/CTabFolder.class
+SHA-256-Digest: rsvvsDs/QUKfbumQaSuGFSKphzRW/R7IdgNHr3Xkmec=
+
+Name: org/eclipse/swt/internal/win32/PANOSE.class
+SHA-256-Digest: sNAsQrWq3WwfXzEPKDeUMl2jUChUw9Bn/rKuKPlIiGk=
+
+Name: org/eclipse/swt/browser/VisibilityWindowListener.class
+SHA-256-Digest: 1UVnN/5m3tnsg1L3DFdxrEh2lUIh2E80Phcrq6jptAI=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMNode.class
+SHA-256-Digest: WYtgtaIgRpbh68EjNEjyMNc9xfObcD2nMBDsDEvk2es=
+
+Name: org/eclipse/swt/browser/Download.class
+SHA-256-Digest: SUYaM0pit79i1I3JyZlcihQkl6uFDgFXCPcHb/3+7qA=
+
+Name: org/eclipse/swt/internal/win32/INITCOMMONCONTROLSEX.class
+SHA-256-Digest: fQGpO/tg4mKl5zetQNN3Jv5rw+avpGzdQkulvW83SqI=
+
+Name: org/eclipse/swt/widgets/TouchSource.class
+SHA-256-Digest: WNE8E+kmpvQ5ip5llaP5iZNDY92lbB8TIbTAFefwWbk=
+
+Name: org/eclipse/swt/browser/IE$4.class
+SHA-256-Digest: k0Z0h7ULOU1Fog5ladiWL09OCHMRQmqam61PdWGi9LQ=
+
+Name: org/eclipse/swt/widgets/Combo.class
+SHA-256-Digest: rgDgSia235Mg2AYHIaCvRWwwOY4i9J+OQcsA77upt+I=
+
+Name: org/eclipse/swt/browser/FilePicker_10.class
+SHA-256-Digest: b5KuyvoAmoclkK0rIlBC+dh0he99+qPlz4ggoikNNhE=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog_1_9$1.class
+SHA-256-Digest: xZsDePPGeK5wysLdqhRNwomKi/JzxkMgWUkvXueCQSI=
+
+Name: org/eclipse/swt/internal/webkit/IWebFrame.class
+SHA-256-Digest: +M+YiVA/8ELKP22IHXb1fEjy3qzipTptLj5Vgt02bvw=
+
+Name: org/eclipse/swt/custom/DefaultContent.class
+SHA-256-Digest: wpe8hQrqb9v3AYInd7VhuXX+OO3YJfaRh6wD1dWYyes=
+
+Name: org/eclipse/swt/internal/image/JPEGAppn.class
+SHA-256-Digest: UwcP7KSE0ky3BSIBkNA7NmnSyKxlTfI2tMSFl+iBPqI=
+
+Name: org/eclipse/swt/browser/Download_1_8$1.class
+SHA-256-Digest: ZgqSpoM5M1vcjBUK8DflT/DJVHtBP4aavZcbJ0ByrGU=
+
+Name: org/eclipse/swt/internal/mozilla/MozillaVersion.class
+SHA-256-Digest: 1rIL5X00qrz+9kYff5r/OH6gtkpjyjedcP2XpVr0R2E=
+
+Name: org/eclipse/swt/browser/WebKit$4.class
+SHA-256-Digest: 1fnMJOZb1ib2J+p/LTzsjJ7vsPjWssoRvY9QANf5l8I=
+
+Name: org/eclipse/swt/custom/CCombo.class
+SHA-256-Digest: FLl13Sph5z2LHn5QdTut/0fNgIfAN1EEvokh39DgmYc=
+
+Name: org/eclipse/swt/internal/win32/MCHITTESTINFO.class
+SHA-256-Digest: 60CwJjv4LOG8e4GxFMRtz6pkYeNIdqYlAf95sZvJHiI=
+
+Name: org/eclipse/swt/events/SegmentEvent.class
+SHA-256-Digest: pNSA69TMyVNVi3tXPrI22qdqYxebgtZk/y+iJarSDAQ=
+
+Name: org/eclipse/swt/custom/MovementEvent.class
+SHA-256-Digest: 6xyepuI8L4rbGGcBCE9F9XjV+ROpkiz1Rb4LlSx0uc4=
+
+Name: org/eclipse/swt/browser/Mozilla$20.class
+SHA-256-Digest: 6yUtfn/L+gbvqb1KW7mXKq7rm0UvNZ/rwJaVOEOq7do=
+
+Name: org/eclipse/swt/custom/ScrolledComposite$3.class
+SHA-256-Digest: WMV/+bwBxSLXYPpdHSMohRt72/1O5ZhKB9oNAvwTXT4=
+
+Name: org/eclipse/swt/internal/theme/ScaleDrawData.class
+SHA-256-Digest: EiM9fiIA0p1pQ4kyS7gmpsTPxLnbdjj6QqXqvLTMSss=
+
+Name: org/eclipse/swt/internal/image/PngDeflater$Link.class
+SHA-256-Digest: FzFTvUVIPXxw1VHFrqvV4uNdnpgwBOjfyQ4Uw3+kAVg=
+
+Name: org/eclipse/swt/internal/win32/GESTURECONFIG.class
+SHA-256-Digest: qMnxKZx92cY0UmQZ73sW+3jCCA2WB2y3PDq9dm6/+4A=
+
+Name: org/eclipse/swt/browser/FilePicker_1_8$1.class
+SHA-256-Digest: lTvSwA0RK6XK4ZzNJZ0yelgv0JE4dsuPvI+JtaGXUis=
+
+Name: org/eclipse/swt/events/FocusAdapter.class
+SHA-256-Digest: k6597Aosd8bGfUYIezVvqgWETsbRVj1nJZ94MApD2hc=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMKeyEvent.class
+SHA-256-Digest: i65AbF7T1bJJG5TbRJhZZxg55V0sGD92Lglzcv005Jo=
+
+Name: org/eclipse/swt/custom/CTabFolder$6.class
+SHA-256-Digest: HAk7DcpTqYw8i+FgUFWfWPdFHigT6nxWNjJr7zsP9Xw=
+
+Name: org/eclipse/swt/accessibility/ACC.class
+SHA-256-Digest: YZZXDlOQXJAH5iETcLeOUPGCu9nWvXZ5KEn3KEeXItI=
+
+Name: org/eclipse/swt/browser/External$2.class
+SHA-256-Digest: bshmI8AZ8/mFuzVsLgLTV5ZogoNPwWb4WNEqVoiA5ts=
+
+Name: org/eclipse/swt/internal/ole/win32/IFont.class
+SHA-256-Digest: qVjD3/llUyjbA4rmDf7lyhsipv/eHGevXc2gpFpvkeQ=
+
+Name: org/eclipse/swt/internal/win32/UDACCEL.class
+SHA-256-Digest: EA5ADVBmJ1bbuNZCkfc5/cwM64KKKO9wpRVqCHr8pqE=
+
+Name: org/eclipse/swt/internal/theme/GroupDrawData.class
+SHA-256-Digest: ZgJwOtQoxTRnAYaciUyzIEs/WloBpOpmvHnvjiF2vzc=
+
+Name: org/eclipse/swt/internal/win32/NMTTDISPINFOA.class
+SHA-256-Digest: U5taCL1UQKdI6IdL2nIJY/jFDzP+3i5XL0J/P0yXbtY=
+
+Name: org/eclipse/swt/custom/CTabFolderAdapter.class
+SHA-256-Digest: mQWyg/S78GV8VC1kiGKMxeiCC1PyMmeQf5pPVzPOMc4=
+
+Name: org/eclipse/swt/browser/TitleListener.class
+SHA-256-Digest: pJBKclVbRPYh8x/gk/RW5Y0Lw+D1Tmv1P9Z1ZcvyBGs=
+
+Name: org/eclipse/swt/internal/mozilla/nsIEmbeddingSiteWindow.class
+SHA-256-Digest: smRhRztPJ7l66P39LphWIrIUDa7665F32YsXID0LzXo=
+
+Name: org/eclipse/swt/internal/mozilla/init/GREVersionRange.class
+SHA-256-Digest: 7Hx5I2NyE8otTl3D5eklw86rZD5+o17/gUeDrnj4Z9g=
+
+Name: org/eclipse/swt/internal/image/JPEGArithmeticConditioningTable.c
+ lass
+SHA-256-Digest: RKsSITYCrqJcMvB0tpO4EBL7dMNAKAn+eQFoD90po3w=
+
+Name: org/eclipse/swt/browser/ExternalFactory.class
+SHA-256-Digest: cFDg2fPidCKWjEXixiBaimaFA/cGsnhlHGZym0i0mBs=
+
+Name: org/eclipse/swt/custom/CTabFolder2Listener.class
+SHA-256-Digest: 2AQyHunKEP+yeGGzcZmUWmsvk+p9NjGpF3SGvbL6Xiw=
+
+Name: org/eclipse/swt/accessibility/AccessibleTableEvent.class
+SHA-256-Digest: FcJXJJ993OA4uFOkPKzoVOkUyWCLMkAuMQFGyGYKH1Y=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialogFactory.class
+SHA-256-Digest: tT+JdGrqjcx5SumQlsoTfoZHq2QrwSgCFgk55YBNIGk=
+
+Name: org/eclipse/swt/internal/win32/TEXTMETRIC.class
+SHA-256-Digest: gHQDHGGpMTbmWjmZGOEwtYhYrZp+sZjqO5cBfHybvBQ=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebNavigationInfo.class
+SHA-256-Digest: bG8PUmWKK9qMWDvLrkJrdQKcrjtEjSlqv9UyEUwAK60=
+
+Name: org/eclipse/swt/custom/TreeEditor.class
+SHA-256-Digest: GneNCZrvTuDYV26zgKosJLyxdovzgtJCl4kabJlTMf8=
+
+Name: org/eclipse/swt/internal/ole/win32/LICINFO.class
+SHA-256-Digest: TymeE+4nSCb/ApSO8sT50B+Y6Ht8stK9cE50V5Nwr7c=
+
+Name: org/eclipse/swt/internal/win32/NMTTCUSTOMDRAW.class
+SHA-256-Digest: +f+SjgC7dG72ovS0mmceXp1NkkTlNh3PilOOy6hORF8=
+
+Name: org/eclipse/swt/accessibility/AccessibleTableCellAdapter.class
+SHA-256-Digest: xhrpYZCUHPdgLDDq1nj79Ez+3dGSh4Dp3WLlcYVfB7A=
+
+Name: org/eclipse/swt/custom/ScrolledComposite.class
+SHA-256-Digest: qIh7N7JMFBcSb/WXOj8bybeGecLVsRS2hmmTz1fExc4=
+
+Name: org/eclipse/swt/widgets/Shell.class
+SHA-256-Digest: d2flSvSZ0VMPMdtl6u3Nrq6wX2xhLXgelpY3sk5o3lA=
+
+Name: org/eclipse/swt/custom/TextChangedEvent.class
+SHA-256-Digest: sH1w4gu5G4BA6BAgwkN9KPGB9LVBEUlDHgC9NeuU3MM=
+
+Name: org/eclipse/swt/browser/FilePicker_1_8$2.class
+SHA-256-Digest: tTxwzOq5zg5qgRzUZIAs6oLql7MtD9b9PzmlHenmlCo=
+
+Name: org/eclipse/swt/layout/RowData.class
+SHA-256-Digest: +XgYwOU/QymNfQs2NeqAZOIZGU4N+Y90WDowqqCmnqE=
+
+Name: org/eclipse/swt/graphics/TextLayout$1MetaFileEnumProc.class
+SHA-256-Digest: KGiOVVQTMJL2RVeClwNaK7vn4NfAuGSwL2x7swGPF7c=
+
+Name: org/eclipse/swt/custom/ScrolledComposite$4.class
+SHA-256-Digest: HnnD4QHthnLU9TMftFvqBHkYhHpmC2Njmxa3idEFRZA=
+
+Name: org/eclipse/swt/SWTError.class
+SHA-256-Digest: nWDNxBJrsMfRpWV3F7IRS/jN/fBmK8MOz8EV9pMO6WU=
+
+Name: org/eclipse/swt/internal/webkit/IWebMutableURLRequestPrivate.cla
+ ss
+SHA-256-Digest: 5ThbyBU2wSfKspQHBfvSMPvMFvjt8dBuiPgDcBELFEI=
+
+Name: org/eclipse/swt/accessibility/AccessibleAdapter.class
+SHA-256-Digest: 5Wui99oZ+/IHc5Yyg8C2NkSwHjdLFKTH0RzEsRMiOOY=
+
+Name: org/eclipse/swt/accessibility/AccessibleHyperlinkAdapter.class
+SHA-256-Digest: zrsH18g3YUKPvMerRqm+3EgkjOVkzvZku84Vzq+zy9A=
+
+Name: org/eclipse/swt/events/SelectionListener.class
+SHA-256-Digest: 0n/iUTAYmrZ94aFEjtvObT/kQPCFGBp2L0yAti77bc4=
+
+Name: org/eclipse/swt/internal/win32/MARGINS.class
+SHA-256-Digest: fUMb4AvODTRIYeEeKOMn20YOrCBPARRPAMFgx899rnk=
+
+Name: swt-wgl-win32-4530.dll
+SHA-256-Digest: Db916P6Vlp24+c7U+kwbKQ0NTi7w4xIAct7bHkZGyjg=
+
+Name: org/eclipse/swt/browser/Download_1_8$2.class
+SHA-256-Digest: HdkI18eTsKkRlS7BAXjxVc+95mXS8uvhKeOLGEg7q1E=
+
+Name: org/eclipse/swt/custom/ViewFormLayout.class
+SHA-256-Digest: wa4Nze+DizZV5ZQEXQrbSfpGdzpxjrGIknHfUnjWnss=
+
+Name: org/eclipse/swt/graphics/DPIUtil.class
+SHA-256-Digest: VJw/Xmh3FcPE+XqGR50oFqBQDzZieAb2RJM0MWbPWKE=
+
+Name: org/eclipse/swt/dnd/HTMLTransfer.class
+SHA-256-Digest: VNth+MAkTz8AquC/LeZc9mLjiBNOTQt8LLO3QYa0DL8=
+
+Name: org/eclipse/swt/events/MouseWheelListener.class
+SHA-256-Digest: D8wGXinpHNR2LgMQa8bW3yefxqcc3HVMcf5DakF4iIo=
+
+Name: org/eclipse/swt/widgets/ScrollBar.class
+SHA-256-Digest: 0w4Yv0OtpjuoKRMMSq/+GI4Nz3OyRTEY9Bks6mkbX7s=
+
+Name: org/eclipse/swt/custom/SashForm$1.class
+SHA-256-Digest: sUQsrwnHmJa7b6YjA4RoR5TEygbMCdrOesp4CDnyCHU=
+
+Name: org/eclipse/swt/internal/image/JPEGRestartInterval.class
+SHA-256-Digest: w7+5dvYhscv0FrzJ5Or8fjlrz7ug9DUJjIOE/Hg9zs0=
+
+Name: org/eclipse/swt/custom/CTabFolder$5.class
+SHA-256-Digest: 0kz+wz/vVueKuwoeRFsXQNviGMu5oF1+0OQNdjiQHHw=
+
+Name: org/eclipse/swt/custom/StyledTextContent.class
+SHA-256-Digest: WnSF+IjZXqyPzmgJd0jFUaMyoIiFsjmNdkmjd2WBfIo=
+
+Name: org/eclipse/swt/internal/mozilla/nsIComponentManager.class
+SHA-256-Digest: ZfbAPRZWQg8mjeGGPvvIjvwcTxov7WSweNLsrOIU2B8=
+
+Name: org/eclipse/swt/dnd/DropTarget.class
+SHA-256-Digest: h8h/AcwcZE3BWZ9y2ElIPCaDdDqBGF+kVQSgrlAzPK4=
+
+Name: org/eclipse/swt/widgets/TypedListener.class
+SHA-256-Digest: 2Ej9am8QBZ8AeEfBsr8WZPQ14Jk5gUT0PMAWMnxiUWo=
+
+Name: org/eclipse/swt/internal/win32/NMLVCUSTOMDRAW.class
+SHA-256-Digest: x0MZWk6zxbBANWDNCpXE3UPLwx4QPdnAyoPQvBAsEa8=
+
+Name: org/eclipse/swt/graphics/Cursor.class
+SHA-256-Digest: aoyd43gmt8WgfoE0GfwsGA5VDKaRCamq0uutmfwmfmU=
+
+Name: org/eclipse/swt/widgets/Composite.class
+SHA-256-Digest: DnpBtQ4k8s8O4IsN2tsyhK+uSVKC0zGCumv91XYaWTY=
+
+Name: org/eclipse/swt/custom/ScrolledComposite$2.class
+SHA-256-Digest: tzSKWkOLoF4Sk+BzeAvVjN0zjrN6JnE72o4wRb6vMa8=
+
+Name: org/eclipse/swt/custom/CTabFolder$7.class
+SHA-256-Digest: Kq1ysoAkzWdTKqwLRcgqyXy4HtXKS6pmAOjc75kFsI4=
+
+Name: org/eclipse/swt/widgets/TableItem.class
+SHA-256-Digest: cCVIHFACnoPr85wb+lxhi5Ch6wp8Ai1Ji5wiQAxcRuo=
+
+Name: org/eclipse/swt/events/ShellEvent.class
+SHA-256-Digest: WgUZm3hauWeSBb1HpeHpOIAXEQ47s2hHa1K/i9Z6zOY=
+
+Name: org/eclipse/swt/browser/WebFrameLoadDelegate.class
+SHA-256-Digest: eqrmS3PbKXtU3WSwV41urzDDczB7hyGkpTPyefr27x4=
+
+Name: org/eclipse/swt/browser/External$3.class
+SHA-256-Digest: /U0H9akoMsvd+mUkRxyn1ABXPXW/HxeVMPDfZ845uHo=
+
+Name: org/eclipse/swt/browser/ProgressListener.class
+SHA-256-Digest: ULV3ovDpezIx+7PBgntSjoNU0isMu7TS5v8c59hTbm8=
+
+Name: org/eclipse/swt/graphics/FontMetrics.class
+SHA-256-Digest: jBj2dRm1mZwhQtQ46chhe4/P3PtXPJFJgVgspX9OA5Q=
+
+Name: org/eclipse/swt/accessibility/AccessibleTableListener.class
+SHA-256-Digest: uJY63pKJjxr6JTIAZTF5NBAo0TsurViOAiuE60nnxag=
+
+Name: org/eclipse/swt/events/HelpListener.class
+SHA-256-Digest: XRab9K2pteYcBZ/8PtrpUZEOpCkNs3v4hScAPwT1Dgk=
+
+Name: swt.js
+SHA-256-Digest: NhR46sjMpVsqMpI4bqHFlTlQEA4rdpYP9Ga5xUg0P+8=
+
+Name: org/eclipse/swt/internal/image/WinICOFileFormat.class
+SHA-256-Digest: 9eaSbEz2BX9TB0IpU3SdxHGRfBlP7TMJUdrd3gbj4Dw=
+
+Name: org/eclipse/swt/internal/mozilla/nsIScriptContext.class
+SHA-256-Digest: L88lQl2o8MMnvy2ABmvyvJYU3dQ86AnM1B8QSInF4F8=
+
+Name: org/eclipse/swt/browser/DownloadFactory_1_8.class
+SHA-256-Digest: SM0cWwoY+lqDRImo7m0tmfrAjNkHhXjdGufryUZTe7s=
+
+Name: org/eclipse/swt/awt/SWT_AWT$2$1.class
+SHA-256-Digest: OZC2E9l+r7pF8RvDAzTmiTmXTHkn+zcJVL8RmtyJtH8=
+
+Name: org/eclipse/swt/internal/mozilla/nsISSLStatus.class
+SHA-256-Digest: mySSiBzI0I05OQfmKYWsEtos9xGma3Yg3WeOEOiuQ4w=
+
+Name: org/eclipse/swt/widgets/MenuItem$MenuItemToolTip.class
+SHA-256-Digest: /z1QR6rLMgQOgUYoOVRpj2FoMCmCUhKO5X43dBCkbwA=
+
+Name: org/eclipse/swt/internal/theme/ComboDrawData.class
+SHA-256-Digest: cC5OC7ehp9U7951s9UxcN4XfAy6NHzgub2sMnYcVhrY=
+
+Name: org/eclipse/swt/browser/WebKit$2.class
+SHA-256-Digest: 6qbqGPuIQIwUeyKeh+L94RsF+Act4W35PNAtm5Ly6ds=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite.class
+SHA-256-Digest: 55BMhJey3nItiaMQgVzFvPSwpYVUcb/7cVNvmMog3vs=
+
+Name: org/eclipse/swt/events/TraverseListener.class
+SHA-256-Digest: abTT0DLQZwIgtYcvXzz4D7+9kGOLPi8EcCdyWshA62k=
+
+Name: org/eclipse/swt/internal/win32/MOUSEINPUT.class
+SHA-256-Digest: Y+tsUT6Amgsnr6gnPcwKhOyghujNrYBlH7n2t1zsqb8=
+
+Name: swt-win32-4530.dll
+SHA-256-Digest: l7yZLASOARrivYPSMdE9AAQTtLs+jb9Khnq9CIYUj+c=
+
+Name: org/eclipse/swt/internal/win32/DEVMODE.class
+SHA-256-Digest: IvMkOZaWMkD86DEInbGBLGXvli4ulxJH0PRVW278QHM=
+
+Name: org/eclipse/swt/internal/win32/OUTLINETEXTMETRICA.class
+SHA-256-Digest: 1+c9fUy7s+IuUFNWCh/esQGhcLUMll4f9xNEEHU5chQ=
+
+Name: org/eclipse/swt/internal/mozilla/nsIUploadChannel.class
+SHA-256-Digest: +UXCIoyGLnFX2oaFp24tsSvTqNlQpBapZ+tL3EX0pD4=
+
+Name: org/eclipse/swt/browser/WebKit$5.class
+SHA-256-Digest: XSJENDACZKn693LaRpvAZom1j78OqI0oN+HHa2sg/Z0=
+
+Name: org/eclipse/swt/internal/image/PngDecodingDataStream.class
+SHA-256-Digest: AeCkiBdQON2hVvblZkG6bKx63HXb+VmryGN3llKdxYk=
+
+Name: org/eclipse/swt/internal/theme/ToolBarDrawData.class
+SHA-256-Digest: SIyN3nCRTZSF3gdBzvUpckCebTuyRvbjswzWYiSAoDI=
+
+Name: org/eclipse/swt/internal/win32/NMLVDISPINFO.class
+SHA-256-Digest: ghGESm5pyW7ObnlKSqXreRAEK/7tz0X4pyKqXyPXhN0=
+
+Name: org/eclipse/swt/dnd/RTFTransfer.class
+SHA-256-Digest: qo3iYk3o6KZ1Gcxa48+UWIrBvCXvjn7lkoeHvB4WxOw=
+
+Name: org/eclipse/swt/layout/FillLayout.class
+SHA-256-Digest: Xq0ewsKCcK/7AgTTqMvoVJen28NbTMxdlbUicGWxi34=
+
+Name: org/eclipse/swt/internal/ole/win32/ITypeInfo.class
+SHA-256-Digest: RTPSf+qG7FRz//lTe/raBRy6ijhjPhaxEaaVHYDDBc4=
+
+Name: org/eclipse/swt/accessibility/AccessibleControlListener.class
+SHA-256-Digest: 2dqqG/4MXii/mnia7zJbyszuHSGSfBsglTsYJmiufjU=
+
+Name: org/eclipse/swt/dnd/TreeDragSourceEffect.class
+SHA-256-Digest: xCId4OcGfnXjsJZnkMELayvGB7/tLzWVYuYu16609C0=
+
+Name: org/eclipse/swt/internal/win32/CHOOSEFONT.class
+SHA-256-Digest: HGHpONo6McPtKbkoAMYY4t3E/aouS7/1haEiZQDely4=
+
+Name: org/eclipse/swt/internal/win32/WINDOWPLACEMENT.class
+SHA-256-Digest: M1tO+ziVmXgxopBYG3JN9EYDSaouJQQ6n/b6IiNIOO8=
+
+Name: org/eclipse/swt/internal/win32/LOGBRUSH.class
+SHA-256-Digest: YaCQaT7hDhINPz+/RE015iEqamkm9ZFMjHUlqmquQH8=
+
+Name: org/eclipse/swt/internal/theme/TabItemDrawData.class
+SHA-256-Digest: 0FPOyd7Rq0xwfEEgZmWJi3ClJHAcot6Q55nQAz/ld+k=
+
+Name: org/eclipse/swt/internal/SWTMessages.properties
+SHA-256-Digest: KgeGv9af4sMm1UuCNAUIao0ecw1dlSl4XU8p8BWCWn4=
+
+Name: org/eclipse/swt/internal/win32/DROPFILES.class
+SHA-256-Digest: 41pdsDOQ8+T+UG6tuMpdWGmziHk1xWv7MC0hNFzHXss=
+
+Name: org/eclipse/swt/browser/WebKit$3.class
+SHA-256-Digest: 8rPW+E6DZmTLqEz1kkmBcZSe/4Wy/WCnOvOKaWbCuFI=
+
+Name: org/eclipse/swt/browser/External$1.class
+SHA-256-Digest: RUDiBtJQu+9yI1vOS6aVcE3xv73sd+P2q6o3NolP8Hw=
+
+Name: org/eclipse/swt/custom/CTabFolder$9.class
+SHA-256-Digest: +P29orm0PGznyLhL4MOJvR6UbUNoJivCbepi1L+BYho=
+
+Name: org/eclipse/swt/internal/mozilla/nsIComponentRegistrar.class
+SHA-256-Digest: mSRKvHO1XqWdLrhGq2cfeRxJVRxuXI581H1gP6RdsBw=
+
+Name: org/eclipse/swt/custom/TableTreeEditor.class
+SHA-256-Digest: Rn+/n9BXr/cFiP4YUITgsBzKVplVQzi3A5i7N3s8/Qo=
+
+Name: org/eclipse/swt/custom/ScrolledComposite$1.class
+SHA-256-Digest: KXsCl3NcFj+ldY9b3Yap262JnPP8YX69T5j+ZaJ2Nq4=
+
+Name: org/eclipse/swt/internal/theme/ProgressBarDrawData.class
+SHA-256-Digest: mcD+kDnjDqrf5ouN6eEQiLjYDKgbt4P9ohALoFrclb0=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleControl.class
+SHA-256-Digest: vBKuuF9QPocoDfFdd2n9T4nrMP7ygSiKhgRxoUH9OF8=
+
+Name: org/eclipse/swt/printing/PrintDialog.class
+SHA-256-Digest: iiCVBEOlgWzVbrVF78lmzZprfs8l9/w64CD3MDPA8tQ=
+
+Name: org/eclipse/swt/internal/ole/win32/VARIANT.class
+SHA-256-Digest: nabuC8t39RBdNUm+5+8v0zI4iP00Hr+OVrj6HrxdDLc=
+
+Name: org/eclipse/swt/internal/mozilla/nsIFilePicker.class
+SHA-256-Digest: vhD/Wka7adBNXbndYluoSI5aaJdzEQyjs1hVJuHUxsw=
+
+Name: org/eclipse/swt/browser/WebResourceLoadDelegate.class
+SHA-256-Digest: etjhU4youBzHXsnjFsbmO1mGskm8WL1LyDUTkWVM6/c=
+
+Name: org/eclipse/swt/graphics/Color.class
+SHA-256-Digest: 5o/ykaxwm9fr4xAa7EOzVQao3E+LsSneQfYPfqAQlqo=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_ITEM.class
+SHA-256-Digest: rpn25S5S8n/Y/R1IgIOCTrVfbff0vgA+wnsdNdDJ3Vk=
+
+Name: org/eclipse/swt/internal/win32/STARTUPINFO.class
+SHA-256-Digest: 1goKuE1z9bcz/UAEJzfBp/2y7V6uv4ja+QN6poHy2RY=
+
+Name: org/eclipse/swt/ole/win32/OleEventTable.class
+SHA-256-Digest: liOx6rHYt4GdFtQ7Thx6u/JJOz9bpTVdnz7Vb+69pC8=
+
+Name: org/eclipse/swt/internal/image/PngIdatChunk.class
+SHA-256-Digest: 1IL9P7NyGV9+jMKsMaAm7xdca4+jqfUmK8570UpvyY4=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebBrowserSetup.class
+SHA-256-Digest: DkYepPCltDEUkxDPRoIJAZw+EW+lb8v4MPH6QEHeAio=
+
+Name: org/eclipse/swt/custom/TableCursor.class
+SHA-256-Digest: cxAcUyExNqb2OwY/oUCLGot8+2ssq4R5cFoWF5EjOQk=
+
+Name: org/eclipse/swt/internal/ole/win32/STATSTG.class
+SHA-256-Digest: 6zCHd3eKzqYlU66C9XGbpe7Cb7s/pglaaK2gWwI6GKI=
+
+Name: org/eclipse/swt/internal/win32/PAINTSTRUCT.class
+SHA-256-Digest: 6IX+PPNjASrloyaraNvGbWsQ8MdpEbIizTAqJF+F/ik=
+
+Name: org/eclipse/swt/custom/CTabFolder$8.class
+SHA-256-Digest: z58HT/7enEgV9G1hNwgVhpIvGaavnJiEGhd2UqwdzHo=
+
+Name: org/eclipse/swt/events/TypedEvent.class
+SHA-256-Digest: 9NSzanlZkJJrndszd1cP8er2eff657EyRD+1kfbBP/c=
+
+Name: org/eclipse/swt/internal/win32/DIBSECTION.class
+SHA-256-Digest: N5OVNtwRKT2n+pLpXnPuhOkoc72j1uTYocnDGBBIZK8=
+
+Name: org/eclipse/swt/internal/win32/BROWSEINFO.class
+SHA-256-Digest: FjtzvydlnLfp3448zmAj3bzyWznZrRrh1Jfbimx5HkE=
+
+Name: org/eclipse/swt/internal/win32/TVINSERTSTRUCT.class
+SHA-256-Digest: UTLu6UqvrlZZkzCZm9rtiGIw/v1b2n36O9TDpZWT7FY=
+
+Name: org/eclipse/swt/internal/webkit/IWebMutableURLRequest.class
+SHA-256-Digest: ZokkeW7QGJMaFCukzw+142mX+z+nEvQuu1nzEFMEnzU=
+
+Name: org/eclipse/swt/events/SelectionEvent.class
+SHA-256-Digest: qdD2KlxZlOLB+kq+AOJgud3cCOG8ZoDl4Gsg4gg78Uk=
+
+Name: org/eclipse/swt/internal/mozilla/nsIPrompt.class
+SHA-256-Digest: WOm4pdBjC2F9cilL9dp3MKYhwCy1VxwMpQSUR4yE+QM=
+
+Name: org/eclipse/swt/ole/win32/OleControlSite.class
+SHA-256-Digest: 8i8FIhiOabjcS0dyT4v0GOELVIFPMQPz9KaGqs0wDIk=
+
+Name: org/eclipse/swt/browser/StatusTextListener.class
+SHA-256-Digest: QKCrPC98e+ScRiJAIuy+eDWXxdoQ3EApayuclBS+GQ8=
+
+Name: org/eclipse/swt/internal/win32/COMBOBOXINFO.class
+SHA-256-Digest: QO4W/F2hT29i2BDmiUBvjcnBMo6Xhx1Ylx6FEdM65Ak=
+
+Name: org/eclipse/swt/custom/CTabFolderLayout.class
+SHA-256-Digest: 7avzelnILZGmdTxN5kUNsxBwc6r3AO931idD6ytpAtw=
+
+Name: org/eclipse/swt/internal/mozilla/nsIObserverService.class
+SHA-256-Digest: RKGzQdhTyhG5uonp+AvHKu9PvwbX+2Q6BtKtqp1kPjY=
+
+Name: org/eclipse/swt/widgets/ToolItem.class
+SHA-256-Digest: rCfXoR9b2NKzMRSAnL32h6tCdtiXrleZkprhto1q5Qc=
+
+Name: org/eclipse/swt/browser/MozillaDelegate$2.class
+SHA-256-Digest: OXxQneyP2gQ0IgdLIFuS6Q4fxvDPhSzEKZFCpv4RGvM=
+
+Name: org/eclipse/swt/internal/image/TIFFDirectory.class
+SHA-256-Digest: MMNLj4PU7T+dWJznriZ1t6O1sWI19ATABo0ZPYg6BuU=
+
+Name: org/eclipse/swt/internal/win32/GRADIENT_RECT.class
+SHA-256-Digest: oiTnXOF95ZwZII+v5q7qfirFs5kKdmgz9sl6flSEdtA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebProgressListener.class
+SHA-256-Digest: VX1XS15rfll16v5LBw4/JkYI/ZOKmayB2gMcVF0UK9E=
+
+Name: org/eclipse/swt/browser/WebDownloadDelegate$1.class
+SHA-256-Digest: Zn5RZIf+a3Z32ue3ILs5f8l9m+icY2l62KAHY8dqhZA=
+
+Name: org/eclipse/swt/internal/image/PngChunkReader.class
+SHA-256-Digest: kUNSt5ey1QhLAxJy1MpG3vHYyd8Y38JY2Hg5/sAsww0=
+
+Name: org/eclipse/swt/graphics/GC.class
+SHA-256-Digest: 38ulOYEdFYi+InXZj2z0vmWvTSmGcpS2BvlqZbzFn3Q=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog_1_9$2.class
+SHA-256-Digest: tTA5aWTJ4ZsMsViLHiipp9UQaJTdOe3XfC4LV1aUn90=
+
+Name: org/eclipse/swt/internal/ole/win32/COSERVERINFO.class
+SHA-256-Digest: tStLaShlfJ30IjngijobvaaIITFE16uBt1pLvI0BSxE=
+
+Name: org/eclipse/swt/internal/win32/SHFILEINFO.class
+SHA-256-Digest: W2aEtTJMZblzic2Wy5cKz3PAQB9MCqrauqglrCw+q3E=
+
+Name: org/eclipse/swt/custom/CTabFolderRenderer.class
+SHA-256-Digest: SNQ2jRhDn7lNBTPba2aQl17QVxKIiEl/el/7227CkIQ=
+
+Name: org/eclipse/swt/custom/TreeCursor$9.class
+SHA-256-Digest: o5UXXqnYYA3w57en1Cdz5Zt9JKpESaVVcDYNkzzP+Gs=
+
+Name: org/eclipse/swt/internal/win32/TBBUTTON.class
+SHA-256-Digest: KPoQHSk0JWC4PtC385wkPCeLmgCgWOTztjRg/Py9SOs=
+
+Name: org/eclipse/swt/widgets/DirectoryDialog.class
+SHA-256-Digest: kRurmfOfJgqBpKihHjCb/5dnmbu/tbdKvXPcHlRxC04=
+
+Name: org/eclipse/swt/internal/win32/LOGFONTW.class
+SHA-256-Digest: aguDOQ2l1oDAqHQtdRELBMLf6BoCdSmdj59/GGgoY48=
+
+Name: org/eclipse/swt/widgets/MessageBox.class
+SHA-256-Digest: JzF1HdOUy98vHY7fSxbhYxulU4tMUIWA0FduvhMCtbg=
+
+Name: org/eclipse/swt/browser/Download_1_8$4.class
+SHA-256-Digest: DYEtC8lV9IMQcDC1GrNEkvJDVlsvm1pbFe/yAqR1SaI=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleObject.class
+SHA-256-Digest: Knio4ObBVkuUgwz7dTZ6GfIo6pBs6/xwTyDUK4kYIo4=
+
+Name: org/eclipse/swt/accessibility/Accessible$8.class
+SHA-256-Digest: rK91D/8+2jjwAS9anPAfwQf43VKa0/A79EnEtXsxJAo=
+
+Name: org/eclipse/swt/browser/External$5.class
+SHA-256-Digest: 7KMNb50jsTxFRcmfjjDWqTX6ZVIGQhcPlDzNzg/eP3E=
+
+Name: org/eclipse/swt/browser/PromptService2Factory$2.class
+SHA-256-Digest: zdB+x0ycSM/6Uk1vp4fVCTxBGQUepXZGW6c6wetA/Ws=
+
+Name: org/eclipse/swt/custom/TreeEditor$1.class
+SHA-256-Digest: Yi1IA+obWU0wNFKrilBuzQJYovVmb4QUnHFmx/J8wBQ=
+
+Name: org/eclipse/swt/internal/image/PngLzBlockReader.class
+SHA-256-Digest: YfDTOsUlsOUZJGq9mQm18dP91GQw+ywnsOS70h4GUG4=
+
+Name: org/eclipse/swt/browser/AuthenticationListener.class
+SHA-256-Digest: rF7b5HZLVHRf0MOpBe6vDxm5oNN5ZkKvL+fcSX26l5M=
+
+Name: org/eclipse/swt/custom/TreeCursor.class
+SHA-256-Digest: xKJ3SC2MmEHEdOFCKW4Y0oi6SZ2HZOyxoVV2E+meAgI=
+
+Name: org/eclipse/swt/internal/win32/HDITEM.class
+SHA-256-Digest: 4D2aiQQjvZlGAT7zItBxIWPoJXd9gOJJhjXiP1Krm6I=
+
+Name: org/eclipse/swt/events/KeyEvent.class
+SHA-256-Digest: REeBKL5TsZezMi41QlNy1RfSJz1w4oDv/lRaUzNg6Cc=
+
+Name: org/eclipse/swt/internal/mozilla/nsEmbedString.class
+SHA-256-Digest: qXeGCM5OK93vyl3aAtwGypq/FaMt2CAKhsB8z3Jy0X4=
+
+Name: org/eclipse/swt/internal/image/PngFileReadState.class
+SHA-256-Digest: MCUcjsRcL1pWe777il3BCLRxppPgcWmrgCorTTgkY5o=
+
+Name: org/eclipse/swt/internal/win32/SHDRAGIMAGE.class
+SHA-256-Digest: Ul816LsopdMf5hkPfW4Cj0MOS1IIBab9JxYqbTrz3sg=
+
+Name: org/eclipse/swt/internal/win32/DRAWITEMSTRUCT.class
+SHA-256-Digest: TNtdQ7VpIHzKT0EkJrAfGqSRRlHUYFGylnfVuAkNBa0=
+
+Name: org/eclipse/swt/custom/StyledText$1.class
+SHA-256-Digest: N4Zg0FD4bkXa9Hpd5hPHloLwuqitLBzlD//fNa9py8Q=
+
+Name: org/eclipse/swt/widgets/ToolTip.class
+SHA-256-Digest: xPq6e6pvtSIY7xSQEHONq+FCIBp1SaOtLCHo5jybBiE=
+
+Name: org/eclipse/swt/graphics/RGB.class
+SHA-256-Digest: kLVoPCCgrzfqNap+/PA2QWfbDgbvSi5xQJ0uv5dmRKg=
+
+Name: org/eclipse/swt/custom/TableEditor$1.class
+SHA-256-Digest: 3m1eKu+Yw+Hqp1VEWeaetKJSOtte8rJLMufJuNnFXp0=
+
+Name: org/eclipse/swt/internal/image/TIFFFileFormat.class
+SHA-256-Digest: +9rcsLPYm1lqUhvdmCCcZ4cwCys7OGyLvObXFpBy18Q=
+
+Name: org/eclipse/swt/custom/AnimatedProgress$1.class
+SHA-256-Digest: U7TAgnfq8Qoeq+5XD5zth2OFsGV8LFCP6Wkfe1j7RdA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIXPCSecurityManager.class
+SHA-256-Digest: U7j56ope6N6Ir7f32nV/5vx3ugBZHnaZtTefhZ37MTk=
+
+Name: org/eclipse/swt/accessibility/AccessibleTextListener.class
+SHA-256-Digest: ibJMvWaXNinkuDPh34LeihK3HrnvtVeOpHq4zV2rD60=
+
+Name: org/eclipse/swt/custom/Bullet.class
+SHA-256-Digest: G8clpKgzmAtYVJaXp2B2Nkv/HxEJJ69XukaeIhoHN/Q=
+
+Name: org/eclipse/swt/internal/ole/win32/IDataObject.class
+SHA-256-Digest: mmYAqZwI6BhMaVfOSgZiH8OCjXi3ESJxOrySLtLztm4=
+
+Name: org/eclipse/swt/ole/win32/OleFrame$5.class
+SHA-256-Digest: X93ep8oBH5qyo5OktT8tsgnCcFSl+TjkdnnC9TwhTy0=
+
+Name: org/eclipse/swt/internal/mozilla/nsIX509CertValidity.class
+SHA-256-Digest: N/sCSSSLeKDLhWSfUiyYzUVlMsJ0sJD1y5flnfHmjDI=
+
+Name: org/eclipse/swt/browser/WebFrameLoadDelegate$1.class
+SHA-256-Digest: FY/D30t0x6Fgbg9fdyM1yVKaTbFYtRYc5b1mr9cyiIo=
+
+Name: org/eclipse/swt/internal/Callback.class
+SHA-256-Digest: rEc7M1PGoOrkI5HzhRg7jK9WjxZR+gfd738vhfw7Bko=
+
+Name: org/eclipse/swt/internal/ole/win32/IProvideClassInfo2.class
+SHA-256-Digest: 28syVZw6FF4nvOzhRe8G/0qqVBb2hIWKkv1bxaOSSJY=
+
+Name: org/eclipse/swt/widgets/Text.class
+SHA-256-Digest: g84J/L5RrBInmdnU1it0txRDwMDq2ZHhS38fBuM0u2c=
+
+Name: org/eclipse/swt/ole/win32/OleEvent.class
+SHA-256-Digest: qccAGV+QigyMNx7SqADzMx8YYaRewwinIckd7ybTFLo=
+
+Name: org/eclipse/swt/dnd/DragSourceEvent.class
+SHA-256-Digest: 9U1HE3nsyvGxiFBW9V/rmVhAqV+OnAWu31nC5Ix+UZQ=
+
+Name: org/eclipse/swt/custom/MovementListener.class
+SHA-256-Digest: c6kjibU1o7U9jgHcKRz4KJzCqGhZ5WoW3x1tFMrilm8=
+
+Name: org/eclipse/swt/ole/win32/OleControlSite$1.class
+SHA-256-Digest: l63O+uqF8sMwEidfpPMZVYx/W3cG2UuQRTcLZ8mnvMw=
+
+Name: org/eclipse/swt/events/SegmentListener.class
+SHA-256-Digest: F8ssU2quLX6ps7IZANYrV0Fk2T0ZwEfigdHKGsaWiLg=
+
+Name: org/eclipse/swt/internal/theme/RangeDrawData.class
+SHA-256-Digest: 57a1gmXevsU2/BbVEP4feCmQehi5bUQLbhCi9ZES3Ug=
+
+Name: org/eclipse/swt/dnd/DropTarget$2.class
+SHA-256-Digest: NcDIISRwYSl05dgd7/sa4vJbZPC1CqJKrEzKY+frl78=
+
+Name: org/eclipse/swt/opengl/GLCanvas.class
+SHA-256-Digest: Mc1ss9OIub9PkZA2jYtWH+vNprQGOFgLP0fikQlrHTk=
+
+Name: org/eclipse/swt/internal/mozilla/nsICookieService.class
+SHA-256-Digest: nmpioK8ngTXXwcqGJ5OEaDHrLN/Uj1ZQqJGQI9OMLqI=
+
+Name: org/eclipse/swt/widgets/FileDialog.class
+SHA-256-Digest: kDhGYV0frdjXPE1oSU5iLwzb1nra3lht7vukVeLqYb4=
+
+Name: org/eclipse/swt/accessibility/Accessible$3.class
+SHA-256-Digest: vCbbHVBXdOoKxfbikzxPjRr3+nAcZFKI/ZqurRJtIWU=
+
+Name: org/eclipse/swt/internal/mozilla/nsIIOService.class
+SHA-256-Digest: haY4lKpUdFg7I1vbHFxU2EX0kyhnqlO5g1JGkCOEMBI=
+
+Name: org/eclipse/swt/browser/PromptService2.class
+SHA-256-Digest: l3MwyLC0b/yf2NiofC7/NqPBY0jHeJuMEVyUxE2R1Uo=
+
+Name: org/eclipse/swt/custom/ExtendedModifyListener.class
+SHA-256-Digest: tKB9C5onOAlJJOCSsEa5E71hSEOIIMnw1QBtzboQy6I=
+
+Name: org/eclipse/swt/events/MouseTrackListener.class
+SHA-256-Digest: yCK66dpdaoINP5HUdugfQQLzqymTX0LsVG2TThehS1M=
+
+Name: org/eclipse/swt/internal/mozilla/nsIInterfaceInfoManager.class
+SHA-256-Digest: Lnr2qQ0TgfFXt4QirNms+6QH6taOJf9/jW/vsZN9OJ0=
+
+Name: org/eclipse/swt/accessibility/AccessibleListener.class
+SHA-256-Digest: x3QAcXD/Ag8bPXIpDbHxljs8Qq6TXy+kwLRjZdKj+SU=
+
+Name: org/eclipse/swt/internal/win32/CRYPT_BIT_BLOB.class
+SHA-256-Digest: +69a2E1UKChVWabKRr8GDZ4z1UMGe9tiltZNZx6HICM=
+
+Name: org/eclipse/swt/internal/win32/SAFEARRAYBOUND.class
+SHA-256-Digest: /67yqOBNRCRO38prvIyizsXKSIH/jWSrlZriokFn6X8=
+
+Name: org/eclipse/swt/internal/win32/EMR.class
+SHA-256-Digest: 4BP3t6JeqwrpXuwj/zTRJClIGzop/NmlQt5W7A9ABmc=
+
+Name: org/eclipse/swt/browser/Prompter$1.class
+SHA-256-Digest: /L22r4kz0ewkcmZBFMMsJ+2p6Ep2CbDrgp9xjS/2t0g=
+
+Name: org/eclipse/swt/graphics/TextStyle.class
+SHA-256-Digest: gLbNDEWlXY/HtoQPeELoQNsKlb3uyQb4CPTmsuGSR1s=
+
+Name: org/eclipse/swt/internal/mozilla/nsICategoryManager.class
+SHA-256-Digest: lzMmpk3XmNneJEXtjdJPOtH3fmGRBssMQ73giMer/a4=
+
+Name: org/eclipse/swt/browser/ProgressAdapter.class
+SHA-256-Digest: A/6ps5n93mlSoIoBr4e+oClOB7qFRbuBgHWAtMiUr2k=
+
+Name: org/eclipse/swt/internal/win32/SHELLEXECUTEINFO.class
+SHA-256-Digest: teQANHoIYkNhQO3pU/QGAXinmc6ve4IGAZVjYnrublw=
+
+Name: org/eclipse/swt/graphics/ImageDataProvider.class
+SHA-256-Digest: VE8dkZTyi7Qcbc48K7jUxhdcm1TYAF+Pknuhpsu+Suo=
+
+Name: org/eclipse/swt/events/HelpEvent.class
+SHA-256-Digest: MioSgJQYBgDf4INDu1iP3yAakFI4U14bCADxEbbPM+o=
+
+Name: org/eclipse/swt/widgets/IME.class
+SHA-256-Digest: G7Q6OkXmVYNxMCV8yXDEBattgX+eS84uFgT0dc5J0TE=
+
+Name: org/eclipse/swt/internal/win32/DOCINFO.class
+SHA-256-Digest: 9ml60+rzmo88DlOxh0F/dBAlVIfmZ6d5cdo1nSclWIw=
+
+Name: org/eclipse/swt/internal/mozilla/nsIHelperAppLauncher.class
+SHA-256-Digest: wX9QbGmdVlGfb9yWPIvaluAEG+rgVpHaNwb2Rc30Cq8=
+
+Name: org/eclipse/swt/widgets/Item.class
+SHA-256-Digest: wVV5E/BOTIEJBljEgNg1ZIIlnnBTXD6szggARACV6Pk=
+
+Name: org/eclipse/swt/browser/WindowCreator2.class
+SHA-256-Digest: /zLlGieCOv6eNEt74DVoVDLIrc0EBvd9FSEy2F7eIx8=
+
+Name: org/eclipse/swt/internal/win32/NMTREEVIEW.class
+SHA-256-Digest: L2airUEUHf9Rf+jgEvZobz6q47hKSvDzjuptlApL4yI=
+
+Name: org/eclipse/swt/widgets/Dialog.class
+SHA-256-Digest: v7LP9/hLH3uW12Aa8X+WIUg0TjqsmTV858ClZAwncFc=
+
+Name: org/eclipse/swt/internal/mozilla/nsID.class
+SHA-256-Digest: /KC16BU1w03hmM3EjgSTgSOBNclzUBHXAYs0ZBrk7EQ=
+
+Name: org/eclipse/swt/browser/Mozilla$6.class
+SHA-256-Digest: IKQgKqOtCPTxXIlbSrnYkOLMROO42D0yuH/0Y56dEjw=
+
+Name: org/eclipse/swt/browser/WindowCreator2$2.class
+SHA-256-Digest: tyvGqXuQgmwEH7GvolITZieTurkpQKy1x2VFCF+gbx4=
+
+Name: org/eclipse/swt/graphics/ImageLoaderListener.class
+SHA-256-Digest: 4eWVxFeIX6c4CbivKvjr8MP3cZmIX5j3wAZezebaQB4=
+
+Name: org/eclipse/swt/custom/TableCursor$4.class
+SHA-256-Digest: e+v+OecaLRCYtMAxCj4eSk1J8x1MJllhksZqLleTxD0=
+
+Name: org/eclipse/swt/events/KeyAdapter.class
+SHA-256-Digest: i96GN7GXuDrzoXeCRUIjvx9hbN0Sa1bdZNbMgZlelHo=
+
+Name: org/eclipse/swt/dnd/DND.class
+SHA-256-Digest: ++qS1FKzC1cfdZ3K/FzUrsnxGza8nCwitE2PKmdDS7g=
+
+Name: org/eclipse/swt/browser/InputStream.class
+SHA-256-Digest: gwCk9RxN0H7sVoJHDSqz7booSkFXoSV5jLiZjQ7o5jk=
+
+Name: org/eclipse/swt/widgets/Scale.class
+SHA-256-Digest: 1dQWvzX0UTlucQBPMHVBeJc3LUGzcfYH3lzvhPbGHFM=
+
+Name: org/eclipse/swt/internal/mozilla/nsIMemory.class
+SHA-256-Digest: 6MhH5H0tZgXfNE5aYsAnUG8BKPjBgu1lfVNxgbJHkNQ=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_entropy_decoder.
+ class
+SHA-256-Digest: BOjJLquBvF9kFBvVQhPRIo/UOqSjKnlabTCfDycDoVU=
+
+Name: org/eclipse/swt/events/MouseTrackAdapter.class
+SHA-256-Digest: tW61Oqc9ls1vazdCWIsreNmi0vE+WhGognT9BNm6Ukg=
+
+Name: org/eclipse/swt/internal/win32/LVITEM.class
+SHA-256-Digest: /nGM9y5Czs6Rh15fjs/ynC5lAK4IZOHoNG/1Z2veYeo=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$bitread_working_state
+ .class
+SHA-256-Digest: m7jtr6Y0XPikpPXKAj8aSF3f03hhiyiogb93lUR0vYY=
+
+Name: org/eclipse/swt/internal/ole/win32/IViewObject2.class
+SHA-256-Digest: obna7ffHam1VOn7jGHz4dSRAJvp1L3RpVkblR+uDwUA=
+
+Name: org/eclipse/swt/internal/win32/NMLINK.class
+SHA-256-Digest: 16p/MUj6JftqNzrvbiVzI/C0CBcTLxVwvmiYkTTTyaI=
+
+Name: org/eclipse/swt/browser/WebSite$7.class
+SHA-256-Digest: beuLObDayyZNnHZXlQu2ZihXIT6xKLAQIRY++BGh+0E=
+
+Name: org/eclipse/swt/internal/ole/win32/OLECMD.class
+SHA-256-Digest: W7IgvMaxfqFvAH2kP/PubwhK8HY6pkzLUJFaomzwUp0=
+
+Name: org/eclipse/swt/internal/mozilla/init/GREProperty.class
+SHA-256-Digest: m3XGzw/q6GJJhMBQmeP7kNHqBTH928tOSOckLqAWzxM=
+
+Name: org/eclipse/swt/internal/image/PngDeflater$Code.class
+SHA-256-Digest: e8eF1+AzE6ciAYA67EXmtzPO2gL6EEXXHlLXQ71+o38=
+
+Name: org/eclipse/swt/internal/image/PngHuffmanTables.class
+SHA-256-Digest: pQLPrJ89UtWJuprtswEFURKWUWKvL6NuK2dPW7+43xM=
+
+Name: org/eclipse/swt/internal/win32/PRINTDLG.class
+SHA-256-Digest: GmR72K0CZ0R7J2YK4A+ZUM9EksOzdoqYElP/kJi0SXA=
+
+Name: org/eclipse/swt/layout/FormLayout.class
+SHA-256-Digest: mP9Mtsm4OhoVcWFNzBM+7PEsqBKYENfu50YrEQLYmcM=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_d_coef_controlle
+ r.class
+SHA-256-Digest: Y3YnlealXVPDlpLWf8gdS3eCz3tMrq9xRNd9K3ueov0=
+
+Name: org/eclipse/swt/awt/SWT_AWT$1.class
+SHA-256-Digest: bfXQgqSZccy+6oQUHfDaBCi+hjqR6l7NR2o/aKP3Zug=
+
+Name: org/eclipse/swt/custom/CTabFolder$2.class
+SHA-256-Digest: KTEgBYR3RUzqgifY0CEGy4v2DWx9BSaj/JBld/5jWgI=
+
+Name: org/eclipse/swt/browser/Mozilla$21.class
+SHA-256-Digest: Qmsml5mfXmwfnqETDv6r74Jh8fb2ssds5qf01EDnJX0=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_d_main_controlle
+ r.class
+SHA-256-Digest: H50g4/jkPAlXZ2a9EFy+7Yz+18QFbCuVZ1RTobPdOGQ=
+
+Name: org/eclipse/swt/internal/win32/TOOLINFO.class
+SHA-256-Digest: DRorinVSrVH6Hm/jGzYeqUvLbO3Itd5ZURRaTDf3vCI=
+
+Name: org/eclipse/swt/browser/FilePicker_1_8.class
+SHA-256-Digest: u18wu9P4ORywGB7vAj8HAr2XEPOUZpRlJxtMaWN5HMw=
+
+Name: org/eclipse/swt/browser/IE$5.class
+SHA-256-Digest: GO0LFbbaKWGmeel3iL9RB2s4nihd6dV+/FbtF1xP/sc=
+
+Name: org/eclipse/swt/graphics/GlyphMetrics.class
+SHA-256-Digest: WNpmyXXIA3HBbwET3bGjpBPqbfh+Ay2e2urMYq6gdkY=
+
+Name: org/eclipse/swt/widgets/ExpandItem.class
+SHA-256-Digest: 8GQwj6/mBi/cd050E7xGDYQlMvtY7Zfz0MqJ31Ge+d0=
+
+Name: org/eclipse/swt/internal/ole/win32/FORMATETC.class
+SHA-256-Digest: zeOWE9xvpdKp7tgRQu2OIEV3a44gVmxkdJtfkEQHS+w=
+
+Name: about_files/IJG_README
+SHA-256-Digest: E5A0xJqKi5eY7vxgZnGn9JMOvAiHE68oOHzVyklGh90=
+
+Name: org/eclipse/swt/browser/Mozilla$17.class
+SHA-256-Digest: ZVJhXb7SNLKlnynzvFDHFHGob5WXC+4EHKCBz3X1FPc=
+
+Name: org/eclipse/swt/browser/PromptDialog$5.class
+SHA-256-Digest: RXpoyaks+p0rHQBNY7BXT8a4Mv84i/NeRrPsNVMDj1w=
+
+Name: org/eclipse/swt/custom/CCombo$1.class
+SHA-256-Digest: GgdevUE0+kgUAJSGtUNbreqHKgDzvsZlbYmasHE8BVs=
+
+Name: swt.xpt
+SHA-256-Digest: 6tKD27JEYVSXz166/nY4DDUK1+ngTysOspkI8BeRwBA=
+
+Name: org/eclipse/swt/custom/TableTree.class
+SHA-256-Digest: MJNUka8s3f+qF5epaBA7/gEKkSQN1LeBPaVbKvdiW4w=
+
+Name: org/eclipse/swt/browser/PromptAuth2$2.class
+SHA-256-Digest: FvckQKmKQ9dlNwerPFoDiGkL+nV1Byhv4q5EfUIpg1E=
+
+Name: org/eclipse/swt/internal/win32/HDHITTESTINFO.class
+SHA-256-Digest: NlPB4cIgYNGzuEKQBNL3xNqeraewDG7Ik8T2iY8beo0=
+
+Name: org/eclipse/swt/dnd/DragSource.class
+SHA-256-Digest: b/d7Ov97R/VqYmfgPlvngI56UfQwsJfLXB+FcTNhtKM=
+
+Name: org/eclipse/swt/accessibility/AccessibleEditableTextEvent.class
+SHA-256-Digest: zGV1XBTZiD8klKG8rQDCuY4KlOYs8egU82loA/seaAU=
+
+Name: org/eclipse/swt/internal/ole/win32/IConnectionPointContainer.cla
+ ss
+SHA-256-Digest: 4RhODKIcSdrwBL/BJV4nVDgURGMdbx9rXBh6Mrr9VU0=
+
+Name: org/eclipse/swt/internal/win32/OSVERSIONINFO.class
+SHA-256-Digest: +GbdzJfUuwXFVJn5TyceNc6XRoRitF4BgPXQ6JItWh0=
+
+Name: org/eclipse/swt/internal/mozilla/nsIPrefService.class
+SHA-256-Digest: /VPpVFPc7Yasj3sYXxv/IMnT2AtqpebdNGZcQjwMEwM=
+
+Name: org/eclipse/swt/internal/win32/ACCEL.class
+SHA-256-Digest: Ib0XzrmkuTG+sDRNbMPxHwAkl5RALbhZBwjcsSitvAs=
+
+Name: org/eclipse/swt/widgets/TaskItem.class
+SHA-256-Digest: OF2GOyTN2g3ADUC0a9V6CiRmcy9nO3A3yxITEpQ0L3U=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$savable_state.class
+SHA-256-Digest: QrV+dKRPtyLfjLwCURG2SKuvAbyvEoER35r5VZgD+Qo=
+
+Name: org/eclipse/swt/browser/SimpleEnumerator.class
+SHA-256-Digest: YhzkNConaGp4WRQEv+u+pn833s12VrYf8/UV174Zrl0=
+
+Name: org/eclipse/swt/layout/GridLayout.class
+SHA-256-Digest: agS4MHlUNjd/9q3HnFzlr7V7b8KK53n4gIug8me5itQ=
+
+Name: org/eclipse/swt/dnd/DragSource$1.class
+SHA-256-Digest: +B7/8WVRixUeFDpYJBLkKRYgyqJMDq54eWS7z3NSdcU=
+
+Name: org/eclipse/swt/internal/image/JPEGQuantizationTable.class
+SHA-256-Digest: 3FnFOrhLxbTBIg+UqBRYWCzFpvW2sAQVcjmwlTcgQIU=
+
+Name: org/eclipse/swt/internal/image/JPEGComment.class
+SHA-256-Digest: JpaDR24clAEeM7bba1NFGXQ2c5OKxRy2/5Ek+wR7iGE=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_decomp_master.cl
+ ass
+SHA-256-Digest: WBi2alUGz9/nkyuekpm1WZMubH0Dl2IDp3EURTysKnI=
+
+Name: org/eclipse/swt/custom/CCombo$2.class
+SHA-256-Digest: 3r2XUPOV/jh3jMkz0t8TMFGamOosZn7cgm+dl6JnwV4=
+
+Name: org/eclipse/swt/browser/Mozilla$26.class
+SHA-256-Digest: r7QrR+anCY0N371h83V/dQ5h002g0e7ska8060Ngp3c=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleDocumentView.class
+SHA-256-Digest: XZAL2bt6lXko1bn7+tXxxe2WNtlR24LLFZlD77APC5I=
+
+Name: org/eclipse/swt/graphics/TextLayout.class
+SHA-256-Digest: SNTxqhDs4SMDclFDZbGqzIIgLw/KssEmgCLA6RTCtIk=
+
+Name: org/eclipse/swt/browser/FilePicker$2.class
+SHA-256-Digest: nvYRb2nIPgnITkXR63qoGJkh33xq0ffnD04iMhFK6jg=
+
+Name: org/eclipse/swt/dnd/DragSourceEffect.class
+SHA-256-Digest: hPrGY37WDDD4vhEZOnVL71UJoEkwZXLIB1lUtGbK1W4=
+
+Name: org/eclipse/swt/ole/win32/OleParameterDescription.class
+SHA-256-Digest: UliMygifX98VoguJle9zmdLv/AEPfM2G5VDj/sIVOoI=
+
+Name: org/eclipse/swt/widgets/TreeColumn.class
+SHA-256-Digest: PzCFKYnxNPyY53BrdPpd0f+4xA3Qk1gq3kbwE6JHqbg=
+
+Name: org/eclipse/swt/custom/LineStyleEvent.class
+SHA-256-Digest: 7oKhvXUTHHcHz8039RFrhxppLPq1Tw5fYHBaPJlOJEo=
+
+Name: org/eclipse/swt/widgets/Link.class
+SHA-256-Digest: /Ffmk5JKRrdnqWt1pc/fFiKpPP5B/cnOXT3lZsjoWvI=
+
+Name: org/eclipse/swt/internal/ole/win32/IOleInPlaceActiveObject.class
+SHA-256-Digest: RotR6kUUO7sFdIcagngEs5q4LWoMFH4YL+uzG1QSayY=
+
+Name: org/eclipse/swt/dnd/DropTargetAdapter.class
+SHA-256-Digest: BreBBut6Rn6L9jE/LI5b+zepphA2dqFQ+wMVE9eZZnU=
+
+Name: org/eclipse/swt/internal/mozilla/Execute.class
+SHA-256-Digest: rpfi33WmrGoIWsIDXQIht5rUtpTcqwVZmnhP94d604M=
+
+Name: org/eclipse/swt/printing/PrinterData.class
+SHA-256-Digest: gs1Ts08J5/5qO06pNZ1D1Fnm9m9aD2ffMUhWq9ZCHy8=
+
+Name: org/eclipse/swt/browser/Mozilla$5.class
+SHA-256-Digest: tSlnCyhUgGUavqgeOMqvOj0m64l1B7C8LmhfyNwTsUc=
+
+Name: org/eclipse/swt/internal/theme/Theme.class
+SHA-256-Digest: entEvtpmXj7qrOIsP3Gp22JYM0JtJcS6lmgF+FKgZ7k=
+
+Name: org/eclipse/swt/accessibility/AccessibleAttributeEvent.class
+SHA-256-Digest: MIpD8xlDqXP4HaxtHLwJxWPegGBPylMYDARBvYHrRXk=
+
+Name: org/eclipse/swt/custom/StyledTextDropTargetEffect$1.class
+SHA-256-Digest: YYtCMq45Di5IrvGNDHD34w0dTMmZKV4ofAEas2SceEo=
+
+Name: org/eclipse/swt/custom/CTabItem.class
+SHA-256-Digest: KoFUJfqHziJnZ7oXibYm9sFoSCstxz8kANC5YW6SKHQ=
+
+Name: org/eclipse/swt/accessibility/Accessible$10.class
+SHA-256-Digest: TbUdVFSKmSH5TDIKi5GLQcO3XV3UPARm2fjVH/HX/fM=
+
+Name: org/eclipse/swt/browser/Download$4.class
+SHA-256-Digest: QuK/gaB2OjYYe390Qw/xvgILQI4rb8d4V92S8HZyw6s=
+
+Name: org/eclipse/swt/internal/win32/DOCHOSTUIINFO.class
+SHA-256-Digest: RJmAlwqhSv//qdm2lGruHgLfrbUl0FC6Quw85dYCn1Y=
+
+Name: org/eclipse/swt/browser/Prompter$2.class
+SHA-256-Digest: lbHK1G+0wVS0g0rXOVua8XRcHy1zNyVtTdZyODEq0MU=
+
+Name: org/eclipse/swt/events/DragDetectEvent.class
+SHA-256-Digest: TfFULaqnlS+3r9Eti1GJacFkUP0LxuhyYwZUhUwsdJQ=
+
+Name: org/eclipse/swt/SWTException.class
+SHA-256-Digest: c0weNu8vhLgUC0Nl1uQadGz6LZaHvcuRK9KjHgeFxW0=
+
+Name: org/eclipse/swt/internal/webkit/IWebURLRequest.class
+SHA-256-Digest: SzA7CbEHMdV9L/AWfgzmgcQJ1vA+oLgTPFj7m5sL9oY=
+
+Name: org/eclipse/swt/events/SelectionAdapter.class
+SHA-256-Digest: fCb5ihD5Zrf/EPUxTnwNNXBJwO/cgT6gpFU3Ow7vydQ=
+
+Name: org/eclipse/swt/widgets/MenuItem.class
+SHA-256-Digest: Du239V2oZavLlKkwr4GfYy19xjD3LUVYoxV/ClxJUts=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite$5.class
+SHA-256-Digest: gfxIhl0OkwTLsN4DbQaT27ZrPh794Ly+gBBj4PP75Lc=
+
+Name: org/eclipse/swt/graphics/Path.class
+SHA-256-Digest: e5OC6JpR4rVrYhQB108J6hZMarrL9cL0YZHXaWd/NUw=
+
+Name: org/eclipse/swt/browser/WebPolicyDelegate$1.class
+SHA-256-Digest: 2NVUpHWUZXmstjQJVeLRajRK1/A8Ev5IinhFsKykwXg=
+
+Name: org/eclipse/swt/internal/win32/EXTLOGFONTW.class
+SHA-256-Digest: tLghULJhNcnwtGIDYP3R/wHu0mnijX9b2F04xuOMqI0=
+
+Name: org/eclipse/swt/internal/win32/OSVERSIONINFOEXW.class
+SHA-256-Digest: kOfj/pJ1uwBXp/R/v3kKWqdhTbgHkzlFNjTB+L7es3E=
+
+Name: org/eclipse/swt/custom/CBannerLayout.class
+SHA-256-Digest: oaY/3i0atPdydp61W3MDmG2kuYJqMuOWPoIqtxtnUwQ=
+
+Name: org/eclipse/swt/browser/WindowCreator2$3.class
+SHA-256-Digest: UL++SeuH4kcq8T4h6ASvux8fb+xGJsvcIaxR0eZKNXQ=
+
+Name: org/eclipse/swt/browser/Download$3.class
+SHA-256-Digest: Maxut/0z+0qqrpnA+A73T4hAHxy2JxV3Y+Ev21EQxbE=
+
+Name: org/eclipse/swt/internal/win32/NMREBARCHEVRON.class
+SHA-256-Digest: FHIjcycKQZ1h25mK4RRsKwRrVriah6xvSTn0GUIiY3s=
+
+Name: org/eclipse/swt/accessibility/AccessibleTableCellListener.class
+SHA-256-Digest: PuXQiVrkTGSzbOl6RnYKJAX5z5jOWXxIKsXx1IMC2So=
+
+Name: org/eclipse/swt/browser/PromptDialog$4.class
+SHA-256-Digest: tBHaCruFGT7QjQI4//ZMD0Lh20C2u58Wuwg1rJBL9M4=
+
+Name: org/eclipse/swt/events/MenuAdapter.class
+SHA-256-Digest: yRgp4W8Aoo6v7JW8w3eS8HbafYLlq65gPKqlNtSlUEk=
+
+Name: org/eclipse/swt/internal/win32/ICONINFO.class
+SHA-256-Digest: /jSCNnu2soqX20C+oK55LF064To6rGZcdA3ZUwh/Fo8=
+
+Name: org/eclipse/swt/ole/win32/OleEventSink.class
+SHA-256-Digest: kqXT9LzfZId7QDv3QfnRo4IuANC5KUya9kZZheFkNNw=
+
+Name: org/eclipse/swt/internal/win32/MONITORINFO.class
+SHA-256-Digest: Pn3LkTUB2fCDLe7wfjJTlmFiL4RkFa8ozz0QY8WO66g=
+
+Name: org/eclipse/swt/internal/ole/win32/IUnknown.class
+SHA-256-Digest: +uYfsvsHWRBv+zaygO4fWl9pVVLcGgHoNQpFh6710t4=
+
+Name: org/eclipse/swt/browser/ProgressEvent.class
+SHA-256-Digest: 41idvX2zqyxQ+MDah06tNqNN+/FwbK37EghYvdKou1Y=
+
+Name: org/eclipse/swt/awt/SWT_AWT$5.class
+SHA-256-Digest: AG8iufUMZlDiZ7aNYq+NjRhvMCci8+Ve54zf4SDE1D8=
+
+Name: org/eclipse/swt/browser/WebUIDelegate.class
+SHA-256-Digest: UQRknTMxFelJH0K26LxKGIVm7YiTOtfNSRDLs6vLNPs=
+
+Name: version.txt
+SHA-256-Digest: Vu1EX5TfW+qSVrEjWLpd7keJfpFma88n/2GUq0KH8kg=
+
+Name: org/eclipse/swt/browser/WebSite$6.class
+SHA-256-Digest: Z+Tt6SrFeKfd2S1wjjwQw7X67jFZNS+99evK8YPE41k=
+
+Name: org/eclipse/swt/accessibility/AccessibleTextExtendedListener.cla
+ ss
+SHA-256-Digest: SvYPbUrKMuEmBDECptEI1lCAcPwfIsD0kBtgdKIASkI=
+
+Name: org/eclipse/swt/internal/win32/SHFILEINFOA.class
+SHA-256-Digest: t7Z4UGKkzpgN/gD3J2T0XipJS0oJAaqmMwVb9K6vqOs=
+
+Name: org/eclipse/swt/custom/SashForm.class
+SHA-256-Digest: cYQw9e+DyauJaZ/6kiPYBedLfjbs3S+KLXv3mtJbUO0=
+
+Name: org/eclipse/swt/browser/Mozilla$25.class
+SHA-256-Digest: Kt0h/XkjQDfxWy8wX8r+VvoqriIhjPqqRfPMWGkE6g0=
+
+Name: org/eclipse/swt/internal/ole/win32/IPersist.class
+SHA-256-Digest: /LAZ0i5FtVF+KPA8U84ZLWBGzxGhtHZfxNfJP91ujE8=
+
+Name: org/eclipse/swt/internal/gdip/Gdip.class
+SHA-256-Digest: fqtgdrB2a5PBOFAoNW8uS2w5shKOTARP7vqHLJirBuM=
+
+Name: org/eclipse/swt/accessibility/Accessible$15.class
+SHA-256-Digest: 70DBRyuApLgPEp1YbGYUz9YqkqbQCxCg5q/W7TRTYCg=
+
+Name: org/eclipse/swt/browser/FilePicker$1.class
+SHA-256-Digest: 0okEol1Ytz1NtVbqVwCgMXy1V2zkPmJku6h5s/3MTaU=
+
+Name: org/eclipse/swt/custom/CLabel$1.class
+SHA-256-Digest: 4bebXf9GzhYZVgl48KWx1DEiDHc2W34I5m+GzSPr7sI=
+
+Name: org/eclipse/swt/graphics/LineAttributes.class
+SHA-256-Digest: IfcP1TDeDAFVFpun7FQBW0EeokLCLFbTOclJdYdwAok=
+
+Name: org/eclipse/swt/browser/WebUIDelegate$2.class
+SHA-256-Digest: 2QnxOl5tEbQAdP+awYSFkuGcG4fWA0vXjqFVyRitYm0=
+
+Name: org/eclipse/swt/ole/win32/Variant.class
+SHA-256-Digest: pn0aOAh3bMRzWtaDEVWP8R7bipE54Uah+dn8neA306Y=
+
+Name: org/eclipse/swt/custom/TableCursor$5.class
+SHA-256-Digest: M/GKPwpxmojjXCVi/kKtL4HE9+iPdF1QAZa1+1TDBEo=
+
+Name: org/eclipse/swt/internal/ole/win32/IDragSourceHelper.class
+SHA-256-Digest: ujeFMdpPWrezMSgS5Cf743Wvicx8kWMCD40hvCCNr7c=
+
+Name: org/eclipse/swt/internal/theme/DrawData.class
+SHA-256-Digest: QFFvPowDPau+wvCXk0uHjL7Up/+IKKvfLOOiWwxUkbY=
+
+Name: org/eclipse/swt/custom/AnimatedProgress$2.class
+SHA-256-Digest: FUFZ9UFE0KHcDFOs14775wD3AcdoRFaWVutWEMrFtQ4=
+
+Name: org/eclipse/swt/dnd/DragSource$2.class
+SHA-256-Digest: 7KclwbUI1mBTD5w393JVBZc5aqd3kQCYoilryzcjxw8=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_color_quantizer.
+ class
+SHA-256-Digest: NzOoNjiaR1ZYv9ofWyYt8ERBFi52U/mBMxn0SmiHCHM=
+
+Name: org/eclipse/swt/widgets/EventTable.class
+SHA-256-Digest: +a3EPYrjHyKcMs2onbCz28PlGVMVbdPgBtTPHHRvfcM=
+
+Name: org/eclipse/swt/internal/image/FileFormat.class
+SHA-256-Digest: rWyQX2vQzA+19ZlooUEUF9IXt7qHyKUNAujo3oXcuTk=
+
+Name: org/eclipse/swt/internal/win32/TCITEM.class
+SHA-256-Digest: TyO1/q0/dbLN6N11B/kaAdBgWSAl0AjwvDmngzoIziQ=
+
+Name: org/eclipse/swt/events/FocusEvent.class
+SHA-256-Digest: TWzPc1wCgQr7mg7Xy5uhh6Gi9jHfwisYH+nyQQsv5RA=
+
+Name: org/eclipse/swt/dnd/TransferData.class
+SHA-256-Digest: qkn/uFWtcmpZRxpBdpC6CMtdI6toUPdh595vu+6oIR4=
+
+Name: org/eclipse/swt/custom/StyledTextRenderer$1.class
+SHA-256-Digest: X4IVIxDh0hswQMnORzFzdWacDelgtEDkTCJhP/bhT+A=
+
+Name: org/eclipse/swt/internal/opengl/win32/PIXELFORMATDESCRIPTOR.clas
+ s
+SHA-256-Digest: qh3Fr9IWl3r+SofF1b1ydR8OHlz/JXc1K1zo1NXckm0=
+
+Name: org/eclipse/swt/internal/ole/win32/EXCEPINFO.class
+SHA-256-Digest: RTRJt+tdnjvKx10LD3oW3jnaJFWdJ4B694CZ6IBH/fo=
+
+Name: org/eclipse/swt/graphics/PathData.class
+SHA-256-Digest: 5aDoe9LT679Z6oigkBCLZs7KJR/s478R61mn61UNXNM=
+
+Name: org/eclipse/swt/awt/SWT_AWT$6.class
+SHA-256-Digest: cKJ6mLtQhW4C5IzTXkw6jiJrS5lBrW+X+SpSMDGcwSE=
+
+Name: org/eclipse/swt/widgets/Tray.class
+SHA-256-Digest: OfH1CmWLjnSnQIX9nkC+W4HG+VdHsMnRiQjcQ58v43A=
+
+Name: org/eclipse/swt/custom/StyledText$13.class
+SHA-256-Digest: TYkwAlpQ3HfThAXJqyazFEYBkfO/qDAj079yB7A+nWc=
+
+Name: org/eclipse/swt/internal/ole/win32/IEnumFORMATETC.class
+SHA-256-Digest: y14oV4k+oHZ/ikUMjZWVYN6cDHxweV98Dl1UgfyUQKs=
+
+Name: org/eclipse/swt/browser/WebFrameLoadDelegate$2.class
+SHA-256-Digest: 3L2uQPqVNVSnMpPSdunvMxYcVcwkCFq8+4sP9Kg/oAg=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_upsampler.class
+SHA-256-Digest: kp056MP+hPrU3cwKyIP0G6b6Tj9Y1DU4o0aZCillmSQ=
+
+Name: org/eclipse/swt/browser/PromptDialog.class
+SHA-256-Digest: FK44dlmbwIn0RK1XKDDBtjXbLyOYY5kr5Nagj1+H4SQ=
+
+Name: org/eclipse/swt/custom/CTabFolder2Adapter.class
+SHA-256-Digest: d9PNsg84OInqK6JySCzlvpI/d80PA494JlZLEhoCGxk=
+
+Name: org/eclipse/swt/internal/webkit/IWebDataSource.class
+SHA-256-Digest: aenNr6T0ovq/v2KrXOG/DNXdC60CsO/SM4CMUro2MZs=
+
+Name: org/eclipse/swt/internal/ole/win32/COMObject.class
+SHA-256-Digest: OZyTxkKaAOMMjDK+LOpey9FrphtavO5YhJlXTseWNOw=
+
+Name: org/eclipse/swt/ole/win32/OleClientSite$4.class
+SHA-256-Digest: 3tn1nJ7JN7+szNNrxZvizp644FVu8DCAYGRv6szyIrQ=
+
+Name: org/eclipse/swt/dnd/OleEnumFORMATETC.class
+SHA-256-Digest: qCKUBqwBd/P4IgBaaKKQxJ5hLhwveGzqPxIupEjnZAs=
+
+Name: org/eclipse/swt/custom/PopupList$1.class
+SHA-256-Digest: P9eTy6va/eATx3Y4Dt/VFUOXvfm5qV/J5o7A+6Kbi2E=
+
+Name: org/eclipse/swt/browser/WebSite$1.class
+SHA-256-Digest: qAvzksr+GTI1+yS89U1P1VRkrcpuFLuype/pbmodkac=
+
+Name: org/eclipse/swt/browser/AppFileLocProvider$3.class
+SHA-256-Digest: qROhKN2tjRzulSm0cR/XYQyIyn+5eB9WZa6NyGqng+E=
+
+Name: org/eclipse/swt/internal/gdip/PointF.class
+SHA-256-Digest: CdHUjjvnOYnGmh7+1eaAdhrq6w324uhx47whA3L8OUc=
+
+Name: org/eclipse/swt/browser/WebUIDelegate$3.class
+SHA-256-Digest: 2hxKF5UFuGT/CeRlbxuP9ELOOYNxX9wviTqjfV45ZzE=
+
+Name: org/eclipse/swt/internal/mozilla/nsICancelable.class
+SHA-256-Digest: FJHkP5iwE558fjzVQIz9OGQ0uOi09MdeDTOfs5uWYnY=
+
+Name: org/eclipse/swt/internal/win32/SHMENUBARINFO.class
+SHA-256-Digest: elN3g+8s9pkKoKzspU+ZPec1ES/z2JyQteL+J1H93Lw=
+
+Name: org/eclipse/swt/dnd/DropTarget$3.class
+SHA-256-Digest: 1AMWRvhLbNyfG01ddhWa777OFWEx54A2qFxSW+tlJ8E=
+
+Name: org/eclipse/swt/internal/image/OS2BMPFileFormat.class
+SHA-256-Digest: DYY6kyybay6fGEdwB51yRZiDLrgHmGcefQ4eIRlwr5w=
+
+Name: org/eclipse/swt/widgets/Synchronizer.class
+SHA-256-Digest: PoHfahh+zdGLGNXX+F23Y5zvCvJoeU7n0bjvgDginDY=
+
+Name: org/eclipse/swt/graphics/Resource.class
+SHA-256-Digest: VOifUXUQ/hoL9b9huR6W5NHioc8VG8rB71SwefuZzG0=
+
+Name: org/eclipse/swt/internal/mozilla/nsIBaseWindow.class
+SHA-256-Digest: DAl8s+sy2eXjG147f6gIWVmPJGtg1vf2W5mhTJ85Kz8=
+
+Name: org/eclipse/swt/custom/CCombo$6.class
+SHA-256-Digest: Q+VIRMDi8UqcfAbx2m7UUklzTWHyT1Xk8r4EtNYktJI=
+
+Name: org/eclipse/swt/accessibility/Accessible$14.class
+SHA-256-Digest: imkWVghyANukRfoZ65FgLjcWSmJH3JSPGxyoZNyHkHc=
+
+Name: org/eclipse/swt/internal/ole/win32/FUNCDESC.class
+SHA-256-Digest: U+WhP+9bwAAGpeRNAHLJCO2lHLeEzW40He+aqa8CqhI=
+
+Name: org/eclipse/swt/browser/WebResourceLoadDelegate$2.class
+SHA-256-Digest: lyooy5ODWbouf2EmoWTsxN+iK9dnxoz9Rpm/U1p3YCk=
+
+Name: org/eclipse/swt/internal/win32/TEXTMETRICW.class
+SHA-256-Digest: TlMLasHJ8IKouqo6ZkEqhVrGCXo17rjg0eTtKwi9AMM=
+
+Name: org/eclipse/swt/widgets/Button.class
+SHA-256-Digest: FX/c84eb+8vh+MzPdXaeoNON26BgTt7IjIcy/IYJ1W8=
+
+Name: org/eclipse/swt/custom/TreeCursor$5.class
+SHA-256-Digest: nHdGS7JBs4Dnejsr9DIPpcQiTc8Jd5kC3o/eFm/Y4jw=
+
+Name: org/eclipse/swt/browser/WebBrowser.class
+SHA-256-Digest: lflL/NrhbN8MWpDFm8iMTRPQGdLmZGc5y3w0NXQLuCY=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_PROPERTIES.class
+SHA-256-Digest: n3i2edJnHt+BWYRbCIJZjuStDHJ7j8pVQiI4vdnofQ0=
+
+Name: org/eclipse/swt/accessibility/AccessibleHyperlinkEvent.class
+SHA-256-Digest: hDNvnuN9Fb8NJ7L1G55YsCrEnurSL9KUpmicha0WqC0=
+
+Name: org/eclipse/swt/internal/win32/DEVMODEW.class
+SHA-256-Digest: GmM8gZXHvm2r4S31Qk/KtS7G76MVaGsjYA7Qhu1/hQk=
+
+Name: org/eclipse/swt/browser/FilePickerFactory$1.class
+SHA-256-Digest: Pt2QdFJjQCi22ptpyjYr45oHw6RPgrzNboRkYPWjN7c=
+
+Name: org/eclipse/swt/internal/mozilla/nsICertOverrideService.class
+SHA-256-Digest: HkTRyPiR7COi73YLwAh5D5CNbEVO/zJiJ30o2eX2IRQ=
+
+Name: org/eclipse/swt/internal/ole/win32/IClassFactory2.class
+SHA-256-Digest: 4dSTO+4Ljg0VLkcAz+mx+c7F04jQ3RC+VzwdhKBLijs=
+
+Name: org/eclipse/swt/events/ControlListener.class
+SHA-256-Digest: aHE4fBC2bS6PJBeFhHJVunQ9k/QjE3esEPqu+tNHjso=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_DIGITSUBSTITUTE.class
+SHA-256-Digest: jAP2BRTXR06Axh/CuwiyluvfIb99I4BgBfZ2jDBwk+0=
+
+Name: org/eclipse/swt/accessibility/AccessibleTextAttributeEvent.class
+SHA-256-Digest: e9Ui7VBswnjku++/dcqHQ2DfRclLclS4k8S2sYQWBwU=
+
+Name: org/eclipse/swt/custom/StyledText$15.class
+SHA-256-Digest: eRXXSNm2jls+AKbBzTJsIDchZ9QVZFe/cjG8s88SPXU=
+
+Name: org/eclipse/swt/SWT.class
+SHA-256-Digest: fFZzb4xDygTB9HwoTAMKU4VxxXi70IbTOeipO6Nc9IA=
+
+Name: org/eclipse/swt/internal/LONG.class
+SHA-256-Digest: afrdXDxmDMxmw+pjrHdyabzGK1EiuG3ubgkXOdA5gQM=
+
+Name: org/eclipse/swt/internal/win32/CERT_CONTEXT.class
+SHA-256-Digest: h8kxDl+pgrzR0V8r9ObX9E4Mawpze31OgrZUpMRqJT4=
+
+Name: org/eclipse/swt/browser/FilePicker.class
+SHA-256-Digest: bZKMWKNI7cYEoRJSsXcgnkTvXtaVNjat0QwNpm3Q5vk=
+
+Name: org/eclipse/swt/browser/PromptService2$1.class
+SHA-256-Digest: pco9XYL4GSBFZsb+nO57+gsyH7iKuzY3Lfs7SxhX1Kw=
+
+Name: org/eclipse/swt/internal/ole/win32/IAccessible.class
+SHA-256-Digest: StjAVvUtg716da4K+Y+pOzdz4yNDdZmpWBePQbrBEck=
+
+Name: org/eclipse/swt/custom/CCombo$7.class
+SHA-256-Digest: Vm6Sl2GKGbJLaRSxkCXz5WcLx4WUXb24rxlYhEoHI4o=
+
+Name: org/eclipse/swt/events/ArmListener.class
+SHA-256-Digest: KFqAUv45yJTm0Om64WRYWrrJAfuJaVw0BUvjtEAmaBE=
+
+Name: org/eclipse/swt/internal/win32/GUITHREADINFO.class
+SHA-256-Digest: wmi3gywTgi+NEwyc5+hlDZdVCqxFWIPwB+TZciArnoI=
+
+Name: org/eclipse/swt/widgets/Scrollable.class
+SHA-256-Digest: GDxfv96dr7pOEkzicdmDDBFSXHfE1FGRgJTN5cyahy8=
+
+Name: org/eclipse/swt/custom/CLabel$5.class
+SHA-256-Digest: 55P8u+j+rxpMS06roesEM5ohs7KsmMV2B3FeBwtvuVk=
+
+Name: org/eclipse/swt/internal/mozilla/nsIProperties.class
+SHA-256-Digest: 78oA+FlNyhLfv5LILWVGl1buNT0spUZdQY4tf1dbXM8=
+
+Name: org/eclipse/swt/custom/TreeCursor$4.class
+SHA-256-Digest: maDaMN6tPtNaIJcBzQK5BWeSIaM+fkNC9HKMijTpANE=
+
+Name: org/eclipse/swt/accessibility/Relation.class
+SHA-256-Digest: 1/RhtN4NHFm629MHQ+wEY4lIfgGOjrlvPJj+D9DmUy0=
+
+Name: org/eclipse/swt/internal/win32/SHACTIVATEINFO.class
+SHA-256-Digest: QS3r+LVG61DtZMdU6B+qXbyl6MnKv/eQrRxcs5hS/FA=
+
+Name: org/eclipse/swt/browser/FilePickerFactory$2.class
+SHA-256-Digest: vZ+yUPAO9yz4vyYEbSXky303t5R1USC9mwiHNkGnbWI=
+
+Name: org/eclipse/swt/awt/SWT_AWT$5$1.class
+SHA-256-Digest: 7CvG+38GtMXcR6wuw0e1cJBATt6UebSigmyoezh6zyc=
+
+Name: org/eclipse/swt/browser/DownloadFactory$2.class
+SHA-256-Digest: yPvdHkrj+LuKFNdLs1PoOFzLrYrUdG15sHOvJ79weOU=
+
+Name: org/eclipse/swt/internal/image/JPEGScanHeader.class
+SHA-256-Digest: WBvM8sV/AMLaYL2drbMbGzXspffDPauiz1TheLdGfOo=
+
+Name: org/eclipse/swt/internal/win32/BUTTON_IMAGELIST.class
+SHA-256-Digest: a+7siIHh5o5xqUpu7zx1pULH7NGuLUKSZMpMcIjOl74=
+
+Name: org/eclipse/swt/printing/Printer.class
+SHA-256-Digest: RP25uNCXhr4zA6h7CksidMZQ0/hR5IwUe7Xw0kBTN4k=
+
+Name: org/eclipse/swt/browser/WebDownloadDelegate$3$1.class
+SHA-256-Digest: 39+vWu/UNaOjhByl/zumM6WF7nEZaHSzeyrbYovc11w=
+
+Name: org/eclipse/swt/browser/FilePicker_10$2.class
+SHA-256-Digest: aezD/98/hz8pG72flvuIkhckNdy2QBZEVT0J+8ANVOs=
+
+Name: org/eclipse/swt/widgets/Label.class
+SHA-256-Digest: xHhq7H7ii363wmgYv2Begb+NfvNzrL4ETtPuQzbwGTM=
+
+Name: org/eclipse/swt/events/ControlEvent.class
+SHA-256-Digest: IIIoq5HIvBsvk9AVt2TmFg+KhnR7S3MehpmdyaXAfls=
+
+Name: org/eclipse/swt/dnd/URLTransfer.class
+SHA-256-Digest: QToVRrgd1bZ8qBDQOQTADBd39rtbiEo/YS/F4TbFRjw=
+
+Name: org/eclipse/swt/internal/mozilla/XPCOMObject.class
+SHA-256-Digest: Ufj6B/qPuxhqBR9/wMm7WSWPCcHQ750lcSZVzT80x+Y=
+
+Name: org/eclipse/swt/internal/win32/MENUINFO.class
+SHA-256-Digest: Koukhb/zNYpka0F6sYJ8xAbORe9V0oSivq35SsOU8WA=
+
+Name: org/eclipse/swt/dnd/Transfer.class
+SHA-256-Digest: 02yzUUQochX9OE86vVV/B20ARP5c9rUJ4ESjJj7KG2k=
+
+Name: org/eclipse/swt/custom/StyledText$14.class
+SHA-256-Digest: 7uysUxF2VFvMnF02iRAFLAaQaCRTGIUhZDuxeYqn+lw=
+
+Name: org/eclipse/swt/internal/win32/BP_PAINTPARAMS.class
+SHA-256-Digest: qGzRPEqLkfZa+xwmlk5kbS2OnrgNJ3nGLtP9Mpx1Szc=
+
+Name: org/eclipse/swt/browser/External.class
+SHA-256-Digest: dVpaQaXKf/6m+D9O9oT41APd7Scs3k53X9O8w59Mqsk=
+
+Name: org/eclipse/swt/internal/win32/LOGPEN.class
+SHA-256-Digest: DONJMZuSXEdI/ZnRktOpuIEJ8tY4NjRKIjgg4WCYsJk=
+
+Name: org/eclipse/swt/browser/Mozilla$1.class
+SHA-256-Digest: vhtvenjD179NA1oawjLczc83/yEHt6ojnBi9wg5No5Y=
+
+Name: org/eclipse/swt/browser/WebSite$2.class
+SHA-256-Digest: MlZJ6DWw9t5w8j2gGlvyjobgIsMAz74wEAmzW3QJ9yo=
+
+Name: org/eclipse/swt/events/ExpandEvent.class
+SHA-256-Digest: Q4qAxSbDCNwexDqV8cciSG/KmUf9ZayFqRyFRmLqtn8=
+
+Name: org/eclipse/swt/dnd/OleEnumFORMATETC$2.class
+SHA-256-Digest: EI0fIFwhgpbPJofe1kpSyX3M3RTbcteNrfVI/uHAqCA=
+
+Name: org/eclipse/swt/events/MenuDetectListener.class
+SHA-256-Digest: h7UO6hl4FW/xVhYuqtDR1WWf0x/PNb3WQoIZ6Av0kJc=
+
+Name: org/eclipse/swt/browser/FilePickerFactory.class
+SHA-256-Digest: gu8POZHJLDshMKl1EFFdjACJ4iTcysaaVAvUCMQgqqw=
+
+Name: org/eclipse/swt/browser/WebUIDelegate$4.class
+SHA-256-Digest: mBibr8Oa8fdZ2lD4HBZ3h+h+yuc3/hI9afDG7flIPzw=
+
+Name: org/eclipse/swt/graphics/Pattern.class
+SHA-256-Digest: ACRYdvK7S1UbhKsDLZIc6oCm1GjUg640XwYtdfeTOts=
+
+Name: org/eclipse/swt/internal/win32/GCP_RESULTS.class
+SHA-256-Digest: 6WtzUppKqJdIZPPrVPl9hY0ldCI66AjXFlxQp0eXf3k=
+
+Name: org/eclipse/swt/browser/FilePicker_10$1.class
+SHA-256-Digest: pyUr31kiYvFkmyuBnBBwyl1WGiVpJonCWHKYGCNhDAg=
+
+Name: org/eclipse/swt/browser/Mozilla$16.class
+SHA-256-Digest: woq2ZGsiC14+S4SsCktjm2674GkVqt+DNGN+g6frhWY=
+
+Name: org/eclipse/swt/internal/image/JPEGStartOfImage.class
+SHA-256-Digest: OQrVgaLOF2yWggIpDn9yrIi9MwC+DJJ4faDWh3frRSs=
+
+Name: org/eclipse/swt/internal/win32/NMTTDISPINFO.class
+SHA-256-Digest: MGxfb6JiKEIs/QjSGLmTxvyZ0BjfdJMoTaf3DHLVuTg=
+
+Name: org/eclipse/swt/internal/webkit/IWebView.class
+SHA-256-Digest: t+X7eOzRHpw0reRAqDBE+SpNfeyvRKID6PPvq6pJ+JM=
+
+Name: org/eclipse/swt/internal/win32/OSVERSIONINFOW.class
+SHA-256-Digest: Jh6s0aJqNycKDWt9SUTz/WHDqX5+kHmusZQllMtOet4=
+
+Name: org/eclipse/swt/layout/FillData.class
+SHA-256-Digest: TPVqHtzpsZDcwHnOvxWLLAPHdU/nTTvYwfbIJwkkIos=
+
+Name: org/eclipse/swt/custom/CLabel$4.class
+SHA-256-Digest: PkioN0Yz9vq79wp5OAOHcJV0UF7BZpIo5VmS01j/pDk=
+
+Name: org/eclipse/swt/events/DragDetectListener.class
+SHA-256-Digest: 6s6HT5QjO4+hE5VWvC3UI9DszlGJWEDDIuciHFktivk=
+
+Name: org/eclipse/swt/internal/win32/SCRIPT_STATE.class
+SHA-256-Digest: vw+3bqrzmpZtlmYwiuDMwPtk+xWEJzs7HEnoMOTN998=
+
+Name: org/eclipse/swt/browser/WebSite$3.class
+SHA-256-Digest: aNX3/FWAEeUgz228CC+Bs1xtIjM6wQkpi9qDCEVR1xc=
+
+Name: org/eclipse/swt/internal/win32/ACTCTX.class
+SHA-256-Digest: GrmR8HlQ9tGnTXGg57jjsSS7coNgf192y5dISfTrxGQ=
+
+Name: org/eclipse/swt/custom/TreeCursor$3.class
+SHA-256-Digest: p43+ayns1eRyBVphMOl+PmbYE81dFJNiA+nn6lTSMzY=
+
+Name: org/eclipse/swt/browser/Mozilla$2.class
+SHA-256-Digest: G6p3R62eJPW1+c6Jr9STDpclzeaw/wUz+4Fpgyw6dlA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIScriptSecurityManager.class
+SHA-256-Digest: ZA/h94fI8cVCZOelthDUq+qjLFXOWBnpONGadW8MMFM=
+
+Name: org/eclipse/swt/browser/Prompter.class
+SHA-256-Digest: RfF7W8a7hbkXhJdAYpvCU6dhUolq1r+uPX9K5e+ruHk=
+
+Name: org/eclipse/swt/browser/WebResourceLoadDelegate$1.class
+SHA-256-Digest: rLuSEqc2558hH9kKxlikV/BfJ/uDvcdM9ptkR7xvRJ4=
+
+Name: org/eclipse/swt/events/ArmEvent.class
+SHA-256-Digest: RbD2KhX2WKwlpUlKyIwGVXUFeZM3oxlbzgcPiWTvOGM=
+
+Name: org/eclipse/swt/accessibility/AccessibleActionEvent.class
+SHA-256-Digest: W4+03yi1NDTSjLfznlHj6Ed8mG1KCZYSFA+C69oapGk=
+
+Name: org/eclipse/swt/browser/DownloadFactory.class
+SHA-256-Digest: et7Vjd8zZnAGzehctqqxQiZANSeSUwZMQrZg+mfFc0s=
+
+Name: org/eclipse/swt/internal/mozilla/nsDynamicFunctionLoad.class
+SHA-256-Digest: uy9FzLnAcPwQ87/BYSBwmy40ZXmHtZ2twuXGNsl+exQ=
+
+Name: org/eclipse/swt/internal/win32/NOTIFYICONDATA.class
+SHA-256-Digest: 2Jl4d7uwSA/YgG6pabo+yXLFQBkF9078k2T1SRNp2pI=
+
+Name: org/eclipse/swt/internal/webkit/IWebURLResponse.class
+SHA-256-Digest: 8LxeaZoX5FgCeGgeiT5zWu2Av2hZRaGLsU5bhUTSxxg=
+
+Name: org/eclipse/swt/custom/PaintObjectEvent.class
+SHA-256-Digest: VSqejwUzWbOXjMC7kxe4f7iglDPEUjATHzLn8HPpPhU=
+
+Name: .api_description
+SHA-256-Digest: AuY1dE9nu4F2vXP92No/hxxtQd4KCJoabrvSZv6inCc=
+
+Name: org/eclipse/swt/internal/win32/NMTOOLBAR.class
+SHA-256-Digest: UVhs1ruW63RY/F10gtlEQi20ZwwRfb8Un1E9ARCO9mI=
+
+Name: org/eclipse/swt/internal/win32/OSVERSIONINFOA.class
+SHA-256-Digest: c6zSWaE8Fb7Eh00XpwWTrfIyY4Dk+xVrOt38J70isdc=
+
+Name: org/eclipse/swt/custom/StyledText$7.class
+SHA-256-Digest: zKIyH2tl+hQXYedH3KlQ1TsZNyN+3FXvsOg6p+5gzik=
+
+Name: org/eclipse/swt/custom/SashFormLayout.class
+SHA-256-Digest: 6EJd8W8VIoajY5Fyr+bVdPJChl+aJ0Lrf0j4txwWxMU=
+
+Name: org/eclipse/swt/internal/gdip/BitmapData.class
+SHA-256-Digest: zVGBGO9vWFhsepwjdmCxFnNTLG1ezhGxDJrME6Z9cPw=
+
+Name: org/eclipse/swt/custom/TableEditor$2.class
+SHA-256-Digest: AQOGQFkdKQEGWFLF1CTa6HcUbKjAE3VjanFy3imtCtQ=
+
+Name: org/eclipse/swt/internal/ole/win32/COM.class
+SHA-256-Digest: oKh9E3o7gAqixiY03/DC6wgxYWRKegX0igunthO1qgs=
+
+Name: org/eclipse/swt/custom/TableTreeEditor$1.class
+SHA-256-Digest: pcqOA65c8Qyp+5hGcRRO9WjUbGWMMulEgX4blHvKSf0=
+
+Name: org/eclipse/swt/internal/win32/KEYBDINPUT.class
+SHA-256-Digest: M0M/MTogfMIuR3GVh7gw22XdMKNK3FlkKSl1wuGA/vo=
+
+Name: org/eclipse/swt/browser/LocationAdapter.class
+SHA-256-Digest: yew1FLSzKIwZJoxU7u3QC2M8mRatxjJEXhAoe/I11vA=
+
+Name: org/eclipse/swt/events/VerifyEvent.class
+SHA-256-Digest: mFoHu+aXnFhTUaY/CbRWu0g6ltIlcTcZbid+/6ubkoQ=
+
+Name: org/eclipse/swt/internal/webkit/IWebURLCredential.class
+SHA-256-Digest: Jxzc2bkR81JtmJlfVYcr67hlGfOWPAdQm5lJuZpIAfE=
+
+Name: org/eclipse/swt/browser/DownloadFactory_1_8$1.class
+SHA-256-Digest: oIsOL2q029DU+pdJtQkforaSXanGinu0eFDKUskVe2Y=
+
+Name: swt-awt-win32-4530.dll
+SHA-256-Digest: Bu7StT1GEO6BZ7ttgTaMCtZd6N4E96YFV6p4OHleV68=
+
+Name: org/eclipse/swt/dnd/DragSource$3.class
+SHA-256-Digest: 8Gn4fFL/sDhPm+ZhA4tJf0IoEGsvovoWoyxUbxD807k=
+
+Name: org/eclipse/swt/internal/win32/CERT_INFO.class
+SHA-256-Digest: +S8Hynu7JHKuNQ7Fkhyx15BY8g09ciigtAVUN0cQs5Q=
+
+Name: org/eclipse/swt/internal/win32/NOTIFYICONDATAA.class
+SHA-256-Digest: VUiCoxQHd1u6xeIKy+V0YrkoH9WGJ7nxdIPZiNY5tSs=
+
+Name: org/eclipse/swt/widgets/Listener.class
+SHA-256-Digest: 3Q7kitpSZu2JlRwz+wqeFfSRm3jYd+5qY9I73VpbByY=
+
+Name: org/eclipse/swt/custom/LineBackgroundEvent.class
+SHA-256-Digest: r1d+yqgTu786wB2CwLLPOYZpvRGg9t8hE+sBmZi0tG8=
+
+Name: org/eclipse/swt/graphics/ImageDataLoader.class
+SHA-256-Digest: dQvz+8hVkm+tIU6z6TYVkapLbarRRX8S4ZyaiBfEya8=
+
+Name: org/eclipse/swt/dnd/DropTarget$1.class
+SHA-256-Digest: Um7yCKxyfM029Wf61mwxB+gAH0Dwf8ogwRwO2QkyzDY=
+
+Name: org/eclipse/swt/dnd/DNDListener.class
+SHA-256-Digest: p15ZQed+DHbX49Dz42HmRrEUyqL+k/R/FrlxaRclN98=
+
+Name: org/eclipse/swt/browser/AppFileLocProvider.class
+SHA-256-Digest: fMFG8LEJ/Kor8CK3WR4tkzxqhVkjJVta6o+omcZrGxA=
+
+Name: org/eclipse/swt/ole/win32/OleFrame$4.class
+SHA-256-Digest: QTX6iosX45GSLNeTA4oBLiwc0NwU/aMJgry6n0nteJQ=
+
+Name: org/eclipse/swt/awt/SWT_AWT$3$1.class
+SHA-256-Digest: rKjMoEf35eg/ovhOakeMPYHQ9J+HH+IARZT4pA5Sjo8=
+
+Name: org/eclipse/swt/opengl/GLCanvas$1.class
+SHA-256-Digest: xap3PaiMKEw6GolCwAt/9Xc/eap14h0IwwHpCeajqi0=
+
+Name: org/eclipse/swt/browser/Download$2.class
+SHA-256-Digest: ejqitrOtDMfat2omgcQIt151Bg0WMfHCc8RGjwLvKf8=
+
+Name: org/eclipse/swt/graphics/PaletteData.class
+SHA-256-Digest: xRTJbdqHBUz6IFY3jqPY1dTk4LSNkc3tDROpVQESd40=
+
+Name: org/eclipse/swt/accessibility/AccessibleAttributeAdapter.class
+SHA-256-Digest: QrZ7ktFazKvcZ2QDNNwn+470AwSJhsbu6h8h/SiiJKc=
+
+Name: org/eclipse/swt/internal/win32/LVINSERTMARK.class
+SHA-256-Digest: 7aOQ3dlMKbIv6p6DORK+rqduXEklRx05Tw9MYkMiVFE=
+
+Name: org/eclipse/swt/custom/ControlEditor$2.class
+SHA-256-Digest: YMjZgAwVufxUIzPTGPsSvXKxQxPvPl3VAPeHaXYBAfo=
+
+Name: org/eclipse/swt/custom/CCombo$5.class
+SHA-256-Digest: KU+8n/OBeFrihWMu02BT6fBMHZy0mCfITbWjFu6KVos=
+
+Name: org/eclipse/swt/internal/Compatibility.class
+SHA-256-Digest: 44DcJIEW35oXrQTlQ5zfwK2BzK9T0TEXQijmcJKsQGg=
+
+Name: org/eclipse/swt/internal/win32/NONCLIENTMETRICSA.class
+SHA-256-Digest: o4RaJFqUe+jA1x+AUOK+FQ7qt244etT5Cx6CFb+XUS0=
+
+Name: org/eclipse/swt/internal/win32/INPUT.class
+SHA-256-Digest: 28TU1T7tZvldkYF1ykt909KArAiTZ4DNjgqxK+jtgLw=
+
+Name: org/eclipse/swt/custom/StyledText$TextWriter.class
+SHA-256-Digest: bfF5pBCxfQlTYu66GA4LzQ049c30NgjmPQyP7QUudlc=
+
+Name: org/eclipse/swt/events/DisposeEvent.class
+SHA-256-Digest: CA8l9bkxX+zJiewLMCPgcuJdbeCn9JPNC2s90say28Q=
+
+Name: org/eclipse/swt/custom/StackLayout.class
+SHA-256-Digest: 3xqPunECZU5XMi+XV0u27sJVZwj5UQAUM5DgGdnU9gU=
+
+Name: org/eclipse/swt/internal/win32/NMCUSTOMDRAW.class
+SHA-256-Digest: jdVp5GgrRNxN1K+mNYcVourZJV4NxnTEFMwZzLOZmso=
+
+Name: org/eclipse/swt/custom/CLabel.class
+SHA-256-Digest: pNR+JP+jLMEU1vehCfcSI4BXD7xm1PgXgOsIAEyUl8M=
+
+Name: org/eclipse/swt/custom/StyledText$2.class
+SHA-256-Digest: 0LihvS4BIuYe6U4Se7dl90uwJorre/IRjP4A8js9V54=
+
+Name: org/eclipse/swt/dnd/DropTargetListener.class
+SHA-256-Digest: Jt//z7Ug9ZneOVuo8U+dUXnrsx1p5iC3GW8mM45pwAg=
+
+Name: org/eclipse/swt/widgets/Menu.class
+SHA-256-Digest: F79T2yXm4er46WeFUx/Z7OlFwyHEbPqGDi5edYmOpzM=
+
+Name: org/eclipse/swt/graphics/ImageLoaderEvent.class
+SHA-256-Digest: ChJ+VX0FDOXP5z7MoEW98fUYG4uW1Hrr+1bGMAHh2Rw=
+
+Name: org/eclipse/swt/internal/win32/PROPERTYKEY.class
+SHA-256-Digest: 81xqsKQUWYIPPua5c8WtLAMdgx1pMFCp1E9FIK1UqmA=
+
+Name: org/eclipse/swt/internal/win32/CRYPT_INTEGER_BLOB.class
+SHA-256-Digest: oWygeptPGDn3UinkKnrvqKjC4aTW1eDsfIQEh6gqV4s=
+
+Name: org/eclipse/swt/internal/Platform.class
+SHA-256-Digest: ssoD/GTvP5e5dFY/J6sSmm64+iMlfgui/TIc8Kg/GmU=
+
+Name: org/eclipse/swt/ole/win32/OleAutomation.class
+SHA-256-Digest: iVztDHzzRI8Rso19TM+hFmIuAW9vVKhyPgnojJBMJMM=
+
+Name: org/eclipse/swt/internal/image/PngDeflater.class
+SHA-256-Digest: UPoFlF+yFDVuNKqUdyx/hVOsynGeFYQkQ72Vv8qndtc=
+
+Name: org/eclipse/swt/custom/StyledText$9.class
+SHA-256-Digest: 0/tzPKbATf9akLdh83kPsfVFh6ZG02owJPlzZOX34aM=
+
+Name: org/eclipse/swt/internal/win32/SIPINFO.class
+SHA-256-Digest: mKw8kpi4nT6nzj/+MpuMyRRRHHgzzM3wV//x95q090E=
+
+Name: org/eclipse/swt/custom/ExtendedModifyEvent.class
+SHA-256-Digest: uHIbTWv+uT521WePmLACZtGqH8ooKgNggI4Y1jXk2b0=
+
+Name: org/eclipse/swt/custom/StyledText$10.class
+SHA-256-Digest: Qw0QfH5DENp5tvjhbTtEriSpIZH+PBUUM+fruAwv7Dw=
+
+Name: org/eclipse/swt/internal/win32/OUTLINETEXTMETRIC.class
+SHA-256-Digest: TB0asOSL+X069K9/RnTPT/UnCAYNhyS3TQYmf1N1RDY=
+
+Name: org/eclipse/swt/internal/win32/NMHEADER.class
+SHA-256-Digest: yDaqLiVgvxWiB40oSrCHbZ7DoT37uAnOrDq2Sp9iWF4=
+
+Name: org/eclipse/swt/custom/CCombo$3.class
+SHA-256-Digest: qYKvG0Vt5D1LQcr32Ny97JRnQJjfdmHzqCr1s77QQp8=
+
+Name: org/eclipse/swt/internal/win32/MINMAXINFO.class
+SHA-256-Digest: 8dhGfn7TlNLLCRQw0euuw7Dy3B2YT83f66KPDGw4P0s=
+
+Name: org/eclipse/swt/internal/win32/SYSTEMTIME.class
+SHA-256-Digest: 2Hvsi6PzQR87wrmmf1YU0/AjN5z9XJ2SCVaDJi7HfbE=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMWindowCollection.class
+SHA-256-Digest: gbl3uaedKAumwpAsWTyI3mrSbj4oSBKqxf+ZYLfs6WI=
+
+Name: org/eclipse/swt/internal/gdip/RectF.class
+SHA-256-Digest: MlFyhK5dHaFbnhUGoDgOvfy3nIasJE2zFov+GfPjXLE=
+
+Name: org/eclipse/swt/internal/mozilla/nsIChannel.class
+SHA-256-Digest: yYS/eLgDJb/f8bNOwTtGUI1wuMIS3VDCiRp2uxQNq+s=
+
+Name: org/eclipse/swt/accessibility/AccessibleEvent.class
+SHA-256-Digest: L2kWX9QeUlfhtrRaPhRcNW2FgXiD0bfu86+grWQJDeM=
+
+Name: org/eclipse/swt/graphics/Font.class
+SHA-256-Digest: C3nGKBww8qxKweC64f916c/I5CV5HIQHGCvK2WmhMac=
+
+Name: org/eclipse/swt/browser/Mozilla$9.class
+SHA-256-Digest: xf6i0snIr4Mtf2VCI9rgBzOBz/rMwz5xVqoxMX79IH8=
+
+Name: org/eclipse/swt/browser/MozillaDelegate$1.class
+SHA-256-Digest: HUAMD2bNcWCM7aY1c8/XehEs/aCM6ZbQX4AyqWqm8HQ=
+
+Name: org/eclipse/swt/events/GestureEvent.class
+SHA-256-Digest: cbXY060wAB5xkMD7NmDnZWMpfgqJgEZMVNBmaDtVE/Q=
+
+Name: org/eclipse/swt/ole/win32/OleFunctionDescription.class
+SHA-256-Digest: eY+V2gsLFtJUT6HskwqdVfWzYuD492fFtEBVLsTpruc=
+
+Name: org/eclipse/swt/internal/win32/HIGHCONTRAST.class
+SHA-256-Digest: QVRYjKd1YiDnRHOHfgk6VSxrRTL0UZL30JdA+13gKo4=
+
+Name: org/eclipse/swt/browser/Mozilla$18.class
+SHA-256-Digest: KXRZ6/v01HzQzvgIjKPF7g4hFt9F/LTSvG+CEFLwmIw=
+
+Name: org/eclipse/swt/internal/image/WinBMPFileFormat.class
+SHA-256-Digest: z8KxKM3y5HEfQqBvHaLyFmUkLuQJH46DNUCF+SZEAFU=
+
+Name: org/eclipse/swt/internal/image/JPEGVariableSizeSegment.class
+SHA-256-Digest: pjHu0/wOvW/SvBbk87pexa52OV6IAzESbRtQcCkJwUQ=
+
+Name: org/eclipse/swt/events/TreeEvent.class
+SHA-256-Digest: j8DoLDWD2BrtU1OIzPUAhG/FkZntDKISW/OJbjwyf5U=
+
+Name: org/eclipse/swt/accessibility/AccessibleHyperlinkListener.class
+SHA-256-Digest: ZUz4tNdCZpUhdsFRx+6SZFC/Jnp55wAHfeUZR4pNEYA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMMouseEvent.class
+SHA-256-Digest: uA1EC7I8uUPaJ+N4UCSZAyDbAYjvCbX1s1DexLNLaJE=
+
+Name: org/eclipse/swt/browser/Mozilla$7.class
+SHA-256-Digest: 6FxsjpVHL5pOEWvpWp+RetyETRwvt/flXP4XDIp/GxU=
+
+Name: org/eclipse/swt/internal/mozilla/nsIMIMEInputStream.class
+SHA-256-Digest: 2s6Wvfh7AGIahgwUeWBmHqbR3L9MphWxrtTvLOW4y4w=
+
+Name: org/eclipse/swt/ole/win32/OlePropertyChangeSink$1.class
+SHA-256-Digest: zhTNRP849p/EygdUCf1orqhdfSZkTjT6WK+VzQK8ZEo=
+
+Name: org/eclipse/swt/internal/mozilla/nsIHelperAppLauncher_1_8.class
+SHA-256-Digest: gVm12fmGz8yyjp981WBUY5DKISEuGDXFCcCLOAbCEsQ=
+
+Name: org/eclipse/swt/internal/image/PngIhdrChunk.class
+SHA-256-Digest: 5Ea4FO3mvMTc3vyYbMWawN2OImLL1jd5ZgNH/KBXbr8=
+
+Name: org/eclipse/swt/custom/TableTree$2.class
+SHA-256-Digest: eS4uw38rucN+9agRjMiGhIH0lfTqtM27bO8GGCMnes0=
+
+Name: org/eclipse/swt/internal/win32/NMTTDISPINFOW.class
+SHA-256-Digest: SO+XYwWtarCRWqT6NUJZnoENdYeyDZOIRDeYR/P+yPY=
+
+Name: org/eclipse/swt/graphics/Drawable.class
+SHA-256-Digest: FM8F308xiOPBQqS8YEDtngwt80hN83GqLVNrxnsW/3I=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebBrowserStream.class
+SHA-256-Digest: hQJp6Xs5TJwuLa6tOE+emECoqYxWyPqsbNsZ7MLtZUQ=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWindowWatcher.class
+SHA-256-Digest: OU7aXHldkuWgdsFHpvqobhZ6F8A8Nb8SlifDt4dBJpo=
+
+Name: org/eclipse/swt/internal/win32/GESTUREINFO.class
+SHA-256-Digest: rJxd4X8r1rtPS7ydvlAE6Mp7wjHPeuXOEXyBPMKy+PA=
+
+Name: org/eclipse/swt/graphics/FontData.class
+SHA-256-Digest: VmMVbV8364gjIjRDiIxjHydvJpJKxEi2INIV/aiizh8=
+
+Name: org/eclipse/swt/internal/mozilla/nsIURI.class
+SHA-256-Digest: OHr7kRUPKeZH7FMnEYkiR6/smQsTca/85bn2383rL/g=
+
+Name: org/eclipse/swt/events/GestureListener.class
+SHA-256-Digest: /BJiLuoj17oHNgp9egFsnzja8xD2QAoEBEJCIZ1MJtA=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWritableVariant.class
+SHA-256-Digest: s5UlatyFYXaQroOykIuzbJYsPj/b6bQT5GdzJk07r4E=
+
+Name: org/eclipse/swt/internal/image/JPEGFixedSizeSegment.class
+SHA-256-Digest: HOqvBsZGuI/jzh3e8jxlRovTwbhwE8iPorMDKjFiHis=
+
+Name: org/eclipse/swt/custom/CaretEvent.class
+SHA-256-Digest: 8cQb5cNQUbFf5niU1VMjEyOAsJFRsSj57Y693T4Ad+8=
+
+Name: org/eclipse/swt/events/ShellListener.class
+SHA-256-Digest: rtFc+XP0g0geRV9FVKJzhzfnMcgYXTXf4haoklhJ8P8=
+
+Name: org/eclipse/swt/browser/Download$5.class
+SHA-256-Digest: rPkwY6DpMHBth9le52iSFDC9zH+jMq4uGbNUHQ1z2do=
+
+Name: org/eclipse/swt/browser/WindowCreator2$1.class
+SHA-256-Digest: YxA9zfmzVscjxWCmavGCavuG3UNN0ZJ6fXc6RwKitZE=
+
+Name: org/eclipse/swt/browser/PromptAuth2$1.class
+SHA-256-Digest: u3kxnQB6QS2jkyCy8lmh5uHEsVKP0vLg9cEsoSzzJsc=
+
+Name: org/eclipse/swt/custom/ST.class
+SHA-256-Digest: Wd064tlW1PA2yR1KzXSjOZXA9VSKk/G8kIpguVqXzNM=
+
+Name: org/eclipse/swt/internal/mozilla/init/XPCOMInit.class
+SHA-256-Digest: FZ7Karbbge839uy2jHDnASlSs9t8WJTdAvWqVWlmvag=
+
+Name: org/eclipse/swt/internal/win32/FILETIME.class
+SHA-256-Digest: UhN5i6L6IjpDx2nx7sSs2KrcdTtUlRuR//QUf9txp+Y=
+
+Name: org/eclipse/swt/widgets/Tracker.class
+SHA-256-Digest: INHVNBz93xdGXOfxAEwHL6gER9JTDuaea9mcrjkQs1Y=
+
+Name: org/eclipse/swt/internal/win32/FLICK_DATA.class
+SHA-256-Digest: 0fktXhBqEAMKjGAtsk5oQI/62z7tvY4/zgaC6SZ528k=
+
+Name: org/eclipse/swt/browser/PromptService2Factory.class
+SHA-256-Digest: pN0wOgMfaTjfA8NPv6gVge60eKnikPV5/qlVELvYfoE=
+
+Name: org/eclipse/swt/accessibility/AccessibleTextAdapter.class
+SHA-256-Digest: fANBYXnWMGA/GzRX5HxMfWtR7NaXMluf6/0dPFE2zSo=
+
+Name: org/eclipse/swt/accessibility/Accessible.class
+SHA-256-Digest: l7R8VO3IUU+LVwkKUUdv1EqShmEmUY1O+3ZMBwTMxxo=
+
+Name: org/eclipse/swt/custom/StyledText.class
+SHA-256-Digest: mton9sJgeO7+L0Dm1Q3UKcTV7T3DsCG5ssRLpQrWXdA=
+
+Name: org/eclipse/swt/browser/ExternalFactory$2.class
+SHA-256-Digest: nqLn++asxtf3IrVEPTAl/P9n60TABfND0prgbH8KMTw=
+
+Name: about_files/mpl-v11.txt
+SHA-256-Digest: 6Y78t8Qago7uPTBN1/UHoFG8j6GlNfPSCBjXviOUHF8=
+
+Name: org/eclipse/swt/custom/ControlEditor.class
+SHA-256-Digest: 1pBrl6T4Qogydf6FW7BbzCAYZPqVCS9LQ6mPmiLWb2w=
+
+Name: org/eclipse/swt/awt/SWT_AWT$3$3.class
+SHA-256-Digest: HUmcVm6dhicT/++o1EhfPZ0xx568kpU70uUxNv6bA+Q=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_color_deconverte
+ r.class
+SHA-256-Digest: bgXUlFjb4NIX8PnWaFhvrWHTy8Xlj7wntqY/ksJReoI=
+
+Name: org/eclipse/swt/internal/win32/TCHAR.class
+SHA-256-Digest: d+mTkmvx4JqwPKsiVGgSS+100Uk3lJ4D1MXsHsftlEs=
+
+Name: org/eclipse/swt/browser/BrowserFactory.class
+SHA-256-Digest: /zAWzyTVvImv6yT6i7Yw9vJ1Mp2otlq+TlcUZJ/R/5M=
+
+Name: org/eclipse/swt/ole/win32/OlePropertyChangeSink$2.class
+SHA-256-Digest: h1PPcNKm38DR41vAuRRwvFZxj76oIEKhtwfhFQHEhmk=
+
+Name: org/eclipse/swt/internal/mozilla/nsITransfer.class
+SHA-256-Digest: /nxhqgnyXrLiohpf5vH8UPixUD2fZGuCXCH6xFlFXLg=
+
+Name: org/eclipse/swt/internal/webkit/IWebIBActions.class
+SHA-256-Digest: PpGrOFAyL6mAJVkPqlUhuhJHJCDmur2RQawgR9tkE5A=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog$2.class
+SHA-256-Digest: z1wYMYHUpbpNnRZzRyLW7k71iRvM6G6z8/rYAcdpSmo=
+
+Name: org/eclipse/swt/custom/PaintObjectListener.class
+SHA-256-Digest: BgxSs6xGbo/JdjWRKkcKvS4KFfO/gQqdW1W8/XcqMGw=
+
+Name: org/eclipse/swt/graphics/Device.class
+SHA-256-Digest: S0VmjK1H7VxxrTWKXULXTR+uy9li2B4J6B1dZdInJTc=
+
+Name: org/eclipse/swt/widgets/Sash.class
+SHA-256-Digest: fMPcfhyPLCEEPK9N1lotkeC4kL+JH95JPdgo/5scDa0=
+
+Name: org/eclipse/swt/custom/CLayoutData.class
+SHA-256-Digest: mDDMxNsMbhRTJ2Y4bq6iUvb+IKprk+2ABi2JVdDD55M=
+
+Name: org/eclipse/swt/browser/WebDownloadDelegate$3.class
+SHA-256-Digest: c6vQxC1pv0sVI99DeX1GdsFNzC9pUdgN7Iakh4hfOts=
+
+Name: org/eclipse/swt/browser/WebPolicyDelegate.class
+SHA-256-Digest: 4IOgLjaFAeUekH6zvALzfXphKYMiAcDGHRBuv2p2AEE=
+
+Name: org/eclipse/swt/ole/win32/OleFrame.class
+SHA-256-Digest: NO4YbwgTzIxC/FGhuxq17D8CUNCA8ICraW33TnWm/+A=
+
+Name: org/eclipse/swt/internal/mozilla/nsISupports.class
+SHA-256-Digest: vZAKYl+b0CwlbOZ2vKJxI4+suQF5zvUijkqvNayqkhQ=
+
+Name: org/eclipse/swt/internal/win32/NMTVDISPINFO.class
+SHA-256-Digest: lecixGpoFS93W2g34KjJVkCLaE7GNKZ7XkEkgRhIQLk=
+
+Name: org/eclipse/swt/internal/win32/OFNOTIFY.class
+SHA-256-Digest: l0q8N0A5pLwWvm0AjgzVXwAeo8StoapEtmXjizTjxq8=
+
+Name: org/eclipse/swt/graphics/TextLayout$StyleItem.class
+SHA-256-Digest: Kkc4FxkfihfqvRlNfCFOHdJ0wZa+gRZ5l9uAnsIpwmU=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDocShell.class
+SHA-256-Digest: /QkeFqf5SQC+rMe8OvmmKjl9EU34uZPpRapmdMmO+Ao=
+
+Name: org/eclipse/swt/internal/ole/win32/IPersistFile.class
+SHA-256-Digest: mnYim/gNNtPlk7I6XJ4Wf3+3W7wAUJDTqzW3FO3AJXw=
+
+Name: org/eclipse/swt/internal/image/JPEGFileFormat.class
+SHA-256-Digest: pB2/X4UgB6h3J8ZEKs+fbRmhleS4G+N3a54CBadDVtM=
+
+Name: org/eclipse/swt/custom/TextChangeListener.class
+SHA-256-Digest: j1b+xoTXMm39YB7/MtmcAQgkHc0Me+oswwkOwUQFLUI=
+
+Name: org/eclipse/swt/custom/TableTree$1.class
+SHA-256-Digest: egY9Kg7FfRsAufVl06Tv/3KpX5FXIopeL4+Ut7ASY0c=
+
+Name: org/eclipse/swt/ole/win32/OlePropertyChangeSink.class
+SHA-256-Digest: nVl+I3Kg+eV7L8Qv5H+sdenG7sLdWdsQLWa+dWBUp9o=
+
+Name: org/eclipse/swt/internal/mozilla/nsIDOMSerializer.class
+SHA-256-Digest: P/gfHFPP+tM81l+ENF+JlXurG1cVbeappAji2DzFV6o=
+
+Name: swt-gdip-win32-4530.dll
+SHA-256-Digest: J1z/RUd0Udd84c4P9qIZ1SwJLwN6ll4rmj1yMIK0Bm8=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_inverse_dct.clas
+ s
+SHA-256-Digest: IxGtpSgGdeVJLvBNAeKdp6wDmAwKAvJKSMilXzLLHAU=
+
+Name: org/eclipse/swt/internal/webkit/JSClassDefinition.class
+SHA-256-Digest: STF+QE9q7LG28ne6otzAjmJJEVttQUZLu62nO2Rn060=
+
+Name: org/eclipse/swt/internal/win32/DLLVERSIONINFO.class
+SHA-256-Digest: mKeZCiF1PZXPaMpfl/sxcqGLtSWmD0NlkPpEsxcKtO8=
+
+Name: org/eclipse/swt/internal/mozilla/nsIXPConnect.class
+SHA-256-Digest: kV68nWJIS19DrdjfolRwCjNUBfTudxregM2g0Sj6otM=
+
+Name: org/eclipse/swt/graphics/Transform.class
+SHA-256-Digest: DlCgRGqK15UkN53+pRrXFlDFXnI3NRnQcsVtoQuSFCA=
+
+Name: org/eclipse/swt/awt/SWT_AWT$3$2.class
+SHA-256-Digest: fi75Oe/jp5QCjlOknlwxj0rkdqAPo4y5q0bTJ8/o7qo=
+
+Name: org/eclipse/swt/custom/CTabFolderListener.class
+SHA-256-Digest: f84iRE20voWj4prPuQjNjFpM3kSMYAWuKNjEs772KIA=
+
+Name: org/eclipse/swt/internal/gdip/Rect.class
+SHA-256-Digest: IuRQCzeKrHuTrDZE3U70MeGHYLhyvZOFpZHJjv3j3Yk=
+
+Name: org/eclipse/swt/internal/win32/NMUPDOWN.class
+SHA-256-Digest: 5k2b3WFt3FlZ35JFLSrHLK5CP4TbCwhwH5EykSjJ1pw=
+
+Name: org/eclipse/swt/internal/mozilla/nsIAuthInformation.class
+SHA-256-Digest: zfIlTg+fcHjQnJXK3zwcfBoI1Xw7ffs6cmsX41ilzwM=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebBrowserFocus.class
+SHA-256-Digest: rozcOWQ//ye+OXKUvP/3bsf2KSlk20VNGy1Yo12LvHo=
+
+Name: org/eclipse/swt/browser/Download_1_8.class
+SHA-256-Digest: aOeShgXMq/N2Fp/BJA/o+QmtgP5l+vWMri26MiT2xwo=
+
+Name: org/eclipse/swt/browser/Mozilla$14.class
+SHA-256-Digest: /ZiCgGNdo2KT2nCkWNhaIwhM6F2aqKrK2XG09uymdkk=
+
+Name: org/eclipse/swt/internal/win32/NMTBHOTITEM.class
+SHA-256-Digest: Bvk856dpuIJkmGs+3UXtZPaW3zhqanKf2/hJRKyR4Dk=
+
+Name: org/eclipse/swt/dnd/FileTransfer.class
+SHA-256-Digest: pxWgBj2HZwbEOSiZ44k5a6sq7PFgjV5QUAsXiYss2w0=
+
+Name: org/eclipse/swt/internal/win32/TBBUTTONINFO.class
+SHA-256-Digest: Hb+eW+eo0Ub7L5H+P9X5JkC6HQ+1TrHRaKEJab1oqXY=
+
+Name: org/eclipse/swt/browser/StatusTextEvent.class
+SHA-256-Digest: FnDH2jGU3zH0xBMTQ4KC0jeglAVCUEG9IZfnpoKtZ90=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebProgressListener2.class
+SHA-256-Digest: pBDidoSzLTLSF0FIqEPy58KxDz/3qRmlUtRusgKk79A=
+
+Name: org/eclipse/swt/internal/ole/win32/IServiceProvider.class
+SHA-256-Digest: 9fcTJxqtJcLCIFY/ObdzIq9XBoFLAm+unpniWNqtbYA=
+
+Name: org/eclipse/swt/internal/win32/OUTLINETEXTMETRICW.class
+SHA-256-Digest: eYxkHK+MdhwGK6xcEsgZy3WXYIH3KME7e1UZWcDVbVU=
+
+Name: org/eclipse/swt/browser/Mozilla$13.class
+SHA-256-Digest: rgHwvd37qk2C1JpJUXwoBwTJkkeQlb0rsqCKoZu0cqw=
+
+Name: org/eclipse/swt/internal/mozilla/nsIClassInfo.class
+SHA-256-Digest: eSnou9ymf9WwV7AY/CvFTL2SOAWtm5SoeZHbcjcImcQ=
+
+Name: org/eclipse/swt/graphics/Region.class
+SHA-256-Digest: ZFqjqr+30DpJsScSmlDLSctIjYZmIvsxMvGehV5X5xQ=
+
+Name: org/eclipse/swt/browser/ExternalFactory$1.class
+SHA-256-Digest: pxyMTwfCec7Y5yuFxNMABJBf15q8iwVTIoOMwdmNKPU=
+
+Name: org/eclipse/swt/custom/StyledTextListener.class
+SHA-256-Digest: c8g7ZPJgsfXMnRNY+CFa/dM9HoHQxI0RrRp96W+6yrQ=
+
+Name: org/eclipse/swt/custom/StyleRange.class
+SHA-256-Digest: Zz6Rnl3aus+WcjJWcWrcKqzqcawvUYm0+bjm9fB3k/A=
+
+Name: org/eclipse/swt/internal/CloneableCompatibility.class
+SHA-256-Digest: Q/hhfJbh4ZD8cMFNU4oe2sp+JfC7FTzlGgGQqBSyTSM=
+
+Name: org/eclipse/swt/internal/mozilla/nsIScriptGlobalObject.class
+SHA-256-Digest: 8Bb/Iyuh9H27zvV77nGmyetfbAPTWtSGbegLIIRRVPU=
+
+Name: org/eclipse/swt/internal/win32/NMTVITEMCHANGE.class
+SHA-256-Digest: m6oisj+/7kfwMF7iWuVLQNmpcLMstd1KZ8tLPomyKxQ=
+
+Name: org/eclipse/swt/internal/ole/win32/IPropertyBag.class
+SHA-256-Digest: 1HJ/70rtJR/V37VwRZJq0VnxfnJnekenlUutqxVNS+o=
+
+Name: org/eclipse/swt/custom/SashFormData.class
+SHA-256-Digest: lVrQe1ZEQVmuhm1DzLDSFoN6GstD2eiP5wLIickbn90=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder$jpeg_decompress_struc
+ t.class
+SHA-256-Digest: jd+VBDP7xwnayl36nwN7Ya+Kb/Z7GHo10KSyWxo3wsY=
+
+Name: org/eclipse/swt/browser/WebDownloadDelegate$2.class
+SHA-256-Digest: yJRhkDlGzh34Ywz3RWzixGrkNcpsOilhnY0V2b8QIBI=
+
+Name: org/eclipse/swt/widgets/TaskItem$1.class
+SHA-256-Digest: x79z0tPUHBjyfIRCFDBQPSTerEuORD80vNKXdAbsltg=
+
+Name: org/eclipse/swt/browser/HelperAppLauncherDialog$1.class
+SHA-256-Digest: cxAAgKjG2wZj5v73ClUpfuPQvZrlkN3mFtvrY4+RHxY=
+
+Name: org/eclipse/swt/ole/win32/OleFrame$3.class
+SHA-256-Digest: Yw14JEwnm5lTARt1pAGkLhH/UTsZ15RrCGinAOYj2yE=
+
+Name: org/eclipse/swt/internal/image/GIFFileFormat.class
+SHA-256-Digest: nLgoCJX0NjXACrIJPh5gwZJmoh4Vbzx4iarw/2C+G3Q=
+
+Name: org/eclipse/swt/browser/PromptService2Factory$1.class
+SHA-256-Digest: ysBIfCeMNlUirbq/t3RiUwFwL2AKgXfsmv0cnpdxiak=
+
+Name: org/eclipse/swt/events/VerifyListener.class
+SHA-256-Digest: wpvAdo5r1KyYoEHMzzgbRqBQQQ9ABOcwffbh+pJ+yz8=
+
+Name: org/eclipse/swt/browser/MozillaDelegate.class
+SHA-256-Digest: hlgGkiCuCyNObsCtkQwMJ3QgoWpEBzWRlq0HUbI3+9M=
+
+Name: org/eclipse/swt/browser/Mozilla$12.class
+SHA-256-Digest: gKVl5uGgbrBp765HXzd1zkUwiqfC6KluxhTgtahp2uY=
+
+Name: org/eclipse/swt/custom/StyledText$6.class
+SHA-256-Digest: ON38FJVcoMvcVkMhsnn6QydXFsnrC3ouTYPX7BYmCf0=
+
+Name: org/eclipse/swt/custom/StyledText$3.class
+SHA-256-Digest: HfMoOaAygYgOC8ZuijH5wods3+uasTFcwNGMzZdz2DI=
+
+Name: org/eclipse/swt/internal/image/PngIendChunk.class
+SHA-256-Digest: rYktAzTeNujKx9JhI1QkrXlKXbtSF5KDnZvFxwn3z94=
+
+Name: org/eclipse/swt/events/TraverseEvent.class
+SHA-256-Digest: n4ZPysoHGqb1YGaVbzBUetI7cWqBHL19EFNV9yR/b38=
+
+Name: org/eclipse/swt/accessibility/AccessibleValueAdapter.class
+SHA-256-Digest: etYFab3h3RP4qpAOA5hCQRQzHFLPJMAHo3/CjwrXmSw=
+
+Name: org/eclipse/swt/widgets/Event.class
+SHA-256-Digest: i0zmg2tsOC8e4xpVD6/nkMJ/Scuh0ntn6vNv66iqMyo=
+
+Name: org/eclipse/swt/internal/mozilla/nsIWebBrowser.class
+SHA-256-Digest: bs+6YTz1VlfuBSntZqtCnPQhdcrPI486MZaL8a61pfk=
+
+Name: org/eclipse/swt/browser/AuthenticationEvent.class
+SHA-256-Digest: KCNKG45YCmiJ1Bpy5bM8bp44gjDXwUIRuy213VthbC0=
+
+Name: org/eclipse/swt/custom/CTabFolder$10.class
+SHA-256-Digest: /1UUFBqFQOYpF5BPqlBpxcg1oe8droanF9EX3tDSBds=
+
+Name: org/eclipse/swt/dnd/OleEnumFORMATETC$1.class
+SHA-256-Digest: 5YEm1fqW0DJVhOcZf6mJYxEiAzbJ9oxmZ9RoyfT6JpY=
+
+Name: org/eclipse/swt/browser/WebBrowser$EvaluateFunction.class
+SHA-256-Digest: WA7DbvZKLLzsZBecBqIL2C1KgRNXnxX9CFVOu48o0pc=
+
+Name: org/eclipse/swt/custom/StyledText$4.class
+SHA-256-Digest: sDfgB81h4ZATQ3gZqUX+ybvlAOIZpspdxFX/piU0URo=
+
+Name: org/eclipse/swt/internal/win32/TRACKMOUSEEVENT.class
+SHA-256-Digest: I1iklUjgyB2h2zlGvmST2gVx/HuvohdJReaow9wu79s=
+
+Name: org/eclipse/swt/accessibility/AccessibleValueListener.class
+SHA-256-Digest: y33llyxf1DUI7ismfqszFlyy+CvCUTTZSa6Ao3EjhaM=
+
+Name: org/eclipse/swt/custom/ViewForm.class
+SHA-256-Digest: 3RLicm87ZnKzfGteNBL9Sgn/UIgr5wiA7nPNNBvgt6s=
+
+Name: org/eclipse/swt/browser/Mozilla$11.class
+SHA-256-Digest: 6G+n4MGZGPaEBfgg5UkvQb+/gy74gzsO/Cd7SYOdv4A=
+
+Name: org/eclipse/swt/events/MouseAdapter.class
+SHA-256-Digest: R200i3j7wVBFAri6SN40qrMs2/9pxqYA/H/4mfcOv6E=
+
+Name: org/eclipse/swt/widgets/Layout.class
+SHA-256-Digest: fJ01tSf/ilyxq0wXShWQxDqgXauB3ylSG1dSiX7SjqM=
+
+Name: org/eclipse/swt/events/ControlAdapter.class
+SHA-256-Digest: 6L7PrSG79wU2OATKES9CEgwx31XtYJpKECnfx0uLj/w=
+
+Name: org/eclipse/swt/internal/mozilla/nsISerializable.class
+SHA-256-Digest: m44tYY1XdcJBd3XJDZRetbb2C+U50HLL8VlCSujIziM=
+
+Name: org/eclipse/swt/internal/ole/win32/ISpecifyPropertyPages.class
+SHA-256-Digest: YHq8lIivCuE98VsAg1oIymoPg8a+50eydz+PiCT/Els=
+
+Name: org/eclipse/swt/internal/Library.class
+SHA-256-Digest: bCtXRk/QFf8TOiYDe2q9kmp9zGU7HhxxlmUBJqbiHJM=
+
+Name: org/eclipse/swt/internal/ole/win32/IPersistStreamInit.class
+SHA-256-Digest: 7GQaaO5Wx9P5xcwP5KP4UErXI+SuAuiWNhXdny/44N8=
+
+Name: org/eclipse/swt/ole/win32/OleFrame$2.class
+SHA-256-Digest: v3ATKWTi15nnAfSwsnQqIKSD0v38PGs05zRwJOE4e7k=
+
+Name: org/eclipse/swt/internal/win32/EXTLOGPEN.class
+SHA-256-Digest: PVWMuN8KR3p448e5Vu7v4R0Quoqyk3JtXyQWA0i8pfA=
+
+Name: org/eclipse/swt/widgets/TrayItem.class
+SHA-256-Digest: 91w9b7rZp9Ud8MV2T85guH2X1LqCd6SwYSdy2eIYe+c=
+
+Name: org/eclipse/swt/custom/AnimatedProgress.class
+SHA-256-Digest: nWQe0LueDaLTCW1TVv7lnRl497sfw+ydJ64WTitWo3A=
+
+Name: chrome.manifest
+SHA-256-Digest: kQtmp0TOBcVm/IYUCZGjvmHhh+jxdtI2LIbJ4UmH7uQ=
+
+Name: about.html
+SHA-256-Digest: VFfiLm6oLyUyRwydn8An+qKH2mN3Cwz52Y2efmbYAC4=
+
+Name: org/eclipse/swt/browser/Mozilla$10.class
+SHA-256-Digest: 0LKft78Ly7XyET/YgLzA8OkbgJn+DhJI56IIchlZepc=
+
+Name: org/eclipse/swt/internal/mozilla/nsIPrefLocalizedString.class
+SHA-256-Digest: AO5XQ+Uv5sMzSTnCiq5UvGst9OcPR2qA5XHX9Z+TBkA=
+
+Name: org/eclipse/swt/internal/Lock.class
+SHA-256-Digest: yxXkq0X+DRKy/o46Mq1szM1rmTkkgcs34y6qYCUr6aI=
+
+Name: org/eclipse/swt/widgets/Control.class
+SHA-256-Digest: MJi7Rwplgl0D5YGNJ1VuPZm3Pewmvb9qZz2CkBGqCSQ=
+
+Name: org/eclipse/swt/browser/LocationEvent.class
+SHA-256-Digest: gqCXXye8F1fmFoE22V8uEoZVaKulKkXT7iIKzhMAvME=
+
+Name: org/eclipse/swt/custom/TextChangingEvent.class
+SHA-256-Digest: Pdg0EjCObsB0PeO6yXIsfKHiokVSfLCUN7i0TApitaU=
+
+Name: org/eclipse/swt/custom/StyledText$5.class
+SHA-256-Digest: sRBNCc2pVZjKIkSFoq9WlMS6MZw87XyUe3h1UoquEeU=
+
+Name: org/eclipse/swt/internal/mozilla/nsICookieManager.class
+SHA-256-Digest: f9IxZhLoJ5qXtfT50KyMCWoNiG4wShHCZzJ5UFRiFlQ=
+
+Name: org/eclipse/swt/events/TreeAdapter.class
+SHA-256-Digest: hk5haMOmDIhQOjSfH6GgMzqPerBtI7M3ZGRz2xghdno=
+
+Name: org/eclipse/swt/internal/image/PngPlteChunk.class
+SHA-256-Digest: Js+tiXrZLWhlAHO3GVghKVaTWfD6/dXY+0I5ox2qneI=
+
+Name: org/eclipse/swt/internal/win32/LRESULT.class
+SHA-256-Digest: TPz/qJOO3WviGo9u/7bUMKqJiaD4SflkbDYewPJdKdA=
+
+Name: org/eclipse/swt/internal/win32/NONCLIENTMETRICS.class
+SHA-256-Digest: 6G2cs2TFeX6z79m0tfH8J+/9tu2LL+2AKGeL3djnjo8=
+
+Name: org/eclipse/swt/internal/image/JPEGDecoder.class
+SHA-256-Digest: OIGwiICJJg9DxmFEYaqQ/yYP5CatgQn7BNXKUv6L+JU=
+
+Name: org/eclipse/swt/widgets/TableColumn.class
+SHA-256-Digest: guB/DAICQsx8cPU9RnZ+zxLCPx9zI/+KpUq5GSajrZI=
+
+Name: org/eclipse/swt/internal/ole/win32/TYPEATTR.class
+SHA-256-Digest: tEZDnlYwzXMfMiV15yA+ThDQfVQEaqVZVvE4b9nQbyQ=
+
+Name: org/eclipse/swt/custom/CCombo$1$1.class
+SHA-256-Digest: TjyhWDQMcGkGm/6xiXPQUHZ+OgmSh9r/iP0Eykxsjic=
+
+Name: org/eclipse/swt/ole/win32/OleFrame$1.class
+SHA-256-Digest: xnW14+fw6o9PW40TyvJBFdh1xkw66AUKPYKXsfFYwpo=
+
+Name: org/eclipse/swt/internal/win32/MSG.class
+SHA-256-Digest: h3G/L5qCU7nq4rW9seUZGiSRTcOz8jfVtO005YghagI=
+
