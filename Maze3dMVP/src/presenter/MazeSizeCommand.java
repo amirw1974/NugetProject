@@ -16,10 +16,10 @@ public class MazeSizeCommand implements Command {
 	@Override
 	public void doCommand(String[] args) {
 		if (args.length == 1){
-			v.PrintOut(m.MazeSize(args[0]));
+			v.displayMessage(m.MazeSize(args[0]));
 		}
 		else{
-			v.PrintOut("maze_size [(String) name]");
+			v.displayMessage("maze_size [(String) name]");
 		}
 
 	}

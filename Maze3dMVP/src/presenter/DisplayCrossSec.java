@@ -14,15 +14,13 @@ public class DisplayCrossSec implements Command {
 
 	@Override
 	public void doCommand(String[] args) {
-	
 		if (args.length == 3) {
-			
-			int[][] maze2d = (m).getCrossSection(args[0], Integer.parseInt(args[1]), args[2]);
-			(v).PrintOut(args[2] + "'s Maze - Cross by the " + args[0] + " axis \n");
+			int[][] maze2d = m.getCrossSection(args[0], Integer.parseInt(args[1]), args[2]);
+			v.displayMessage(args[2] + "'s Maze - Cross by the " + args[0] + " axis \n");
 			v.displayCrossSection(maze2d);
 
 		} else {
-			(v).PrintOut("display_cross_section [(String) X/Y/Z] [(int) Index] [(String)name]\n");
+			v.displayMessage("display_cross_section [(String) X/Y/Z] [(int) Index] [(String)name]\n");
 		}
 
 	}

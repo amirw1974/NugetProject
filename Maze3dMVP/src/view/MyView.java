@@ -7,23 +7,21 @@ import java.util.Observable;
 import java.util.Observer;
 
 import algorithms.mazeGenerator.Maze3d;
-
-
+import algorithms.search.Solution;
 
 public class MyView extends Observable implements View, Observer {
 
 	private BufferedReader in;
 	private Writer out;
 	private CLI cli;
-		
-	public MyView(BufferedReader in, Writer out)
-	{		
+
+	public MyView(BufferedReader in, Writer out) {
 		this.in = in;
-		this.out = out;	
+		this.out = out;
 		cli = new CLI(in, out);
-		cli.addObserver(this);		
+		cli.addObserver(this);
 	}
-			
+
 	@Override
 	public void displayMessage(String message) {
 		try {
@@ -32,7 +30,7 @@ public class MyView extends Observable implements View, Observer {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}		
+		}
 	}
 
 	@Override
@@ -40,24 +38,35 @@ public class MyView extends Observable implements View, Observer {
 		Thread thread = new Thread(new Runnable() {
 
 			@Override
-			public void run() {				
+			public void run() {
 				cli.start();
 			}
-			
-		});	
+
+		});
 		thread.start();
 	}
 
-	
+	public void displayCrossSection(int[][] crossS) {
+		String s = new String();
+		for (int j = 0; j < crossS.length; j++) {
+			for (int j2 = 0; j2 < crossS[0].length; j2++) {
+				s += " " + crossS[j][j2];
+			}
+			s += "\n";
+		}
+		System.out.println(s);
+
+	}
+
 	@Override
 	public void displayMaze(Maze3d maze) {
-		try {			
+		try {
 			out.write(maze.toString());
 			out.flush();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}			
+		}
 	}
 
 	@Override
@@ -65,6 +74,18 @@ public class MyView extends Observable implements View, Observer {
 		if (o == cli) {
 			setChanged();
 			notifyObservers(arg);
+		}
+
+	}
+
+	@Override
+	public void displaySolution(Solution s) {
+		try {
+			out.write(s.toString() + "\n");
+			out.flush();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 	}

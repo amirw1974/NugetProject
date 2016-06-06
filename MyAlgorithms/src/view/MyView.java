@@ -91,7 +91,7 @@ public class MyView implements View {
 			s += "\n";
 		}
 		System.out.println(s);
-	
+
 	}
 
 }

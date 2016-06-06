@@ -11,8 +11,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Observable;
 
+import algorithms.demo.MazeAdapter;
 import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.MyMaze3dGenerator;
+import algorithms.search.BestFirstSearch;
+import algorithms.search.BreadthFirstSearch;
+import algorithms.search.DFS;
+import algorithms.search.Solution;
 import io.MyCompressorOutputStream;
 import io.MyDecompressorInputStream;
 
@@ -20,6 +25,7 @@ public class MyModel extends Observable implements Model {
 	
 	private ArrayList<Thread> threads = new ArrayList<Thread>();
 	private HashMap<String, Maze3d> mazes = new HashMap<String, Maze3d>();
+	private HashMap<String, Solution> solutions = new HashMap<>();
 	private String message;
 	
 	public String getMessage() {
@@ -101,4 +107,76 @@ public class MyModel extends Observable implements Model {
 
 	}
 
+	public int[][] getCrossSection(String axis, int index, String name) {
+		Maze3d maze = mazes.get(name);
+		switch (axis) {
+		case "x":
+		case "X":
+			return maze.getCrossSectionByX(index);
+		case "y":
+		case "Y":
+			return maze.getCrossSectionByY(index);
+		case "z":
+		case "Z":
+			return maze.getCrossSectionByZ(index);
+		default:
+			return null;
+		}
+
+	}
+
+	@Override
+	public Solution getSolution(String name) {
+		return solutions.get(name);
+	}
+
+	@Override
+	public String MazeFileSize(String fileName) {
+		java.io.File file = new java.io.File(fileName);
+		if (file.length() == 0) {
+			return "File Not Found!";
+		}
+		return Long.toString(file.length()) + " Bytes\n";
+
+	}
+
+	@Override
+	public String MazeSize(String name) {
+		if (mazes.containsKey(name)){
+			Maze3d maze = mazes.get(name);
+			int size = maze.toString().length();	
+			return Integer.toString(size) + "\n";
+		}else
+			return "Couldn't find maze!";		
+	}
+
+	@Override
+	public void SolveMaze(String name, String algorithm) {
+		Maze3d maze;
+		maze = mazes.get(name);
+		Solution s;
+		// TODO: Add if
+		if (solutions.containsKey(name)) {
+			solutions.remove(name);
+		}
+		if (algorithm.compareTo("DFS") == 0) {
+			s = new DFS().search(new MazeAdapter(maze));
+			message = "DFS for " + name + " is ready\n";
+			setChanged();
+			notifyObservers("display_message");
+			solutions.put(name, s);
+		} else if (algorithm.compareTo("BestFirstSearch") == 0) {
+			s = new BestFirstSearch().search(new MazeAdapter(maze));
+			message = "BestFirstSearch for " + name + " is ready\n";
+			setChanged();
+			notifyObservers("display_message");
+			solutions.put(name, s);
+		} else if (algorithm.compareTo("BreadthFirstSearch") == 0) {
+			s = new BreadthFirstSearch().search(new MazeAdapter(maze));
+			message = "BreadthFirstSearch for " + name + " is ready\n";
+			solutions.put(name, s);
+		}
+
+		
+	}
 }

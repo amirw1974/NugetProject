@@ -33,24 +33,18 @@ import java.io.PrintWriter;
 import model.Model;
 import model.MyModel;
 import presenter.Presenter;
+import view.MazeWindow;
 import view.MyView;
 import view.View;
+
 
 public class Run {
 
 	public static void main(String[] args) {
-        
-		Model model = new MyModel();
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter out = new PrintWriter(System.out);
-		View view = new MyView(in, out);
-		view.start();
-		Presenter presenter = new Presenter(model, view);
-		
-		
-		
-
+		MazeWindow view = new MazeWindow();
+		view.run();
 	}
 
 }
+
 
