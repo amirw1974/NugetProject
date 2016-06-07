@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_40" class="java.beans.XMLDecoder">
+ <object class="boot.Settings">
+  <void property="numOfMaxThread">
+   <int>5</int>
+  </void>
+  <void property="solvingAlgorithm">
+   <string>DFS</string>
+  </void>
+ </object>
+</java>

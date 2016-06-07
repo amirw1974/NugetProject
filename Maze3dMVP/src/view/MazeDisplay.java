@@ -64,22 +64,22 @@ public abstract class MazeDisplay extends Canvas {
 				switch (e.keyCode) {
 				case SWT.ARROW_LEFT:
 					if (mazeData[charPos.x - 1][charPos.y] == 1)
-						break;
+						return;
 					else
 						goLeft();
 				case SWT.ARROW_RIGHT:
-					if (mazeData[charPos.x + 1][charPos.y] == 1)
-						break;
+					if (mazeData[charPos.y][charPos.x + 1] == 1)
+						return;
 					else
 						goRight();
 				case SWT.ARROW_UP:
 					if (mazeData[charPos.x][charPos.y - 1] == 1)
-						break;
+						return;
 					else
 						goUp();
 				case SWT.ARROW_DOWN:
 					if (mazeData[charPos.x][charPos.y + 1] == 1)
-						break;
+						return;
 					else
 						goDown();
 

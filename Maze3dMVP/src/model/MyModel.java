@@ -7,9 +7,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Observable;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import algorithms.demo.MazeAdapter;
 import algorithms.mazeGenerator.Maze3d;
@@ -18,12 +21,14 @@ import algorithms.search.BestFirstSearch;
 import algorithms.search.BreadthFirstSearch;
 import algorithms.search.DFS;
 import algorithms.search.Solution;
+import boot.Settings;
 import io.MyCompressorOutputStream;
 import io.MyDecompressorInputStream;
 
 public class MyModel extends Observable implements Model {
 	
-	private ArrayList<Thread> threads = new ArrayList<Thread>();
+	private ExecutorService pool;
+	Settings settings;
 	private HashMap<String, Maze3d> mazes = new HashMap<String, Maze3d>();
 	private HashMap<String, Solution> solutions = new HashMap<>();
 	private String message;
@@ -32,11 +37,16 @@ public class MyModel extends Observable implements Model {
 		return message;
 	}
 	
+	public MyModel(Settings settings) {
+		pool = Executors.newFixedThreadPool(settings.getNumOfMaxThread());
+	}
+	
 	@Override
 	public void generateMaze(String name, int rows, int cols, int levels) {
-		Thread thread = new Thread(new Runnable() {
+		Callable<Maze3d> c = new Callable<Maze3d>() {
+			
 			@Override
-			public void run() {				
+			public Maze3d call() throws Exception {
 				MyMaze3dGenerator mg = new MyMaze3dGenerator();
 				Maze3d maze = mg.generate(rows, cols, levels);
 				mazes.put(name, maze);
@@ -44,12 +54,14 @@ public class MyModel extends Observable implements Model {
 				message = "Maze " + name + " is ready\n";
 				setChanged();
 				notifyObservers("display_message");
-				
-				//controller.displayMessage("Maze " + name + " is ready\n");				
-			}				
-		});
-		thread.start();	
-		threads.add(thread);
+				return maze;
+			}
+		};
+						
+		Future<Maze3d> futureMaze = pool.submit(c);
+		//submit- take out from poolThread even if the maze is not ready yet!
+		
+
 	}
 	
 	public Maze3d getMaze(String name) {
@@ -85,8 +97,8 @@ public class MyModel extends Observable implements Model {
 
 	@Override
 	public void loadMaze(String fileName, String name) {
-		if (!mazes.containsKey(name)) {
-			message = "Maze " + name + " does not exist\n";
+		if (mazes.containsKey(name)) {
+			message = "Maze " + name + " exist\n";
 			setChanged();
 			notifyObservers("display_message");
 			return;
@@ -152,31 +164,42 @@ public class MyModel extends Observable implements Model {
 
 	@Override
 	public void SolveMaze(String name, String algorithm) {
-		Maze3d maze;
-		maze = mazes.get(name);
-		Solution s;
-		// TODO: Add if
-		if (solutions.containsKey(name)) {
-			solutions.remove(name);
-		}
-		if (algorithm.compareTo("DFS") == 0) {
-			s = new DFS().search(new MazeAdapter(maze));
-			message = "DFS for " + name + " is ready\n";
-			setChanged();
-			notifyObservers("display_message");
-			solutions.put(name, s);
-		} else if (algorithm.compareTo("BestFirstSearch") == 0) {
-			s = new BestFirstSearch().search(new MazeAdapter(maze));
-			message = "BestFirstSearch for " + name + " is ready\n";
-			setChanged();
-			notifyObservers("display_message");
-			solutions.put(name, s);
-		} else if (algorithm.compareTo("BreadthFirstSearch") == 0) {
-			s = new BreadthFirstSearch().search(new MazeAdapter(maze));
-			message = "BreadthFirstSearch for " + name + " is ready\n";
-			solutions.put(name, s);
-		}
+		
+		Callable<Solution> c= new Callable<Solution>() {
 
+			@Override
+			public Solution call() throws Exception {
+				Maze3d maze;
+				maze = mazes.get(name);
+				Solution s = null;
+				// TODO: Add if
+				if (solutions.containsKey(name)) {
+					solutions.remove(name);
+				}
+				if (settings.getSolvingAlgorithm().compareTo("DFS") == 0) {
+					s = new DFS().search(new MazeAdapter(maze));
+					message = "DFS for " + name + " is ready\n";
+					setChanged();
+					notifyObservers("display_message");
+					solutions.put(name, s);
+				} else if (settings.getSolvingAlgorithm().compareTo("BestFirstSearch") == 0) {
+					s = new BestFirstSearch().search(new MazeAdapter(maze));
+					message = "BestFirstSearch for " + name + " is ready\n";
+					setChanged();
+					notifyObservers("display_message");
+					solutions.put(name, s);
+				} else if (settings.getSolvingAlgorithm().compareTo("BreadthFirstSearch") == 0) {
+					s = new BreadthFirstSearch().search(new MazeAdapter(maze));
+					message = "BreadthFirstSearch for " + name + " is ready\n";
+					solutions.put(name, s);
+				}
+
+				return s;
+				
+			}
+		};
+		
+		pool.submit(c);
 		
 	}
 }
