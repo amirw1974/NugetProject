@@ -6,7 +6,7 @@ public class DirCommand implements Command {
 	public void doCommand(String[] args) {
 		ClassLoader loader = DirCommand.class.getClassLoader();
         System.out.println(loader.getResource(""));
-
+ 
 	}
 
 }
