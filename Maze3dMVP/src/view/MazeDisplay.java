@@ -68,7 +68,7 @@ public abstract class MazeDisplay extends Canvas {
 					else
 						goLeft();
 				case SWT.ARROW_RIGHT:
-					if (mazeData[charPos.y][charPos.x + 1] == 1)
+					if (mazeData[charPos.x + 1][charPos.y] == 1)
 						return;
 					else
 						goRight();
