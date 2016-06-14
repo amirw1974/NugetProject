@@ -16,7 +16,8 @@ public class Settings implements Serializable {
 		this.numOfMaxThread = numOfMaxThread;
 	}
 	public Settings() {
-		
+		solvingAlgorithm = "DFS";
+		numOfMaxThread = 5;
 	}
 	
 	public String getSolvingAlgorithm() {

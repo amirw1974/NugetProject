@@ -1,9 +1,11 @@
 package view;
 
+import java.util.Observable;
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
-public abstract class BasicWindow {
+public abstract class BasicWindow extends Observable implements View{
 	protected Display display;
 	protected Shell shell;
 	

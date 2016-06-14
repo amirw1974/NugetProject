@@ -21,6 +21,11 @@ public class GameCharacter {
 		Image img = new Image(null, icon);
 		e.gc.drawImage(img, 0, 0, 128, 128, pos.x * cellWidth, pos.y * cellHeight, cellWidth, cellHeight);
 	}
+	public void moveLeft() {
+		
+		
+	}
+	
 	
 	
 }
