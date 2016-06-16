@@ -8,6 +8,7 @@ import algorithms.mazeGenerator.Position;
 public class GameCharacter {
 	private static final String icon = "images/minion.png";
 	private Position pos;
+	private MazeDisplay md;
 	public Position getPos() {
 		return pos;
 	}

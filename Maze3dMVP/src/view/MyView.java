@@ -14,7 +14,7 @@ public class MyView extends Observable implements View, Observer {
 	private BufferedReader in;
 	private Writer out;
 	private CLI cli;
-
+	MazeWindow mw;
 	public MyView(BufferedReader in, Writer out) {
 		this.in = in;
 		this.out = out;
@@ -60,15 +60,8 @@ public class MyView extends Observable implements View, Observer {
 
 	@Override
 	public void displayMaze(Maze3d maze) {
-		try {
-			out.write(maze.toString());
-			out.flush();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		mw.displayMaze(maze);
 	}
-
 	@Override
 	public void update(Observable o, Object arg) {
 		if (o == cli) {

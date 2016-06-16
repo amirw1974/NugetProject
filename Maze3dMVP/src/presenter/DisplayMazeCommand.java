@@ -22,7 +22,5 @@ public class DisplayMazeCommand implements Command {
 			view.displayMessage("Maze " + name + "not found");
 		else
 			view.displayMaze(maze);
-
 	}
-
 }

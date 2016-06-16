@@ -12,10 +12,10 @@ import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.Position;
 
 public abstract class MazeDisplay extends Canvas {
-	protected Maze3d maze3d;
-	protected int[][][] mazeData;
-	
-	
+	 protected Maze3d mazeData;
+
+	//protected int[][][] mazeData;
+
 	protected GameCharacter character = new GameCharacter();
 
 	protected abstract void drawMaze(PaintEvent e);
@@ -31,11 +31,12 @@ public abstract class MazeDisplay extends Canvas {
 	protected abstract void goFloorUp();
 
 	protected abstract void goFloorDown();
-
-
 	
-	public void setMazeData(int[][][] mazeData) {
+	protected abstract void debugStatus(); //for debug
+
+	public void setMazeData(Maze3d mazeData) {
 		this.mazeData = mazeData;
+		//this.character.setPos(mazeData.getStartPosition());
 	}
 
 	public void setCharacterPosition(Position pos) {
@@ -45,7 +46,6 @@ public abstract class MazeDisplay extends Canvas {
 	public MazeDisplay(Composite parent, int style) {
 		super(parent, style);
 		this.addPaintListener(new PaintListener() {
-
 			@Override
 			public void paintControl(PaintEvent e) {
 				drawMaze(e);
@@ -56,39 +56,33 @@ public abstract class MazeDisplay extends Canvas {
 			@Override
 			public void keyReleased(KeyEvent arg0) {
 				// TODO Auto-generated method stub
-
 			}
 
 			@Override
 			public void keyPressed(KeyEvent e) {
-				switch (e.keyCode) {					
+				switch (e.keyCode) {
 				case SWT.ARROW_LEFT:
 					goLeft();
 					break;
-
 				case SWT.ARROW_RIGHT:
-						goRight();
-						break;	
+					goRight();
+					break;
 				case SWT.ARROW_UP:
 					goUp();
 					break;
 				case SWT.ARROW_DOWN:
 					goDown();
 					break;
-					
 				case SWT.PAGE_DOWN:
 					goFloorDown();
 					break;
-					
 				case SWT.PAGE_UP:
 					goFloorUp();
 					break;
+				case SWT.SHIFT: // for debug
+					debugStatus();
 				}
-			
 			}
-
 		});
-		
 	}
-	
 }

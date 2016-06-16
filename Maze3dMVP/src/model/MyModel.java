@@ -49,8 +49,7 @@ public class MyModel extends Observable implements Model {
 			public Maze3d call() throws Exception {
 				MyMaze3dGenerator mg = new MyMaze3dGenerator();
 				Maze3d maze = mg.generate(rows, cols, levels);
-				mazes.put(name, maze);
-				
+				mazes.put(name, maze);			
 				message = "Maze " + name + " is ready\n";
 				setChanged();
 				notifyObservers("display_message");
