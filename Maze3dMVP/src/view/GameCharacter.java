@@ -8,6 +8,7 @@ import algorithms.mazeGenerator.Position;
 public class GameCharacter {
 	private static final String icon = "images/minion.png";
 	private Position pos;
+	private Position goalPos;
 	private MazeDisplay md;
 	public Position getPos() {
 		return pos;
@@ -15,7 +16,12 @@ public class GameCharacter {
 	public void setPos(Position pos) {
 		this.pos = pos;
 	}
-	
+	public Position getGoalPosition() {
+		return goalPos;
+	}
+	public void setGoalPos(Position pos) {
+	this.goalPos = pos;
+	}
 	public void draw(PaintEvent e, int cellWidth, int cellHeight) {
 		e.gc.setBackground(new Color(null, 255, 255, 255));
 		

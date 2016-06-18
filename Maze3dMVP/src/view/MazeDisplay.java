@@ -12,9 +12,7 @@ import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.Position;
 
 public abstract class MazeDisplay extends Canvas {
-	 protected Maze3d mazeData;
-
-	//protected int[][][] mazeData;
+	protected int[][][] mazeData;
 
 	protected GameCharacter character = new GameCharacter();
 
@@ -34,7 +32,7 @@ public abstract class MazeDisplay extends Canvas {
 	
 	protected abstract void debugStatus(); //for debug
 
-	public void setMazeData(Maze3d mazeData) {
+	public void setMazeData(int[][][] mazeData) {
 		this.mazeData = mazeData;
 		//this.character.setPos(mazeData.getStartPosition());
 	}
