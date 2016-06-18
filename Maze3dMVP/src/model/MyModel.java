@@ -40,7 +40,6 @@ public class MyModel extends Observable implements Model {
 	public MyModel(Settings settings) {
 		pool = Executors.newFixedThreadPool(settings.getNumOfMaxThread());
 	}
-	
 	@Override
 	public void generateMaze(String name, int rows, int cols, int levels) {
 		Callable<Maze3d> c = new Callable<Maze3d>() {

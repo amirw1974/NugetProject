@@ -19,6 +19,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -31,19 +32,26 @@ import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.graphics.Image;
+import org.eclipse.swt.graphics.Path;
 import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.Position;
 import algorithms.search.Action;
 import algorithms.search.Solution;
 import algorithms.search.State;
 import io.MyCompressorOutputStream;
+import io.MyDecompressorInputStream;
 import presenter.Command;
 public class MazeWindow extends BasicWindow {
+	private HashMap<String, Maze3d> mazes = new HashMap<String, Maze3d>();
+	//
 	private MazeDisplay mazeDisplay;
+	public Maze2dDisplay maze2dDisplay;
+	GameCharacter character = new GameCharacter();
 	Maze3d maze;
 	Text name;
 	Text x;
 	Text y;
+	int LoadedMaze = 0;
 	Text z;
 	String outString = "";
 	String[] selectedItems;
@@ -150,6 +158,14 @@ public class MazeWindow extends BasicWindow {
 				if ((getlists.length) == 0) {
 					displayMessage("Please select a maze");
 					return;
+				}			
+				if (LoadedMaze == 1)
+				{
+					Maze3d maze = getMaze(outString);
+					displayMaze(maze); //returns name instead of name
+					LoadedMaze = 0;
+					return;
+					
 				}
 				setChanged();
 				notifyObservers("display" + " " + outString);
@@ -167,12 +183,71 @@ public class MazeWindow extends BasicWindow {
 				music.stop();
 			}
 		});
-	
-
-	/////////////////////////////////////////////////
-	////////////////////////////// EndofGUI///////////
-	/////////////////////////////////////////////////
-	/////////////////////////////////////////////////
+		saveItem.addListener(SWT.Selection, new Listener() {
+			@Override
+			public void handleEvent(Event arg0) {
+				OutputStream out;
+				FileDialog fd = new FileDialog(shell, SWT.SAVE);
+				fd.setText("Save");
+				fd.setFilterPath("C:/");
+				String[] filterExt = {"*.maz"};
+				fd.setFilterExtensions(filterExt);
+				String selected = fd.open();
+				// System.out.println(maze.toByteArray());
+				try {
+					Maze3d currmazed = mazeDisplay.getcurrMaze();
+					out = new MyCompressorOutputStream(new FileOutputStream(new File(selected)));
+					out.write(currmazed.toByteArray());
+					System.out.println(currmazed.toByteArray().length);
+					out.flush();
+					out.close();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		});
+		loadItem.addListener(SWT.Selection, new Listener() {
+			@Override
+			public void handleEvent(Event args) {
+				InputStream in;
+				FileDialog fd = new FileDialog(shell, SWT.OPEN);
+				fd.setText("Open");
+				fd.setFilterPath("C:/");
+				String[] filterExt = {"*.maz"};
+				fd.setFilterExtensions(filterExt);
+				String selected = fd.open();
+				try {
+					in = new MyDecompressorInputStream(new FileInputStream(selected));
+					File file = new File(selected);
+					byte b[] = new byte[(int) ((file.length()) - 9)];
+					in.read(b);
+					Maze3d loaded = new Maze3d(b);
+					mazeDisplay.setcurrMaze(loaded);				
+					//get maze name without the full path
+					int start = fd.getFilterPath().length();
+					int end = selected.length();
+					String loadedmazename = selected.substring(start + 1, end - 4);				
+					mazes.put(loadedmazename, loaded);
+					listDisplayMaze.add(loadedmazename);
+					in.close();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				LoadedMaze = 1;
+			}
+		});
+		/////////////////////////////////////////////////
+		////////////////////////////// EndofGUI///////////
+		/////////////////////////////////////////////////
+		/////////////////////////////////////////////////
 	}
 	@Override
 	public void displayMessage(String message) {
@@ -217,5 +292,8 @@ public class MazeWindow extends BasicWindow {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	public Maze3d getMaze(String name) {
+		return mazes.get(name);			
 	}
 }

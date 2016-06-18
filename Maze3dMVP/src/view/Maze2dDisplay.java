@@ -7,16 +7,56 @@ import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.Position;
 public class Maze2dDisplay extends MazeDisplay {
 	private Maze3d currentMaze;
-	StringBuilder sb = new StringBuilder();
+	int LoadedMaze2 = 0;
 	public Maze2dDisplay(Composite parent, int style) {
 		super(parent, style);
 		this.setBackground(new Color(null, 255, 255, 255));
+		
 	}
 	@Override
 	protected void drawMaze(PaintEvent e) {
 		if (mazeData == null) {
 			return;
 		}
+		if (LoadedMaze2 == 1) {
+			currentMaze = new Maze3d(mazeData.length, mazeData[0].length, mazeData[0][0].length);
+			for (int i = 0; i < mazeData[0][0].length; i++) {
+				for (int j = 0; j < mazeData[0].length; j++) {
+					for (int j2 = 0; j2 < mazeData.length; j2++) {
+						if (mazeData[j][j2][i] == 0) {
+							currentMaze.setFree(j2, j, i);
+						}
+						if (mazeData[j][j2][i] == 1) {
+							currentMaze.setWall(j2, j, i);
+							// }
+						}
+					}
+				}
+				currentMaze.setStartPosition(character.getPos());
+				currentMaze.setGoalPosition(character.getGoalPosition());
+			}
+			LoadedMaze2 = 0;
+		}
+		
+		if (mazeData != null && currentMaze == null) {
+			currentMaze = new Maze3d(mazeData.length, mazeData[0].length, mazeData[0][0].length);
+			for (int i = 0; i < mazeData[0][0].length; i++) {
+				for (int j = 0; j < mazeData[0].length; j++) {
+					for (int j2 = 0; j2 < mazeData.length; j2++) {
+						if (mazeData[j][j2][i] == 0) {
+							currentMaze.setFree(j2, j, i);
+						}
+						if (mazeData[j][j2][i] == 1) {
+							currentMaze.setWall(j2, j, i);
+							// }
+						}
+					}
+				}
+				currentMaze.setStartPosition(character.getPos());
+				currentMaze.setGoalPosition(character.getGoalPosition());
+			}
+		}
+		
 		e.gc.setBackground(new Color(null, 150, 150, 150));
 		int width = getSize().x;
 		int height = getSize().y;
@@ -102,34 +142,20 @@ public class Maze2dDisplay extends MazeDisplay {
 		System.out.println(mazeData[(pos.x)][((pos.y) + 1)][(pos.z)]);
 	}
 	private boolean moveCharacter(int x, int y, int z) {
+		
 		Position pos = new Position(x, y, z);
-		if (currentMaze == null) {
-			currentMaze = new Maze3d(mazeData.length, mazeData[0].length, mazeData[0][0].length);
-			for (int i = 0; i < mazeData[0][0].length; i++) {
-				for (int j = 0; j < mazeData[0].length; j++) {
-					for (int j2 = 0; j2 < mazeData.length; j2++) {
-						if (mazeData[j][j2][i] == 0) {
-							currentMaze.setFree(j2, j, i);
-						}
-						if (mazeData[j][j2][i] == 1) {
-							currentMaze.setWall(j2, j, i);
-						}
-					}
-				}
-			}
-		}
-		System.out.println(currentMaze.getGoalPosition());
-		////////// check that currentmaze equals to mazedata /////////////////
-		// for (int i = 0; i < mazeData[0][0].length; i++) {
-		// for (int j = 0; j < mazeData[0].length; j++) {
-		// for (int j2 = 0; j2 < mazeData.length; j2++) {
-		// System.out.print(mazeData[j][j2][i] + " ");
-		// }
-		// System.out.println("\n");
-		// }
-		// System.out.println("\n");
-		// }
-		// System.out.println(currentMaze);
+		// if (currentMaze == null) {
+		///print mazedata
+//		for (int j2 = 0; z < mazeData[0][0].length; z++) {
+//			for (int i = 0; i < mazeData[0].length; i++) {
+//				for (int j = 0; j < mazeData.length; j++) {
+//					System.out.print(mazeData[i][j][j2] + " ");
+//				}
+//				System.out.print("\n");
+//			}		
+//		}
+		System.out.println("\n");
+		System.out.println(currentMaze);
 		if ((x >= 0 && x < currentMaze.getMaze().length) && (y >= 0 && y < mazeData[1].length) && (z >= 0 && z < mazeData[0][1].length)) {
 			if (((currentMaze).getMaze()[pos.x][pos.y][pos.z] == 0)) {
 				Position p = character.getPos();
@@ -149,5 +175,30 @@ public class Maze2dDisplay extends MazeDisplay {
 			}
 		}
 		return false;
+	}
+	public Maze3d getcurrMaze() {
+		return currentMaze;
+	}
+	public void setcurrMaze(Maze3d m) {
+		currentMaze = m;
+		int[][][] mazeData = new int[m.getColumns()][m.getRows()][m.getLevels()];
+		for (int i = 0; i < currentMaze.getLevels(); i++) {
+			for (int j = 0; j < currentMaze.getColumns(); j++) {
+				for (int j2 = 0; j2 < currentMaze.getRows(); j2++) {
+					if (currentMaze.getMaze()[j][j2][i] == 0) {
+						mazeData[j][j2][i] = 0;
+					}
+					if (currentMaze.getMaze()[j][j2][i] == 1) {
+						mazeData[j][j2][i] = 1;
+						// }
+					}
+				}
+			}
+			character.setPos(currentMaze.getStartPosition());
+			character.setGoalPos(currentMaze.getGoalPosition());		
+		}
+		this.mazeData = mazeData;
+		LoadedMaze2 = 1;
+		
 	}
 }
