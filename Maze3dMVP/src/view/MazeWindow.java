@@ -35,7 +35,6 @@ import algorithms.search.Solution;
 import io.MyCompressorOutputStream;
 import io.MyDecompressorInputStream;
 public class MazeWindow extends BasicWindow {
-	
 	private HashMap<String, Maze3d> mazes = new HashMap<String, Maze3d>();
 	//
 	private MazeDisplay mazeDisplay;
@@ -98,7 +97,6 @@ public class MazeWindow extends BasicWindow {
 		y.setText("20");
 		z.setText("1");
 		/////////////////////////////////////////////////////////////////////////////
-		
 		shell.setText("Game of Thrones");
 		shell.setImage(image);
 		//////////////////////////////////////////////////////////////////////////////
@@ -114,13 +112,13 @@ public class MazeWindow extends BasicWindow {
 		btnDisplayMaze.setText("DisplayMaze");
 		mazeDisplay = new Maze2dDisplay(shell, SWT.BORDER);
 		mazeDisplay.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
-		//Creating a bar menu
+		// Creating a bar menu
 		Menu bar = new Menu(shell, SWT.BAR);
 		shell.setMenuBar(bar);
-		//Making a File button in bar
+		// Making a File button in bar
 		MenuItem fileItem = new MenuItem(bar, SWT.CASCADE);
 		fileItem.setText("File");
-		//Making a drop down menu with save/load options
+		// Making a drop down menu with save/load options
 		Menu submenu = new Menu(shell, SWT.DROP_DOWN);
 		fileItem.setMenu(submenu);
 		MenuItem saveItem = new MenuItem(submenu, SWT.PUSH);
@@ -129,10 +127,10 @@ public class MazeWindow extends BasicWindow {
 		saveItem.setAccelerator(SWT.CTRL + 'S');
 		loadItem.setText("Load File \tCtrl+Z");
 		loadItem.setAccelerator(SWT.CTRL + 'Z');
-		//Making a Music button in bar
+		// Making a Music button in bar
 		MenuItem musicItem = new MenuItem(bar, SWT.CASCADE);
 		musicItem.setText("Music");
-		//Making a drop down menu with a checkbox to enable/disable music
+		// Making a drop down menu with a checkbox to enable/disable music
 		Menu submenu2 = new Menu(shell, SWT.DROP_DOWN);
 		musicItem.setMenu(submenu2);
 		MenuItem OnOff = new MenuItem(submenu2, SWT.CHECK);
@@ -213,9 +211,9 @@ public class MazeWindow extends BasicWindow {
 			public void handleEvent(Event arg0) {
 				if (OnOff.getSelection()) {
 					music.start();
-				}else 
+				} else
 					music.stop();
-		}
+			}
 		});
 		saveItem.addListener(SWT.Selection, new Listener() {
 			@Override
@@ -228,19 +226,21 @@ public class MazeWindow extends BasicWindow {
 				fd.setFilterExtensions(filterExt);
 				String selected = fd.open();
 				// System.out.println(maze.toByteArray());
-				try {
-					Maze3d currmazed = mazeDisplay.getcurrMaze();
-					out = new MyCompressorOutputStream(new FileOutputStream(new File(selected)));
-					out.write(currmazed.toByteArray());
-					System.out.println(currmazed.toByteArray().length);
-					out.flush();
-					out.close();
-				} catch (FileNotFoundException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+				if (selected != null) {
+					try {
+						Maze3d currmazed = mazeDisplay.getcurrMaze();
+						out = new MyCompressorOutputStream(new FileOutputStream(new File(selected)));
+						out.write(currmazed.toByteArray());
+						System.out.println(currmazed.toByteArray().length);
+						out.flush();
+						out.close();
+					} catch (FileNotFoundException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 			}
 		});
@@ -254,28 +254,30 @@ public class MazeWindow extends BasicWindow {
 				String[] filterExt = {"*.maz"};
 				fd.setFilterExtensions(filterExt);
 				String selected = fd.open();
-				try {
-					in = new MyDecompressorInputStream(new FileInputStream(selected));
-					File file = new File(selected);
-					byte b[] = new byte[(int) ((file.length()) - 9)];
-					in.read(b);
-					Maze3d loaded = new Maze3d(b);
-					mazeDisplay.setcurrMaze(loaded);
-					// get maze name without the full path
-					int start = fd.getFilterPath().length();
-					int end = selected.length();
-					String loadedmazename = selected.substring(start + 1, end - 4);
-					mazes.put(loadedmazename, loaded);
-					listDisplayMaze.add(loadedmazename);
-					in.close();
-				} catch (FileNotFoundException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+				if (selected != null) {
+					try {
+						in = new MyDecompressorInputStream(new FileInputStream(selected));
+						File file = new File(selected);
+						byte b[] = new byte[(int) ((file.length()) - 9)];
+						in.read(b);
+						Maze3d loaded = new Maze3d(b);
+						mazeDisplay.setcurrMaze(loaded);
+						// get maze name without the full path
+						int start = fd.getFilterPath().length();
+						int end = selected.length();
+						String loadedmazename = selected.substring(start + 1, end - 4);
+						mazes.put(loadedmazename, loaded);
+						listDisplayMaze.add(loadedmazename);
+						in.close();
+					} catch (FileNotFoundException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					LoadedMaze = 1;
 				}
-				LoadedMaze = 1;
 			}
 		});
 		////////////////////////// try solve/////////////////////////
