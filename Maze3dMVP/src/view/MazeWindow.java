@@ -1,6 +1,7 @@
 package view;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.layout.RowData;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
@@ -22,26 +23,19 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
-import java.util.HashSet;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import javax.swing.ListSelectionModel;
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.graphics.Image;
-import org.eclipse.swt.graphics.Path;
 import algorithms.mazeGenerator.Maze3d;
-import algorithms.mazeGenerator.Position;
-import algorithms.search.Action;
 import algorithms.search.Solution;
-import algorithms.search.State;
 import io.MyCompressorOutputStream;
 import io.MyDecompressorInputStream;
-import presenter.Command;
 public class MazeWindow extends BasicWindow {
+	
 	private HashMap<String, Maze3d> mazes = new HashMap<String, Maze3d>();
 	//
 	private MazeDisplay mazeDisplay;
@@ -68,16 +62,43 @@ public class MazeWindow extends BasicWindow {
 		RowLayout rowLayout = new RowLayout(SWT.VERTICAL);
 		toolbar.setLayout(rowLayout);
 		toolbar.setLayoutData(new GridData(SWT.FILL, SWT.FILL, false, false));
-		// For maze testing
-		name = new Text(toolbar, SWT.BORDER);
-		x = new Text(toolbar, SWT.BORDER);
-		y = new Text(toolbar, SWT.BORDER);
-		z = new Text(toolbar, SWT.BORDER);
-		name.setText("shlomi");
+		////// MAZE NAME + X + Y + Z///////
+		Composite composite_1 = new Composite(toolbar, SWT.NONE);
+		composite_1.setLayout(new GridLayout(6, false));
+		composite_1.setLayoutData(new RowData(150, 61));
+		name = new Text(composite_1, SWT.BORDER);
+		GridData gd_MazeName = new GridData(SWT.FILL, SWT.CENTER, true, false, 6, 1);
+		gd_MazeName.widthHint = 50;
+		name.setLayoutData(gd_MazeName);
+		Label lblX = new Label(composite_1, SWT.NONE);
+		lblX.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
+		lblX.setText("x");
+		x = new Text(composite_1, SWT.BORDER);
+		GridData gd_columns = new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1);
+		gd_columns.widthHint = 50;
+		x.setLayoutData(gd_columns);
+		Label lblY = new Label(composite_1, SWT.NONE);
+		lblY.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
+		lblY.setText("y");
+		y = new Text(composite_1, SWT.BORDER);
+		GridData gd_rows = new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1);
+		gd_rows.widthHint = 50;
+		y.setLayoutData(gd_rows);
+		Label lblZ = new Label(composite_1, SWT.NONE);
+		lblZ.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
+		lblZ.setText("z");
+		z = new Text(composite_1, SWT.BORDER);
+		GridData gd_levels = new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1);
+		gd_levels.widthHint = 50;
+		z.setLayoutData(gd_levels);
+		////////////////////////////// FOR TEST
+		////////////////////////////// PURPOSES//////////////////////////////
+		name.setText("Mazename");
 		x.setText("20");
 		y.setText("20");
 		z.setText("1");
-		// playMusic(new File("music/sound.wav"));
+		/////////////////////////////////////////////////////////////////////////////
+		
 		shell.setText("Game of Thrones");
 		shell.setImage(image);
 		//////////////////////////////////////////////////////////////////////////////
@@ -91,16 +112,15 @@ public class MazeWindow extends BasicWindow {
 		List listDisplayMaze = new List(toolbar, SWT.VERTICAL | SWT.BORDER);
 		Button btnDisplayMaze = new Button(toolbar, SWT.PUSH);
 		btnDisplayMaze.setText("DisplayMaze");
-		Button btnMute = new Button(toolbar, SWT.PUSH);
-		btnMute.setText("Mute");
-		Button btnMusic = new Button(toolbar, SWT.PUSH);
-		btnMusic.setText("Play Music");
 		mazeDisplay = new Maze2dDisplay(shell, SWT.BORDER);
 		mazeDisplay.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
+		//Creating a bar menu
 		Menu bar = new Menu(shell, SWT.BAR);
 		shell.setMenuBar(bar);
+		//Making a File button in bar
 		MenuItem fileItem = new MenuItem(bar, SWT.CASCADE);
 		fileItem.setText("File");
+		//Making a drop down menu with save/load options
 		Menu submenu = new Menu(shell, SWT.DROP_DOWN);
 		fileItem.setMenu(submenu);
 		MenuItem saveItem = new MenuItem(submenu, SWT.PUSH);
@@ -109,6 +129,21 @@ public class MazeWindow extends BasicWindow {
 		saveItem.setAccelerator(SWT.CTRL + 'S');
 		loadItem.setText("Load File \tCtrl+Z");
 		loadItem.setAccelerator(SWT.CTRL + 'Z');
+		//Making a Music button in bar
+		MenuItem musicItem = new MenuItem(bar, SWT.CASCADE);
+		musicItem.setText("Music");
+		//Making a drop down menu with a checkbox to enable/disable music
+		Menu submenu2 = new Menu(shell, SWT.DROP_DOWN);
+		musicItem.setMenu(submenu2);
+		MenuItem OnOff = new MenuItem(submenu2, SWT.CHECK);
+		OnOff.setText("On/Off \tCtrl+M");
+		OnOff.setSelection(true);
+		OnOff.setAccelerator(SWT.CTRL + 'M');
+		Button btnSolveDFS = new Button(toolbar, SWT.PUSH);
+		btnSolveDFS.setText("Solve by DFS");
+		Button btnDisplaySolve = new Button(toolbar, SWT.PUSH);
+		btnDisplaySolve.setText("Display Solve");
+		playMusic(new File("music/sound.wav"));
 		////////////////////////////////////////////
 		//////////////////////////////////////////////////////////////////////////////
 		///////////////////////////// Listeners////////////////////////////////////////
@@ -126,6 +161,10 @@ public class MazeWindow extends BasicWindow {
 			@Override
 			// Checks if the maze exist or not aswell.
 			public void handleEvent(Event arg0) {
+				if (!(x.getText().equals(y.getText()))) {
+					displayMessage("X and Y must be equal");
+					return;
+				}
 				int temp = 0;
 				if (AreThereAnyMazes == 0) {
 					setChanged();
@@ -158,30 +197,25 @@ public class MazeWindow extends BasicWindow {
 				if ((getlists.length) == 0) {
 					displayMessage("Please select a maze");
 					return;
-				}			
-				if (LoadedMaze == 1)
-				{
+				}
+				if (LoadedMaze == 1) {
 					Maze3d maze = getMaze(outString);
-					displayMaze(maze); //returns name instead of name
+					displayMaze(maze); // returns name instead of name
 					LoadedMaze = 0;
 					return;
-					
 				}
 				setChanged();
 				notifyObservers("display" + " " + outString);
 			}
 		});
-		btnMusic.addListener(SWT.MouseDown, new Listener() {
+		OnOff.addListener(SWT.Selection, new Listener() {
 			@Override
 			public void handleEvent(Event arg0) {
-				music.start();
-			}
-		});
-		btnMute.addListener(SWT.MouseDown, new Listener() {
-			@Override
-			public void handleEvent(Event arg0) {
-				music.stop();
-			}
+				if (OnOff.getSelection()) {
+					music.start();
+				}else 
+					music.stop();
+		}
 		});
 		saveItem.addListener(SWT.Selection, new Listener() {
 			@Override
@@ -226,11 +260,11 @@ public class MazeWindow extends BasicWindow {
 					byte b[] = new byte[(int) ((file.length()) - 9)];
 					in.read(b);
 					Maze3d loaded = new Maze3d(b);
-					mazeDisplay.setcurrMaze(loaded);				
-					//get maze name without the full path
+					mazeDisplay.setcurrMaze(loaded);
+					// get maze name without the full path
 					int start = fd.getFilterPath().length();
 					int end = selected.length();
-					String loadedmazename = selected.substring(start + 1, end - 4);				
+					String loadedmazename = selected.substring(start + 1, end - 4);
 					mazes.put(loadedmazename, loaded);
 					listDisplayMaze.add(loadedmazename);
 					in.close();
@@ -242,6 +276,37 @@ public class MazeWindow extends BasicWindow {
 					e.printStackTrace();
 				}
 				LoadedMaze = 1;
+			}
+		});
+		////////////////////////// try solve/////////////////////////
+		btnSolveDFS.addListener(SWT.MouseDown, new Listener() {
+			@Override
+			// Checks if the maze exist or not aswell.
+			public void handleEvent(Event arg0) {
+				setChanged();
+				notifyObservers("solve" + " " + name.getText() + " " + "DFS");
+				// System.out.println(s);
+				displayMessage("the sulotion is ready");
+				int temp = 0;
+				if (AreThereAnyMazes == 1) {
+					AreThereAnyMazes = 1;
+					return;
+				} else if (AreThereAnyMazes == 1) {
+					temp = listDisplayMaze.getItemCount();
+					selectedItems = listDisplayMaze.getItems();
+					outString = selectedItems[0];
+					for (int i = 0; i < temp; i++) {
+						if ((selectedItems[i].equals(name.getText()))) {
+							displayMessage("Mazes solve is ready");
+							return;
+						}
+					}
+					// if (outString != name.getText()) {
+					setChanged();
+					notifyObservers("solve" + " " + name.getText() + " " + "DFS");
+					System.out.println("enter");
+					// }
+				}
 			}
 		});
 		/////////////////////////////////////////////////
@@ -294,6 +359,6 @@ public class MazeWindow extends BasicWindow {
 		}
 	}
 	public Maze3d getMaze(String name) {
-		return mazes.get(name);			
+		return mazes.get(name);
 	}
 }
