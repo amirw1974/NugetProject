@@ -68,7 +68,8 @@ public class Maze2dDisplay extends MazeDisplay {
 			for(int j = 0; j < mazeData[i].length; j++){
 				int x = j * cellWidth;
 				int y = i * cellHeight;
-				if(mazeData[i][j][0] != 0){
+				if(mazeData[i][j][character.getPos().getZ()] != 0){
+					e.gc.setBackground(new Color(null,150,150,150));
 					e.gc.fillRectangle(x,y,cellWidth,cellHeight);
 				}
 			}

@@ -101,9 +101,9 @@ public class MazeWindow extends BasicWindow {
 		////////////////////////////// FOR TEST
 		////////////////////////////// PURPOSES//////////////////////////////
 		name.setText("Mazename");
-		x.setText("20");
-		y.setText("20");
-		z.setText("1");
+		x.setText("10");
+		y.setText("10");
+		z.setText("3");
 		/////////////////////////////////////////////////////////////////////////////
 		shell.setText("Game of Thrones");
 		shell.setImage(image);
@@ -118,6 +118,16 @@ public class MazeWindow extends BasicWindow {
 		List listDisplayMaze = new List(toolbar,SWT.VERTICAL | SWT.BORDER);
 		Button btnDisplayMaze = new Button(toolbar,SWT.PUSH);
 		btnDisplayMaze.setText("DisplayMaze");
+		Button btnSolveDFS = new Button(toolbar,SWT.PUSH);
+		btnSolveDFS.setText("Solve by DFS");
+		Button btnBreadthFS = new Button(toolbar,SWT.PUSH);
+		btnBreadthFS.setText("Solve by BreadthFS");
+		Button btnBestFS = new Button(toolbar,SWT.PUSH);
+		btnBestFS.setText("Solve by BestFS");
+		Button btnDisplaySolve = new Button(toolbar,SWT.PUSH);
+		btnDisplaySolve.setText("Display Solve");
+		Button btnMazeSize = new Button(toolbar,SWT.PUSH);
+		btnMazeSize.setText("Maze size");
 		mazeDisplay = new Maze2dDisplay(shell,SWT.BORDER);
 		mazeDisplay.setLayoutData(new GridData(SWT.FILL,SWT.FILL,true,true));
 		// Creating a bar menu
@@ -145,10 +155,6 @@ public class MazeWindow extends BasicWindow {
 		OnOff.setText("On/Off \tCtrl+M");
 		OnOff.setSelection(true);
 		OnOff.setAccelerator(SWT.CTRL + 'M');
-		Button btnSolveDFS = new Button(toolbar,SWT.PUSH);
-		btnSolveDFS.setText("Solve by DFS");
-		Button btnDisplaySolve = new Button(toolbar,SWT.PUSH);
-		btnDisplaySolve.setText("Display Solve");
 		// playMusic(new File("music/sound.wav"));
 		////////////////////////////////////////////
 		//////////////////////////////////////////////////////////////////////////////
@@ -297,6 +303,20 @@ public class MazeWindow extends BasicWindow {
 				notifyObservers("solve" + " " + name.getText() + " " + "DFS");
 			}
 		});
+		btnBestFS.addListener(SWT.MouseDown,new Listener(){
+			@Override
+			public void handleEvent(Event arg0) {
+				setChanged();
+				notifyObservers("solve" + " " + name.getText() + " " + "BestFirstSearch");
+			}
+		});
+		btnBreadthFS.addListener(SWT.MouseDown,new Listener(){
+			@Override
+			public void handleEvent(Event arg0) {
+				setChanged();
+				notifyObservers("solve" + " " + name.getText() + " " + "BreadthFirstSearch");
+			}
+		});
 		btnDisplaySolve.addListener(SWT.Selection,new Listener(){
 			@Override
 			public void handleEvent(Event arg0) {
@@ -304,6 +324,15 @@ public class MazeWindow extends BasicWindow {
 				outString = selectedItems[0];
 				setChanged();
 				notifyObservers("display_solution" + " " + outString);
+			}
+		});
+		btnMazeSize.addListener(SWT.Selection,new Listener(){
+			@Override
+			public void handleEvent(Event arg0) {
+				selectedItems = listDisplayMaze.getSelection();
+				outString = selectedItems[0];
+				setChanged();
+				notifyObservers("maze_size" + " " + outString);
 			}
 		});
 		/////////////////////////////////////////////////
@@ -359,7 +388,7 @@ public class MazeWindow extends BasicWindow {
 						mazeDisplay.getShell().update();
 						mazeDisplay.getDisplay().update();
 						try{
-							TimeUnit.MILLISECONDS.sleep(1000);
+							TimeUnit.MILLISECONDS.sleep(300);
 						} catch(InterruptedException e){
 							// TODO Auto-generated catch block
 							e.printStackTrace();
