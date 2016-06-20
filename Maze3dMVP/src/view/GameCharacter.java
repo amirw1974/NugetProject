@@ -6,7 +6,7 @@ import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.Position;
 
 public class GameCharacter {
-	private static final String icon = "images/minion.png";
+	private static final String icon = "images/3.png";
 	private Position pos;
 	private Position goalPos;
 	public Position getPos() {

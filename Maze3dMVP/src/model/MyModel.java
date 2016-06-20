@@ -17,8 +17,10 @@ import java.util.concurrent.Future;
 import algorithms.demo.MazeAdapter;
 import algorithms.mazeGenerator.Maze3d;
 import algorithms.mazeGenerator.MyMaze3dGenerator;
+import algorithms.mazeGenerator.Position;
 import algorithms.search.BestFirstSearch;
 import algorithms.search.BreadthFirstSearch;
+import algorithms.search.CommonSearcher;
 import algorithms.search.DFS;
 import algorithms.search.Solution;
 import boot.Settings;
@@ -32,6 +34,9 @@ public class MyModel extends Observable implements Model {
 	private HashMap<String, Maze3d> mazes = new HashMap<String, Maze3d>();
 	private HashMap<String, Solution> solutions = new HashMap<>();
 	private String message;
+	/////////////////////////////////////////////////////
+	Position pos;
+	private HashMap<String , CommonSearcher > algorithms = new HashMap<String , CommonSearcher>();
 	
 	public String getMessage() {
 		return message;
@@ -39,6 +44,7 @@ public class MyModel extends Observable implements Model {
 	
 	public MyModel(Settings settings) {
 		pool = Executors.newFixedThreadPool(settings.getNumOfMaxThread());
+		this.settings=settings;
 	}
 	@Override
 	public void generateMaze(String name, int rows, int cols, int levels) {
@@ -176,10 +182,22 @@ public class MyModel extends Observable implements Model {
 				}
 				if (settings.getSolvingAlgorithm().compareTo("DFS") == 0) {
 					s = new DFS().search(new MazeAdapter(maze));
+					
 					message = "DFS for " + name + " is ready\n";
 					setChanged();
 					notifyObservers("display_message");
 					solutions.put(name, s);
+					////////////////////////////////////////////////
+//					Maze3d tempmaze = new Maze3d(0, 0, 0);
+//					tempmaze.setStartPosition(pos);
+//					MazeAdapter mymaze = new MazeAdapter(tempmaze);
+//					CommonSearcher solv = algorithms.get(algorithm);
+//					return solv.search(mymaze);
+					
+					/////////////
+					
+					
+					
 				} else if (settings.getSolvingAlgorithm().compareTo("BestFirstSearch") == 0) {
 					s = new BestFirstSearch().search(new MazeAdapter(maze));
 					message = "BestFirstSearch for " + name + " is ready\n";
@@ -190,6 +208,7 @@ public class MyModel extends Observable implements Model {
 					s = new BreadthFirstSearch().search(new MazeAdapter(maze));
 					message = "BreadthFirstSearch for " + name + " is ready\n";
 					solutions.put(name, s);
+					
 				}
 
 				return s;

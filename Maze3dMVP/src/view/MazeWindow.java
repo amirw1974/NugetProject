@@ -52,6 +52,8 @@ public class MazeWindow extends BasicWindow {
 	Image image = new Image(display, "images/game.png");
 	Clip music;
 	Clip sound;
+	MyView view;
+	Solution s;
 	@Override
 	protected void initWidgets() {
 		shell.setSize(1000, 750);
@@ -288,7 +290,7 @@ public class MazeWindow extends BasicWindow {
 				setChanged();
 				notifyObservers("solve" + " " + name.getText() + " " + "DFS");
 				// System.out.println(s);
-				displayMessage("the sulotion is ready");
+				
 				int temp = 0;
 				if (AreThereAnyMazes == 1) {
 					AreThereAnyMazes = 1;
