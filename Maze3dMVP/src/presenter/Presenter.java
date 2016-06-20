@@ -32,7 +32,6 @@ public class Presenter implements Observer {
 		viewCommands.put("display_solution", new DisplaySolution(model,view));
 		viewCommands.put("display_cross_section", new DisplayCrossSec(view, model));
 		viewCommands.put("exit", new ExitCommand(view));
-		viewCommands.put("addmaze", addToHash());
 		
 		
 		modelCommands = new HashMap<String, Command>();

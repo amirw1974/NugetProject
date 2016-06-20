@@ -175,6 +175,7 @@ public class MyModel extends Observable implements Model {
 			public Solution call() throws Exception {
 				Maze3d maze;
 				maze = mazes.get(name);
+				System.out.println(maze);
 				Solution s = null;
 				// TODO: Add if
 				if (solutions.containsKey(name)) {
