@@ -38,10 +38,6 @@ public class Presenter implements Observer {
 		modelCommands.put("display_message", new DisplayMessageCommand(model, view));
 	}
 
-	private Command addToHash() {
-		// 
-		return null;
-	}
 
 	@Override
 	public void update(Observable o, Object arg) {
