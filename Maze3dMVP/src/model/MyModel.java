@@ -175,6 +175,7 @@ public class MyModel extends Observable implements Model {
 				} else if(settings.getSolvingAlgorithm().equals("BreadthFirstSearch")){
 					s = new BreadthFirstSearch().search(new MazeAdapter(maze));
 					message = "BreadthFirstSearch for " + name + " is ready\n";
+					setChanged();
 					notifyObservers("display_message");
 					solutions.put(name,s);
 				}
