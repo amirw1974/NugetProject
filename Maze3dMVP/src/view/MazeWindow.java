@@ -60,7 +60,6 @@ public class MazeWindow extends BasicWindow {
 	Clip							sound;
 	MyView							view;
 	Solution						s;
-	Image							imagewin			= new Image(display,"images/win.png");
 	@Override
 	protected void initWidgets() {
 		shell.setSize(1000,750);
@@ -397,7 +396,7 @@ public class MazeWindow extends BasicWindow {
 					}
 				});
 			}
-			shell.setBackgroundImage(imagewin);
+			displayMessage("You WIN!!!");
 		}
 	}
 	private Position[] stateToPos(ArrayList<State> t) {
