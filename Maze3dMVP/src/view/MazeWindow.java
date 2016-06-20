@@ -382,7 +382,6 @@ public class MazeWindow extends BasicWindow {
 			for(int i = 0; i < pos.length; i++){
 				mazeDisplay.character.setPos(pos[i]);
 				System.out.println(mazeDisplay.character.getPos());
-				
 				mazeDisplay.getDisplay().syncExec(new Runnable(){
 					@Override
 					public void run() {
@@ -398,6 +397,7 @@ public class MazeWindow extends BasicWindow {
 					}
 				});
 			}
+			shell.setBackgroundImage(imagewin);
 		}
 	}
 	private Position[] stateToPos(ArrayList<State> t) {
