@@ -2,6 +2,7 @@ package view;
 
 import org.eclipse.swt.events.PaintEvent;
 import org.eclipse.swt.graphics.Color;
+import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.widgets.Composite;
 import algorithms.mazeGenerator.Direction;
 import algorithms.mazeGenerator.Maze3d;
@@ -10,6 +11,7 @@ import algorithms.mazeGenerator.Position;
 public class Maze2dDisplay extends MazeDisplay {
 	private Maze3d	currentMaze;
 	int				LoadedMaze2	= 0;
+	MazeWindow mw;
 	public Maze2dDisplay(Composite parent, int style) {
 		super(parent,style);
 		this.setBackground(new Color(null,255,255,255));
@@ -106,6 +108,7 @@ public class Maze2dDisplay extends MazeDisplay {
 		Position pos = character.getPos();
 		moveCharacter(pos.getX() - 1,pos.getY(),pos.getZ());
 	}
+
 	@Override
 	protected void debugStatus() {
 		Position pos = character.getPos();

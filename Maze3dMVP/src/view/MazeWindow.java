@@ -60,6 +60,7 @@ public class MazeWindow extends BasicWindow {
 	Clip							sound;
 	MyView							view;
 	Solution						s;
+	Image							imagewin			= new Image(display,"images/win.png");
 	@Override
 	protected void initWidgets() {
 		shell.setSize(1000,750);
@@ -381,6 +382,7 @@ public class MazeWindow extends BasicWindow {
 			for(int i = 0; i < pos.length; i++){
 				mazeDisplay.character.setPos(pos[i]);
 				System.out.println(mazeDisplay.character.getPos());
+				
 				mazeDisplay.getDisplay().syncExec(new Runnable(){
 					@Override
 					public void run() {
