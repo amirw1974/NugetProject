@@ -23,7 +23,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -32,7 +34,9 @@ import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.graphics.Image;
 import algorithms.mazeGenerator.Maze3d;
+import algorithms.mazeGenerator.Position;
 import algorithms.search.Solution;
+import algorithms.search.State;
 import io.MyCompressorOutputStream;
 import io.MyDecompressorInputStream;
 
@@ -291,27 +295,6 @@ public class MazeWindow extends BasicWindow {
 			public void handleEvent(Event arg0) {
 				setChanged();
 				notifyObservers("solve" + " " + name.getText() + " " + "DFS");
-				// System.out.println(s);
-				int temp = 0;
-				if(AreThereAnyMazes == 1){
-					AreThereAnyMazes = 1;
-					return;
-				} else if(AreThereAnyMazes == 1){
-					temp = listDisplayMaze.getItemCount();
-					selectedItems = listDisplayMaze.getItems();
-					outString = selectedItems[0];
-					for(int i = 0; i < temp; i++){
-						if((selectedItems[i].equals(name.getText()))){
-							displayMessage("Mazes solve is ready");
-							return;
-						}
-					}
-					// if (outString != name.getText()) {
-					setChanged();
-					notifyObservers("solve" + " " + name.getText() + " " + "DFS");
-					System.out.println("enter");
-					// }
-				}
 			}
 		});
 		btnDisplaySolve.addListener(SWT.Selection,new Listener(){
@@ -341,7 +324,7 @@ public class MazeWindow extends BasicWindow {
 	}
 	@Override
 	public void displayMaze(Maze3d maze) {
-		mazeDisplay.setCharacterPosition(maze.getStartPosition());
+		mazeDisplay.character.setPos(maze.getStartPosition());
 		mazeDisplay.character.setGoalPos(maze.getGoalPosition());
 		// MazeWindow.mazeDisplay.character.setPos(maze.getStartPosition());
 		int[][][] mazeData = maze.getMaze();
@@ -358,9 +341,51 @@ public class MazeWindow extends BasicWindow {
 	}
 	@Override
 	public void displaySolution(Solution s) {
-		System.out.println(s);
-//		for(Solution s : w){
-//		}
+		System.out.println("start:" + mazeDisplay.character.getPos());
+		System.out.println("goal: " + mazeDisplay.character.getGoalPosition());
+		System.out.println("Display Solution: " + s);
+		ArrayList<State> list = s.getStates();
+		Position[] pos = stateToPos(list);
+		if(pos.length < 1){
+			return;
+		} else{
+			for(int i = 0; i < pos.length; i++){
+				mazeDisplay.character.setPos(pos[i]);
+				System.out.println(mazeDisplay.character.getPos());
+				mazeDisplay.getDisplay().syncExec(new Runnable(){
+					@Override
+					public void run() {
+						mazeDisplay.redraw();
+						mazeDisplay.getShell().update();
+						mazeDisplay.getDisplay().update();
+						try{
+							TimeUnit.MILLISECONDS.sleep(1000);
+						} catch(InterruptedException e){
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				});
+			}
+		}
+	}
+	private Position[] stateToPos(ArrayList<State> t) {
+		Position pos[] = new Position[t.size()];
+		for(int i = 0; i < t.size(); i++){
+			State hi = t.get(i);
+			String currentState = hi.getDescription();
+			int currStateLegnth = currentState.length();
+			currentState = currentState.substring(1,currStateLegnth - 1);
+			// System.out.println(currentState);
+			// Here it returns NUM,NUM,NUM
+			String[] arr = currentState.split(",");
+			int x = Integer.parseInt(arr[0]);
+			int y = Integer.parseInt(arr[1]);
+			int z = Integer.parseInt(arr[2]);
+			Position temp = new Position(x,y,z);
+			pos[i] = temp;
+		}
+		return pos;
 	}
 	private void playMusic(File file) {
 		try{

@@ -210,7 +210,7 @@ public class MyModel extends Observable implements Model {
 					solutions.put(name, s);
 					
 				}
-
+				System.out.println("mymodel solution: " + s);
 				return s;
 				
 			}
