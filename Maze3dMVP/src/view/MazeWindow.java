@@ -55,7 +55,7 @@ public class MazeWindow extends BasicWindow {
 	String							outString			= "";
 	String[]						selectedItems;
 	int								AreThereAnyMazes	= 0;
-	Image							image				= new Image(display,"images/game.png");
+	Image							image				= new Image(display,"images/icon.png");
 	Clip							music;
 	Clip							sound;
 	MyView							view;
@@ -105,7 +105,7 @@ public class MazeWindow extends BasicWindow {
 		y.setText("10");
 		z.setText("3");
 		/////////////////////////////////////////////////////////////////////////////
-		shell.setText("Game of Thrones");
+		shell.setText("BoB's Game");
 		shell.setImage(image);
 		//////////////////////////////////////////////////////////////////////////////
 		////////////////////////////// MakingGUI//////////////////////////////////////
@@ -155,7 +155,7 @@ public class MazeWindow extends BasicWindow {
 		OnOff.setText("On/Off \tCtrl+M");
 		OnOff.setSelection(true);
 		OnOff.setAccelerator(SWT.CTRL + 'M');
-		// playMusic(new File("music/sound.wav"));
+		playMusic(new File("music/sound.wav"));
 		////////////////////////////////////////////
 		//////////////////////////////////////////////////////////////////////////////
 		///////////////////////////// Listeners////////////////////////////////////////
